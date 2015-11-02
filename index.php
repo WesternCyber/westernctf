@@ -1,0 +1,1 @@
+<?php include_once("page-coming-soon.html"); ?>
