@@ -10,8 +10,8 @@ $emailMethod                = 'smtp'; // REQUIRED value. Options: 'smtp' , 'phpm
 
 // Outgoing Server Settings - replace values on the right of the = sign with your own.
 // These 3 settings are only required if you choose 'smtp' for emailMethod above.
-$outgoingServerAddress      = 'westerncyber.club'; // Consult your hosting provider.
-$outgoingServerPort         = '25';                  // Options: '587' , '25' - Consult your hosting provider.
+$outgoingServerAddress      = 'smtp.sendgrid.net'; // Consult your hosting provider.
+$outgoingServerPort         = '587';                  // Options: '587' , '25' - Consult your hosting provider.
 $outgoingServerSecurity     = 'tls';                 // Options: 'ssl' , 'tls' , null - Consult your hosting provider.
 
 // Sending Account Settings - replace these details with an email account held on the SMTP server entered above.
