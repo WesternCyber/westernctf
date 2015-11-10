@@ -10,17 +10,17 @@ $emailMethod                = 'smtp'; // REQUIRED value. Options: 'smtp' , 'phpm
 
 // Outgoing Server Settings - replace values on the right of the = sign with your own.
 // These 3 settings are only required if you choose 'smtp' for emailMethod above.
-$outgoingServerAddress      = 'mail.yourdomain.com'; // Consult your hosting provider.
+$outgoingServerAddress      = 'westerncyber.club'; // Consult your hosting provider.
 $outgoingServerPort         = '25';                  // Options: '587' , '25' - Consult your hosting provider.
 $outgoingServerSecurity     = 'tls';                 // Options: 'ssl' , 'tls' , null - Consult your hosting provider.
 
 // Sending Account Settings - replace these details with an email account held on the SMTP server entered above.
 // These 2 settings are only required if you choose 'smtp' for emailMethod above.
-$sendingAccountUsername     = 'email@domain.com';
-$sendingAccountPassword     = 'p@55w0rd';
+$sendingAccountUsername     = 'app43353028@heroku.com';
+$sendingAccountPassword     = 'khpoaec44366';
 
 // Recipient (To:) Details  - Change this to the email details of who will receive all the emails from the website.
-$recipientEmail             = 'email@yourdomain.com'; // REQUIRED value.
+$recipientEmail             = 'jeffrey.anwar1@gmail.com'; // REQUIRED value.
 $recipientName              = 'John Doe';             // REQUIRED value.
 
 // Email details            - Change these to suit your website needs
