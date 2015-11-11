@@ -25,7 +25,6 @@ $message = new SendGrid\Email();
 $message->addTo($sendTo)->
 setFrom($sendFrom)->
 setSubject($emailSubject)->
-//setText($emailBody)->
 setHtml($emailBody);
 
 try {
