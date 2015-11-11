@@ -29,7 +29,7 @@ $message->addTo($sendTo)->
     setFromName($sendFromName)->
     setSubject($emailSubject)->
     setHtml($emailBody)->
-    setTemplateId($templateId);
+    setTemplateId($sendGridTemplateId);
 
 try {
     $sendgrid->send($message);
