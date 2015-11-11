@@ -26,4 +26,5 @@ setHtml($emailBody);
 $response = $sendgrid->send($message);
 
 echo $response;
+echo "done";
 ?>
