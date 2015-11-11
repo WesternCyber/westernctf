@@ -28,8 +28,8 @@ $message->addTo($sendTo)->
     setFrom($sendFrom)->
     setFromName($sendFromName)->
     setSubject($emailSubject)->
-    setHtml($emailBody)->
-    setTemplateId($sendGridTemplateId);
+    setHtml($emailBody);
+    //setTemplateId($sendGridTemplateId);
 
 try {
     $sendgrid->send($message);
