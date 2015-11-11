@@ -28,15 +28,15 @@ setSubject($emailSubject)->
 setHtml($emailBody);
 
 try {
-    $sendgrid->send($email);
-} catch(Exception $e) {
+    $sendgrid->send($message);
+} catch(SendGrid\Exception $e) {
     echo $e->getCode();
     foreach($e->getErrors() as $er) {
         echo $er;
     }
 }
 
-echo "done";
+echo "done\n";
 ?>
 end
 </body>
