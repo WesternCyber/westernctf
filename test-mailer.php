@@ -9,6 +9,7 @@ start
  * Date: 11/11/15
  * Time: 12:23 AM
  */
+require 'vendor/autoload.php';
 
 $sendTo = "iamnobodyrandom@yahoo.com";
 $sendFrom = "info@westerncyber.club";
@@ -18,12 +19,7 @@ $sendGridPassword = "khpoaec44366";
 $emailBody = "Test message";
 $emailSubject = "Test email";
 
-require 'vendor/autoload.php';
-try {
-    $sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
-} catch (Exception $e) {
-    echo $e;
-}
+$sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
 
 $message = new SendGrid\Email();
 $message->addTo($sendTo)->
