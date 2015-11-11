@@ -24,12 +24,13 @@ $sendGridTemplateId = "daf01737-4403-4218-92cc-0b888254d80c";
 $sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
 
 $message = new SendGrid\Email();
-$message->addTo($sendTo)->
-    setFrom($sendFrom)->
-    setFromName($sendFromName)->
-    setSubject($emailSubject)->
-    setHtml($emailBody);
-    //setTemplateId($sendGridTemplateId);
+$message
+    ->addTo($sendTo)
+    ->setFrom($sendFrom)
+    ->setFromName($sendFromName)
+    ->setSubject($emailSubject)
+    ->setHtml($emailBody);
+    //->setTemplateId($sendGridTemplateId);
 
 try {
     $sendgrid->send($message);
