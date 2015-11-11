@@ -14,7 +14,7 @@ $sendGridPassword = "khpoaec44366";
 $emailBody = "Test message";
 $emailSubject = "Test email";
 
-require 'vendor/autoload.php';
+require '/vendor/autoload.php';
 $sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
 
 $message = new SendGrid\Email();
