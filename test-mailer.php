@@ -19,7 +19,11 @@ $emailBody = "Test message";
 $emailSubject = "Test email";
 
 require 'vendor/autoload.php';
-$sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
+try {
+    $sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
+} catch (Exception $e) {
+    echo $e;
+}
 
 $message = new SendGrid\Email();
 $message->addTo($sendTo)->
