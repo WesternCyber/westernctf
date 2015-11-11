@@ -30,7 +30,7 @@ setHtml($emailBody);
 
 try {
     $sendgrid->send($email);
-} catch(\SendGrid\Exception $e) {
+} catch(Exception $e) {
     echo $e->getCode();
     foreach($e->getErrors() as $er) {
         echo $er;
