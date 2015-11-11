@@ -1,4 +1,5 @@
 <html>
+<head></head>
 <body>
 start
 <?php
@@ -26,9 +27,16 @@ setFrom($sendFrom)->
 setSubject($emailSubject)->
 //setText($emailBody)->
 setHtml($emailBody);
-$response = $sendgrid->send($message);
 
-echo $response;
+try {
+    $sendgrid->send($email);
+} catch(\SendGrid\Exception $e) {
+    echo $e->getCode();
+    foreach($e->getErrors() as $er) {
+        echo $er;
+    }
+}
+
 echo "done";
 ?>
 end
