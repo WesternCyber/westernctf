@@ -9,7 +9,7 @@ start
  * Date: 11/11/15
  * Time: 12:23 AM
  */
-require '/vendor/autoload.php';
+require '../vendor/autoload.php';
 
 $sendTo = "iamnobodyrandom@yahoo.com";
 $sendFrom = "info@westerncyber.club";
