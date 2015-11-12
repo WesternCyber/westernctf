@@ -169,7 +169,7 @@
 
                                                                     <div>
                                                                         <hr />
-                                                                        <div>&lt;%body%&gt;</div>
+                                                                        <div>&lt;%body%&gt;</div> <!-- THIS WILL INSERT THE BODY OF THE EMAIL, DO NOT REMOVE -->
 
                                                                         <div>
                                                                             <hr />

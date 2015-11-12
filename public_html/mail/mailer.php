@@ -34,13 +34,13 @@ $message
 
 try {
     $sendgrid->send($message);
-
 } catch(SendGrid\Exception $e) {
     echo $e->getCode();
     foreach($e->getErrors() as $er) {
         echo $er;
     }
 }
+
 
 echo "{'result': 'success'}";
 ?>
