@@ -5,15 +5,12 @@
  * Date: 11/11/15
  * Time: 12:23 AM
  */
-$getPost = json_decode($_POST["jsonData"]);
-echo($getPost . "\n");
-print_r($getPost);
-echo("\n");
+$getPost = (array) json_decode(file_get_contents('php://input'));
 require '../../vendor/autoload.php';
 
 //$sendTo = "iamnobodyrandom@yahoo.com";
-$sendTo = $_POST["email"];
-$sendToName = $_POST["fullName"];
+$sendTo = $getPost["email"];
+$sendToName = $getPost["fullName"];
 $sendFrom = "info@westerncyber.club";
 $sendFromName = "Western Cyber Security Club";
 $sendGridUsr = "app43353028@heroku.com";
@@ -37,7 +34,6 @@ $message
 
 try {
     $sendgrid->send($message);
-
 } catch(SendGrid\Exception $e) {
     echo $e->getCode();
     foreach($e->getErrors() as $er) {
@@ -45,6 +41,6 @@ try {
     }
 }
 
-echo "{'result': 'success'}";
-?>
 
+echo json_encode(["result" => "success"]);
+?>

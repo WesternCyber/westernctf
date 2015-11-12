@@ -669,16 +669,17 @@ $(document).ready(function() {
                 // Create a new loading spinner in the submit button.
                 submitButton.html(jQuery('<div />').addClass('form-loading')).attr('disabled', 'disabled');
 
-                try{
+                try {
                     $.ajax({
                         url: "mail/mailer.php",
                         crossDomain: false,
-                        data: {"jsonData": JSON.stringify({"firstName": userFirstName, "lastName": userLastName, "fullName": userFullName, "email": userEmail})},
+                        data: JSON.stringify({"firstName": userFirstName, "lastName": userLastName, "fullName": userFullName, "email": userEmail}),
                         method: "POST",
                         cache: false,
                         dataType: 'json',
                         contentType: 'application/json; charset=utf-8',
                         success: function(data){
+                            console.log("Nob mailer success:");
                             console.log(data);
                             if (data.result != "success") {
                                 formError.attr('original-error', formError.text());
@@ -703,9 +704,18 @@ $(document).ready(function() {
                                     formSuccess.fadeOut(500);
                                 }, 5000);
                             }
+                        },
+                        error: function(error) {
+                            console.log("Nob mailer error:");
+                            console.log(error);
+                            formError.attr('original-error', formError.text());
+                            formError.html(error).fadeIn(1000);
+                            formSuccess.fadeOut(1000);
+
+                            submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
                         }
                     });
-                }catch(err){
+                } catch(err) {
                     console.log(err);
                     // Keep the current error text in a data attribute on the form
                     formError.attr('original-error', formError.text());
