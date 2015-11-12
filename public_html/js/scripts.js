@@ -646,6 +646,7 @@ $(document).ready(function() {
         formSuccess = thisForm.find('.form-success');
         thisForm.addClass('attempted-submit');
 
+        console.log(thisForm.dataset);
         if (thisForm.dataset.formType == "nob") { // Use custom mail engine
             console.log("Using nob type mailer engine");
             if (typeof originalError !== typeof undefined && originalError !== false) {
