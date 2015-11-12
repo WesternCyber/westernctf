@@ -6,7 +6,6 @@
  * Time: 12:23 AM
  */
 $getPost = json_decode(file_get_contents('php://input'));
-print_r($getPost);
 require '../../vendor/autoload.php';
 
 //$sendTo = "iamnobodyrandom@yahoo.com";
