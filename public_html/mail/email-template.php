@@ -9,7 +9,7 @@
     </style>
     <![endif]-->
     <style type="text/css">body {
-            color: #000000;
+            color: #FFFFFF;
         }
         body a {
             color: #1188e6;
@@ -124,7 +124,9 @@
                                                                                                 <tbody>
                                                                                                 <tr>
                                                                                                     <td bgcolor="#ffffff" height="100%" role="module-content" style="padding: 0px 0px 0px 0px;" valign="top">
-                                                                                                        <div><span class="sg-image" data-imagelibrary="%7B%22width%22%3A%2250%22%2C%22height%22%3A%2250%22%2C%22alt_text%22%3A%22Western%20Cyber%20Security%22%2C%22alignment%22%3A%22center%22%2C%22border%22%3A0%2C%22src%22%3A%22https%3A//marketing-image-production.s3.amazonaws.com/uploads/a346b53ce49181e663b560b666f80d3050a11c31672a49d01ed4ac80b088bc37d8ae90267a45d4f3f22da66a8abc878fa08fafd52d81d730bbed4e5bb1f91972.png%22%2C%22classes%22%3A%7B%22sg-image%22%3A1%7D%7D" style="float: none; display: block; text-align: center;"><img alt="Western Cyber Security" height="50" src="https://marketing-image-production.s3.amazonaws.com/uploads/a346b53ce49181e663b560b666f80d3050a11c31672a49d01ed4ac80b088bc37d8ae90267a45d4f3f22da66a8abc878fa08fafd52d81d730bbed4e5bb1f91972.png" style="width: 50px; height: 50px;" width="50" /></span><a href="http://westerncyber.club">Western Cyber Security Club</a>&nbsp;</div>
+                                                                                                        <div><span class="sg-image" data-imagelibrary="%7B%22width%22%3A%22193%22%2C%22height%22%3A%2250%22%2C%22alignment%22%3A%22%22%2C%22src%22%3A%22https%3A//marketing-image-production.s3.amazonaws.com/uploads/47b5b2336db7a3d9c81ee570d777e522f8a0b1977989043fd1af01887f51d66c9428cea8866f3ee44b249d23648520a7eae76990dbc85056b770859025e6fb63.png%22%2C%22alt_text%22%3A%22%22%2C%22classes%22%3A%7B%22sg-image%22%3A1%7D%7D"><img height="50" src="https://marketing-image-production.s3.amazonaws.com/uploads/47b5b2336db7a3d9c81ee570d777e522f8a0b1977989043fd1af01887f51d66c9428cea8866f3ee44b249d23648520a7eae76990dbc85056b770859025e6fb63.png" style="width: 193px; height: 50px;" width="193" /></span></div>
+
+                                                                                                        <div><a href="http://westerncyber.club">Western Cyber Security Club</a>&nbsp;</div>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                                 </tbody>
@@ -169,7 +171,7 @@
 
                                                                     <div>
                                                                         <hr />
-                                                                        <div>&lt;%body%&gt;</div> <!-- THIS WILL INSERT THE BODY OF THE EMAIL, DO NOT REMOVE -->
+                                                                        <div>&lt;%body%&gt;</div>
 
                                                                         <div>
                                                                             <hr />
