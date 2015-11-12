@@ -39,6 +39,6 @@ try {
     }
 }
 
-echo "success";
+echo "{'result': 'success'}";
 ?>
 

@@ -674,13 +674,13 @@ $(document).ready(function() {
                         url: "mail/mailer.php",
                         crossDomain: false,
                         data: {"firstName": userFirstName, "lastName": userLastName, "fullName": userFullName, "email": userEmail},
-                        method: "GET",
+                        method: "POST",
                         cache: false,
                         dataType: 'json',
                         contentType: 'application/json; charset=utf-8',
                         success: function(data){
                             console.log(data);
-                            if (data != "success") {
+                            if (data.result != "success") {
                                 formError.attr('original-error', formError.text());
                                 formError.html(data).fadeIn(1000);
                                 formSuccess.fadeOut(1000);
