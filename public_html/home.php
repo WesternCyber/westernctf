@@ -184,7 +184,7 @@
                                         <input type="text" name="email" class="validate-required validate-email  signup-email-field" placeholder="Email Address" /> 
                                         <button type="submit">Keep Me Informed</button> 
                                         <p class="sub text-center"> By signing up, you agree to our  <a href="#">Terms Of Service</a> </p>
-                                        <iframe srcdoc="<form action <?php" class="mail-list-form"></iframe>
+                                        <iframe srcdoc="<form class="mail-list-form"></iframe>
                                     </form>-->
                                 </div>
                             </div>
