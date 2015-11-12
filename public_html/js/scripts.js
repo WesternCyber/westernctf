@@ -673,7 +673,7 @@ $(document).ready(function() {
                     $.ajax({
                         url: "mail/mailer.php",
                         crossDomain: false,
-                        data: {"firstName": userFirstName, "lastName": userLastName, "fullName": userFullName, "email": userEmail},
+                        data: JSON.stringify({"firstName": userFirstName, "lastName": userLastName, "fullName": userFullName, "email": userEmail}),
                         method: "POST",
                         cache: false,
                         dataType: 'json',

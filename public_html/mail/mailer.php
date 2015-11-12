@@ -5,11 +5,13 @@
  * Date: 11/11/15
  * Time: 12:23 AM
  */
+$getPost = json_decode(file_get_contents('php://input'));
+print_r($getPost);
 require '../../vendor/autoload.php';
 
 //$sendTo = "iamnobodyrandom@yahoo.com";
-$sendTo = $_POST["email"];
-$sendToName = $_POST["fullName"];
+$sendTo = $getPost["email"];
+$sendToName = $getPost["fullName"];
 $sendFrom = "info@westerncyber.club";
 $sendFromName = "Western Cyber Security Club";
 $sendGridUsr = "app43353028@heroku.com";
