@@ -706,6 +706,7 @@ $(document).ready(function() {
                         }
                     });
                 }catch(err){
+                    console.log(err);
                     // Keep the current error text in a data attribute on the form
                     formError.attr('original-error', formError.text());
                     // Show the error with the returned error text.
@@ -717,9 +718,6 @@ $(document).ready(function() {
 
                     submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
                 }
-
-
-
             } else {
                 formError.fadeIn(1000);
                 setTimeout(function() {
