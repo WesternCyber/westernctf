@@ -7,11 +7,11 @@ var mr_firstSectionHeight,
     mr_floatingProjectSections,
     mr_scrollTop = 0;
 
-$(document).ready(function() { 
+$(document).ready(function() {
     "use strict";
 
     // Smooth scroll to inner links
-    
+
     $('.inner-link').each(function(){
         var href = $(this).attr('href');
         if(href.charAt(0) !== "#"){
@@ -19,11 +19,11 @@ $(document).ready(function() {
         }
     });
 
-	if($('.inner-link').length){
-		$('.inner-link').smoothScroll({
-			offset: -55,
-			speed: 800
-		});
+    if($('.inner-link').length){
+        $('.inner-link').smoothScroll({
+            offset: -55,
+            speed: 800
+        });
     }
 
     // Update scroll variable for scrolling functions
@@ -144,38 +144,38 @@ $(document).ready(function() {
         if (!e) e = window.event;
         e.stopPropagation();
     });
-    
+
     // Offscreen Nav
-    
+
     if($('.offscreen-toggle').length){
-    	$('body').addClass('has-offscreen-nav');
+        $('body').addClass('has-offscreen-nav');
     }
     else{
         $('body').removeClass('has-offscreen-nav');
     }
-    
+
     $('.offscreen-toggle').click(function(){
-    	$('.main-container').toggleClass('reveal-nav');
-    	$('nav').toggleClass('reveal-nav');
-    	$('.offscreen-container').toggleClass('reveal-nav');
+        $('.main-container').toggleClass('reveal-nav');
+        $('nav').toggleClass('reveal-nav');
+        $('.offscreen-container').toggleClass('reveal-nav');
     });
-    
+
     $('.main-container').click(function(){
-    	if($(this).hasClass('reveal-nav')){
-    		$(this).removeClass('reveal-nav');
-    		$('.offscreen-container').removeClass('reveal-nav');
-    		$('nav').removeClass('reveal-nav');
-    	}
+        if($(this).hasClass('reveal-nav')){
+            $(this).removeClass('reveal-nav');
+            $('.offscreen-container').removeClass('reveal-nav');
+            $('nav').removeClass('reveal-nav');
+        }
     });
-    
+
     $('.offscreen-container a').click(function(){
-    	$('.offscreen-container').removeClass('reveal-nav');
-    	$('.main-container').removeClass('reveal-nav');
-    	$('nav').removeClass('reveal-nav');
+        $('.offscreen-container').removeClass('reveal-nav');
+        $('.main-container').removeClass('reveal-nav');
+        $('nav').removeClass('reveal-nav');
     });
 
     // Populate filters
-    
+
     $('.projects').each(function() {
 
         var filters = "";
@@ -239,12 +239,12 @@ $(document).ready(function() {
     });
 
     // Instagram Feed
-    
+
     if($('.instafeed').length){
-    	jQuery.fn.spectragram.accessData = {
-			accessToken: '1406933036.fedaafa.feec3d50f5194ce5b705a1f11a107e0b',
-			clientID: 'fedaafacf224447e8aef74872d3820a1'
-		};	
+        jQuery.fn.spectragram.accessData = {
+            accessToken: '1406933036.fedaafa.feec3d50f5194ce5b705a1f11a107e0b',
+            clientID: 'fedaafacf224447e8aef74872d3820a1'
+        };
 
         $('.instafeed').each(function() {
             var feedID = $(this).attr('data-user-name') + '_';
@@ -253,9 +253,9 @@ $(document).ready(function() {
                 max: 12
             });
         });
-    }   
+    }
 
-   
+
 
     // Flickr Feeds
 
@@ -263,7 +263,7 @@ $(document).ready(function() {
         $('.flickr-feed').each(function(){
             var userID = $(this).attr('data-user-id');
             var albumID = $(this).attr('data-album-id');
-            $(this).flickrPhotoStream({ id: userID, setId: albumID, container: '<li class="masonry-item" />' });    
+            $(this).flickrPhotoStream({ id: userID, setId: albumID, container: '<li class="masonry-item" />' });
         });
     }
 
@@ -272,7 +272,7 @@ $(document).ready(function() {
     $('.slider-all-controls').flexslider({
         start: function(slider){
             if(slider.find('.slides li:first-child').find('.fs-vid-background video').length){
-               slider.find('.slides li:first-child').find('.fs-vid-background video').get(0).play(); 
+                slider.find('.slides li:first-child').find('.fs-vid-background video').get(0).play();
             }
         },
         after: function(slider){
@@ -314,12 +314,12 @@ $(document).ready(function() {
         directionNav: false,
         controlNav: false
     });
-    
+
     // Lightbox gallery titles
-    
+
     $('.lightbox-grid li a').each(function(){
-    	var galleryTitle = $(this).closest('.lightbox-grid').attr('data-gallery-title');
-    	$(this).attr('data-lightbox', galleryTitle);
+        var galleryTitle = $(this).closest('.lightbox-grid').attr('data-gallery-title');
+        $(this).attr('data-lightbox', galleryTitle);
     });
 
     // Prepare embedded video modals
@@ -340,52 +340,52 @@ $(document).ready(function() {
             console.log('Only Vimeo and Youtube videos are supported at this time');
         }
     });
-    
+
     // Multipurpose Modals
-    
+
     if($('.foundry_modal').length){
-    	var modalScreen = $('<div class="modal-screen">').appendTo('body');
+        var modalScreen = $('<div class="modal-screen">').appendTo('body');
     }
 
     $('.foundry_modal').click(function(){
         $(this).addClass('modal-acknowledged');
     });
-    
+
     $('.modal-container').each(function(index) {
         if($(this).find('iframe[src]').length){
-        	$(this).find('.foundry_modal').addClass('iframe-modal');
-        	var iframe = $(this).find('iframe');
-        	iframe.attr('src', '');
+            $(this).find('.foundry_modal').addClass('iframe-modal');
+            var iframe = $(this).find('iframe');
+            iframe.attr('src', '');
         }
         $(this).find('.btn-modal').attr('modal-link', index);
         $(this).find('.foundry_modal').clone().appendTo('body').attr('modal-link', index).prepend($('<i class="ti-close close-modal">'));
     });
-    
+
     $('.btn-modal').click(function(){
-    	var linkedModal = $('section').closest('body').find('.foundry_modal[modal-link="' + $(this).attr('modal-link') + '"]');
+        var linkedModal = $('section').closest('body').find('.foundry_modal[modal-link="' + $(this).attr('modal-link') + '"]');
         $('.modal-screen').toggleClass('reveal-modal');
         if(linkedModal.find('iframe').length){
             if(linkedModal.find('iframe').attr('data-autoplay') === '1'){
                 var autoplayMsg = '&autoplay=1'
             }
-        	linkedModal.find('iframe').attr('src', (linkedModal.find('iframe').attr('data-src') + autoplayMsg));
+            linkedModal.find('iframe').attr('src', (linkedModal.find('iframe').attr('data-src') + autoplayMsg));
         }
         linkedModal.toggleClass('reveal-modal');
         return false;
     });
-    
+
     // Autoshow modals
-	
-	$('.foundry_modal[data-time-delay]').each(function(){
-		var modal = $(this);
-		var delay = modal.attr('data-time-delay');
-		modal.prepend($('<i class="ti-close close-modal">'));
-    	if(typeof modal.attr('data-cookie') != "undefined"){
-        	if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
+
+    $('.foundry_modal[data-time-delay]').each(function(){
+        var modal = $(this);
+        var delay = modal.attr('data-time-delay');
+        modal.prepend($('<i class="ti-close close-modal">'));
+        if(typeof modal.attr('data-cookie') != "undefined"){
+            if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
                 setTimeout(function(){
-        			modal.addClass('reveal-modal');
-        			$('.modal-screen').addClass('reveal-modal');
-        		},delay);
+                    modal.addClass('reveal-modal');
+                    $('.modal-screen').addClass('reveal-modal');
+                },delay);
             }
         }else{
             setTimeout(function(){
@@ -393,7 +393,7 @@ $(document).ready(function() {
                 $('.modal-screen').addClass('reveal-modal');
             },delay);
         }
-	});
+    });
 
     // Autoclose modals
 
@@ -403,11 +403,11 @@ $(document).ready(function() {
         if(typeof modal.attr('data-cookie') != "undefined"){
             if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
                 setTimeout(function(){
-                if(!modal.hasClass('modal-acknowledged')){
-                    modal.removeClass('reveal-modal');
-                    $('.modal-screen').removeClass('reveal-modal');
-                }
-                },delay); 
+                    if(!modal.hasClass('modal-acknowledged')){
+                        modal.removeClass('reveal-modal');
+                        $('.modal-screen').removeClass('reveal-modal');
+                    }
+                },delay);
             }
         }else{
             setTimeout(function(){
@@ -415,69 +415,69 @@ $(document).ready(function() {
                     modal.removeClass('reveal-modal');
                     $('.modal-screen').removeClass('reveal-modal');
                 }
-            },delay); 
+            },delay);
         }
     });
-    
+
     $('.close-modal:not(.modal-strip .close-modal)').click(function(){
-    	var modal = $(this).closest('.foundry_modal');
+        var modal = $(this).closest('.foundry_modal');
         modal.toggleClass('reveal-modal');
         if(typeof modal.attr('data-cookie') != "undefined"){
             mr_cookies.setItem(modal.attr('data-cookie'), "true", Infinity);
         }
-    	if(modal.find('iframe').length){
+        if(modal.find('iframe').length){
             modal.find('iframe').attr('src', '');
         }
         $('.modal-screen').toggleClass('reveal-modal');
     });
-    
+
     $('.modal-screen').click(function(){
         if($('.foundry_modal.reveal-modal').find('iframe').length){
             $('.foundry_modal.reveal-modal').find('iframe').attr('src', '');
         }
-    	$('.foundry_modal.reveal-modal').toggleClass('reveal-modal');
-    	$(this).toggleClass('reveal-modal');
+        $('.foundry_modal.reveal-modal').toggleClass('reveal-modal');
+        $(this).toggleClass('reveal-modal');
     });
-    
+
     $(document).keyup(function(e) {
-		 if (e.keyCode == 27) { // escape key maps to keycode `27`
+        if (e.keyCode == 27) { // escape key maps to keycode `27`
             if($('.foundry_modal').find('iframe').length){
                 $('.foundry_modal').find('iframe').attr('src', '');
             }
-			$('.foundry_modal').removeClass('reveal-modal');
-			$('.modal-screen').removeClass('reveal-modal');
-		}
-	});
-    
+            $('.foundry_modal').removeClass('reveal-modal');
+            $('.modal-screen').removeClass('reveal-modal');
+        }
+    });
+
     // Modal Strips
-    
+
     $('.modal-strip').each(function(){
-    	if(!$(this).find('.close-modal').length){
-    		$(this).append($('<i class="ti-close close-modal">'));
-    	}
-    	var modal = $(this);
+        if(!$(this).find('.close-modal').length){
+            $(this).append($('<i class="ti-close close-modal">'));
+        }
+        var modal = $(this);
 
         if(typeof modal.attr('data-cookie') != "undefined"){
-           
+
             if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
-            	setTimeout(function(){
-            		modal.addClass('reveal-modal');
-            	},1000);
+                setTimeout(function(){
+                    modal.addClass('reveal-modal');
+                },1000);
             }
         }else{
             setTimeout(function(){
-                    modal.addClass('reveal-modal');
+                modal.addClass('reveal-modal');
             },1000);
         }
     });
-    
+
     $('.modal-strip .close-modal').click(function(){
         var modal = $(this).closest('.modal-strip');
         if(typeof modal.attr('data-cookie') != "undefined"){
             mr_cookies.setItem(modal.attr('data-cookie'), "true", Infinity);
         }
-    	$(this).closest('.modal-strip').removeClass('reveal-modal');
-    	return false;
+        $(this).closest('.modal-strip').removeClass('reveal-modal');
+        return false;
     });
 
 
@@ -576,7 +576,7 @@ $(document).ready(function() {
         $(this).attr('data-property', "{videoURL:'http://youtu.be/" + src + "',containment:'self',autoPlay:true, mute:true, startAt:" + startat + ", opacity:1, showControls:false}");
     });
 
-	if($('.player').length){
+    if($('.player').length){
         $('.player').each(function(){
 
             var section = $(this).closest('section');
@@ -595,15 +595,15 @@ $(document).ready(function() {
     $('.map-holder').click(function() {
         $(this).addClass('interact');
     });
-    
+
     if($('.map-holder').length){
-    	$(window).scroll(function() {
-			if ($('.map-holder.interact').length) {
-				$('.map-holder.interact').removeClass('interact');
-			}
-		});
+        $(window).scroll(function() {
+            if ($('.map-holder.interact').length) {
+                $('.map-holder.interact').removeClass('interact');
+            }
+        });
     }
-    
+
     // Countdown Timers
 
     if ($('.countdown').length) {
@@ -616,7 +616,7 @@ $(document).ready(function() {
             });
         });
     }
-    
+
     //                                                            //
     //                                                            //
     // Contact form code                                          //
@@ -646,8 +646,7 @@ $(document).ready(function() {
         formSuccess = thisForm.find('.form-success');
         thisForm.addClass('attempted-submit');
 
-        console.log(thisForm.attr('data-form-type'));
-        if (thisForm.dataset.attr('data-form-type') == "nob") { // Use custom mail engine
+        if (thisForm.attr('data-form-type') == "nob") { // Use custom mail engine
             console.log("Using nob type mailer engine");
             if (typeof originalError !== typeof undefined && originalError !== false) {
                 formError.html(originalError);
@@ -683,37 +682,37 @@ $(document).ready(function() {
                             // Request was a success, what was the response?
                             /*if (data.result != "success" && data.Status != 200) {
 
-                                // Error from Mail Chimp or Campaign Monitor
+                             // Error from Mail Chimp or Campaign Monitor
 
-                                // Keep the current error text in a data attribute on the form
-                                formError.attr('original-error', formError.text());
-                                // Show the error with the returned error text.
-                                formError.html(data.msg).fadeIn(1000);
-                                formSuccess.fadeOut(1000);
+                             // Keep the current error text in a data attribute on the form
+                             formError.attr('original-error', formError.text());
+                             // Show the error with the returned error text.
+                             formError.html(data.msg).fadeIn(1000);
+                             formSuccess.fadeOut(1000);
 
-                                submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
-                            } else {
+                             submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
+                             } else {
 
-                                // Got Success from Mail Chimp
+                             // Got Success from Mail Chimp
 
-                                submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
+                             submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
 
-                                successRedirect = thisForm.attr('success-redirect');
-                                // For some browsers, if empty `successRedirect` is undefined; for others,
-                                // `successRedirect` is false.  Check for both.
-                                if (typeof successRedirect !== typeof undefined && successRedirect !== false && successRedirect !== "") {
-                                    window.location = successRedirect;
-                                }
+                             successRedirect = thisForm.attr('success-redirect');
+                             // For some browsers, if empty `successRedirect` is undefined; for others,
+                             // `successRedirect` is false.  Check for both.
+                             if (typeof successRedirect !== typeof undefined && successRedirect !== false && successRedirect !== "") {
+                             window.location = successRedirect;
+                             }
 
-                                thisForm.find('input[type="text"]').val("");
-                                thisForm.find('textarea').val("");
-                                formSuccess.fadeIn(1000);
+                             thisForm.find('input[type="text"]').val("");
+                             thisForm.find('textarea').val("");
+                             formSuccess.fadeIn(1000);
 
-                                formError.fadeOut(1000);
-                                setTimeout(function() {
-                                    formSuccess.fadeOut(500);
-                                }, 5000);
-                            }*/
+                             formError.fadeOut(1000);
+                             setTimeout(function() {
+                             formSuccess.fadeOut(500);
+                             }, 5000);
+                             }*/
                         }
                     });
                 }catch(err){
@@ -767,7 +766,7 @@ $(document).ready(function() {
                 formError.fadeOut(200);
                 // Create a new loading spinner in the submit button.
                 submitButton.html(jQuery('<div />').addClass('form-loading')).attr('disabled', 'disabled');
-                
+
                 try{
                     $.ajax({
                         url: preparedForm.attr('action'),
@@ -780,7 +779,7 @@ $(document).ready(function() {
                         success: function(data){
                             // Request was a success, what was the response?
                             if (data.result != "success" && data.Status != 200) {
-                                
+
                                 // Error from Mail Chimp or Campaign Monitor
 
                                 // Keep the current error text in a data attribute on the form
@@ -791,9 +790,9 @@ $(document).ready(function() {
 
                                 submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
                             } else {
-                                
+
                                 // Got Success from Mail Chimp
-                                
+
                                 submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
 
                                 successRedirect = thisForm.attr('success-redirect');
@@ -826,9 +825,9 @@ $(document).ready(function() {
 
                     submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
                 }
-            
 
-                
+
+
             } else {
                 formError.fadeIn(1000);
                 setTimeout(function() {
@@ -855,7 +854,7 @@ $(document).ready(function() {
 
                 // Hide the error if one was shown
                 formError.fadeOut(200);
-                
+
                 // Create a new loading spinner in the submit button.
                 submitButton.html(jQuery('<div />').addClass('form-loading')).attr('disabled', 'disabled');
 
@@ -923,40 +922,40 @@ $(document).ready(function() {
     });
 
     function validateFields(form) {
-            var name, error, originalErrorMessage;
+        var name, error, originalErrorMessage;
 
-            $(form).find('.validate-required[type="checkbox"]').each(function() {
-                if (!$('[name="' + $(this).attr('name') + '"]:checked').length) {
-                    error = 1;
-                    name = $(this).attr('name').replace('[]', '');
-                    form.find('.form-error').text('Please tick at least one ' + name + ' box.');
-                }
-            });
-
-            $(form).find('.validate-required').each(function() {
-                if ($(this).val() === '') {
-                    $(this).addClass('field-error');
-                    error = 1;
-                } else {
-                    $(this).removeClass('field-error');
-                }
-            });
-
-            $(form).find('.validate-email').each(function() {
-                if (!(/(.+)@(.+){2,}\.(.+){2,}/.test($(this).val()))) {
-                    $(this).addClass('field-error');
-                    error = 1;
-                } else {
-                    $(this).removeClass('field-error');
-                }
-            });
-
-            if (!form.find('.field-error').length) {
-                form.find('.form-error').fadeOut(1000);
+        $(form).find('.validate-required[type="checkbox"]').each(function() {
+            if (!$('[name="' + $(this).attr('name') + '"]:checked').length) {
+                error = 1;
+                name = $(this).attr('name').replace('[]', '');
+                form.find('.form-error').text('Please tick at least one ' + name + ' box.');
             }
+        });
 
-            return error;
+        $(form).find('.validate-required').each(function() {
+            if ($(this).val() === '') {
+                $(this).addClass('field-error');
+                error = 1;
+            } else {
+                $(this).removeClass('field-error');
+            }
+        });
+
+        $(form).find('.validate-email').each(function() {
+            if (!(/(.+)@(.+){2,}\.(.+){2,}/.test($(this).val()))) {
+                $(this).addClass('field-error');
+                error = 1;
+            } else {
+                $(this).removeClass('field-error');
+            }
+        });
+
+        if (!form.find('.field-error').length) {
+            form.find('.form-error').fadeOut(1000);
         }
+
+        return error;
+    }
 
     //
     //    
@@ -979,19 +978,19 @@ $(document).ready(function() {
     if ((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
         $('section').removeClass('parallax');
     }
-    
-    // Disqus Comments
-    
-    if($('.disqus-comments').length){
-		/* * * CONFIGURATION VARIABLES * * */
-		var disqus_shortname = $('.disqus-comments').attr('data-shortname');
 
-		/* * * DON'T EDIT BELOW THIS LINE * * */
-		(function() {
-			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		})();
+    // Disqus Comments
+
+    if($('.disqus-comments').length){
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = $('.disqus-comments').attr('data-shortname');
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
     }
 
     // Load Google MAP API JS with callback to initialise when fully loaded
@@ -1002,13 +1001,13 @@ $(document).ready(function() {
             script.type = 'text/javascript';
             script.src = 'https://maps.googleapis.com/maps/api/js?key='+apiKey+'&callback=initializeMaps';
             script.className = 'gMapsAPI';
-            document.body.appendChild(script);  
-        } 
+            document.body.appendChild(script);
+        }
     }
 
-}); 
+});
 
-$(window).load(function() { 
+$(window).load(function() {
     "use strict";
 
     // Initialize Masonry
@@ -1060,7 +1059,7 @@ $(window).load(function() {
     mr_firstSectionHeight = $('.main-container section:nth-of-type(1)').outerHeight(true);
 
 
-}); 
+});
 
 function updateNav() {
 
@@ -1197,85 +1196,85 @@ window.initializeMaps = function(){
     if(typeof google !== "undefined"){
         if(typeof google.maps !== "undefined"){
             $('.map-canvas[data-maps-api-key]').each(function(){
-                    var mapInstance   = this,
-                        mapJSON       = typeof $(this).attr('data-map-style') !== "undefined" ? $(this).attr('data-map-style'): false,
-                        mapStyle      = JSON.parse(mapJSON) || [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}],
-                        zoomLevel     = (typeof $(this).attr('data-map-zoom') !== "undefined" && $(this).attr('data-map-zoom') !== "") ? $(this).attr('data-map-zoom') * 1: 17,
-                        latlong       = typeof $(this).attr('data-latlong') != "undefined" ? $(this).attr('data-latlong') : false,
-                        latitude      = latlong ? 1 *latlong.substr(0, latlong.indexOf(',')) : false,
-                        longitude     = latlong ? 1 * latlong.substr(latlong.indexOf(",") + 1) : false,
-                        geocoder      = new google.maps.Geocoder(),
-                        address       = typeof $(this).attr('data-address') !== "undefined" ? $(this).attr('data-address').split(';'): false,
-                        markerTitle   = "We Are Here",
-                        isDraggable = $(document).width() > 766 ? true : false,
-                        map, marker, markerImage,
-                        mapOptions = {
-                            draggable: isDraggable,
-                            scrollwheel: false,
-                            zoom: zoomLevel,
-                            disableDefaultUI: true,
-                            styles: mapStyle
-                        };
+                var mapInstance   = this,
+                    mapJSON       = typeof $(this).attr('data-map-style') !== "undefined" ? $(this).attr('data-map-style'): false,
+                    mapStyle      = JSON.parse(mapJSON) || [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}],
+                    zoomLevel     = (typeof $(this).attr('data-map-zoom') !== "undefined" && $(this).attr('data-map-zoom') !== "") ? $(this).attr('data-map-zoom') * 1: 17,
+                    latlong       = typeof $(this).attr('data-latlong') != "undefined" ? $(this).attr('data-latlong') : false,
+                    latitude      = latlong ? 1 *latlong.substr(0, latlong.indexOf(',')) : false,
+                    longitude     = latlong ? 1 * latlong.substr(latlong.indexOf(",") + 1) : false,
+                    geocoder      = new google.maps.Geocoder(),
+                    address       = typeof $(this).attr('data-address') !== "undefined" ? $(this).attr('data-address').split(';'): false,
+                    markerTitle   = "We Are Here",
+                    isDraggable = $(document).width() > 766 ? true : false,
+                    map, marker, markerImage,
+                    mapOptions = {
+                        draggable: isDraggable,
+                        scrollwheel: false,
+                        zoom: zoomLevel,
+                        disableDefaultUI: true,
+                        styles: mapStyle
+                    };
 
-                    if($(this).attr('data-marker-title') != undefined && $(this).attr('data-marker-title') != "" )
-                    {
-                        markerTitle = $(this).attr('data-marker-title');
-                    }
+                if($(this).attr('data-marker-title') != undefined && $(this).attr('data-marker-title') != "" )
+                {
+                    markerTitle = $(this).attr('data-marker-title');
+                }
 
-                    if(address != undefined && address[0] != ""){
-                            geocoder.geocode( { 'address': address[0].replace('[nomarker]','')}, function(results, status) {
-                                if (status == google.maps.GeocoderStatus.OK) {
-                                var map = new google.maps.Map(mapInstance, mapOptions); 
-                                map.setCenter(results[0].geometry.location);
-                                
-                                address.forEach(function(address){
-                                    var markerGeoCoder;
-                                    
-                                    markerImage = {url: window.mr_variant == undefined ? 'img/mapmarker.png' : '../img/mapmarker.png', size: new google.maps.Size(50,50), scaledSize: new google.maps.Size(50,50)};
-                                    if(/(\-?\d+(\.\d+)?),\s*(\-?\d+(\.\d+)?)/.test(address) ){
-                                        var latlong = address.split(','),
+                if(address != undefined && address[0] != ""){
+                    geocoder.geocode( { 'address': address[0].replace('[nomarker]','')}, function(results, status) {
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            var map = new google.maps.Map(mapInstance, mapOptions);
+                            map.setCenter(results[0].geometry.location);
+
+                            address.forEach(function(address){
+                                var markerGeoCoder;
+
+                                markerImage = {url: window.mr_variant == undefined ? 'img/mapmarker.png' : '../img/mapmarker.png', size: new google.maps.Size(50,50), scaledSize: new google.maps.Size(50,50)};
+                                if(/(\-?\d+(\.\d+)?),\s*(\-?\d+(\.\d+)?)/.test(address) ){
+                                    var latlong = address.split(','),
                                         marker = new google.maps.Marker({
-                                                        position: { lat: 1*latlong[0], lng: 1*latlong[1] },
-                                                        map: map,
-                                                        icon: markerImage,
-                                                        title: markerTitle,
-                                                        optimised: false
-                                                    });
-                                    }
-                                    else if(address.indexOf('[nomarker]') < 0){
-                                        markerGeoCoder = new google.maps.Geocoder();
-                                        markerGeoCoder.geocode( { 'address': address.replace('[nomarker]','')}, function(results, status) {
-                                            if (status == google.maps.GeocoderStatus.OK) {
-                                                marker = new google.maps.Marker({
-                                                    map: map,
-                                                    icon: markerImage,
-                                                    title: markerTitle,
-                                                    position: results[0].geometry.location,
-                                                    optimised: false
-                                                });
-                                            }
+                                            position: { lat: 1*latlong[0], lng: 1*latlong[1] },
+                                            map: map,
+                                            icon: markerImage,
+                                            title: markerTitle,
+                                            optimised: false
                                         });
-                                    }
+                                }
+                                else if(address.indexOf('[nomarker]') < 0){
+                                    markerGeoCoder = new google.maps.Geocoder();
+                                    markerGeoCoder.geocode( { 'address': address.replace('[nomarker]','')}, function(results, status) {
+                                        if (status == google.maps.GeocoderStatus.OK) {
+                                            marker = new google.maps.Marker({
+                                                map: map,
+                                                icon: markerImage,
+                                                title: markerTitle,
+                                                position: results[0].geometry.location,
+                                                optimised: false
+                                            });
+                                        }
+                                    });
+                                }
 
-                                });
-                            } else {
-                                console.log('There was a problem geocoding the address.');
-                            }
-                        });
-                    }
-                    else if(latitude != undefined && latitude != "" && latitude != false && longitude != undefined && longitude != "" && longitude != false ){
-                        mapOptions.center   = { lat: latitude, lng: longitude};
-                        map = new google.maps.Map(mapInstance, mapOptions); 
-                        marker              = new google.maps.Marker({
-                                                    position: { lat: latitude, lng: longitude },
-                                                    map: map,
-                                                    icon: markerImage,
-                                                    title: markerTitle
-                                                });
+                            });
+                        } else {
+                            console.log('There was a problem geocoding the address.');
+                        }
+                    });
+                }
+                else if(latitude != undefined && latitude != "" && latitude != false && longitude != undefined && longitude != "" && longitude != false ){
+                    mapOptions.center   = { lat: latitude, lng: longitude};
+                    map = new google.maps.Map(mapInstance, mapOptions);
+                    marker              = new google.maps.Marker({
+                        position: { lat: latitude, lng: longitude },
+                        map: map,
+                        icon: markerImage,
+                        title: markerTitle
+                    });
 
-                    }
+                }
 
-                }); 
+            });
         }
     }
 }
@@ -1294,15 +1293,15 @@ function prepareSignup(iFrame){
 
     // Alter action for a Mail Chimp-compatible ajax request url.
     if(/list-manage\.com/.test(action)){
-       action = action.replace('/post?', '/post-json?') + "&c=?";
-       if(action.substr(0,2) == "//"){
-           action = 'http:' + action;
-       }
+        action = action.replace('/post?', '/post-json?') + "&c=?";
+        if(action.substr(0,2) == "//"){
+            action = 'http:' + action;
+        }
     }
 
     // Alter action for a Campaign Monitor-compatible ajax request url.
     if(/createsend\.com/.test(action)){
-       action = action + '?callback=?';
+        action = action + '?callback=?';
     }
 
 
@@ -1316,77 +1315,77 @@ function prepareSignup(iFrame){
     });
 
     return form;
-        
+
 
 }
 
 
 
 /*\
-|*|  COOKIE LIBRARY THANKS TO MDN
-|*|
-|*|  A complete cookies reader/writer framework with full unicode support.
-|*|
-|*|  Revision #1 - September 4, 2014
-|*|
-|*|  https://developer.mozilla.org/en-US/docs/Web/API/document.cookie
-|*|  https://developer.mozilla.org/User:fusionchess
-|*|
-|*|  This framework is released under the GNU Public License, version 3 or later.
-|*|  http://www.gnu.org/licenses/gpl-3.0-standalone.html
-|*|
-|*|  Syntaxes:
-|*|
-|*|  * mr_cookies.setItem(name, value[, end[, path[, domain[, secure]]]])
-|*|  * mr_cookies.getItem(name)
-|*|  * mr_cookies.removeItem(name[, path[, domain]])
-|*|  * mr_cookies.hasItem(name)
-|*|  * mr_cookies.keys()
-|*|
-\*/
+ |*|  COOKIE LIBRARY THANKS TO MDN
+ |*|
+ |*|  A complete cookies reader/writer framework with full unicode support.
+ |*|
+ |*|  Revision #1 - September 4, 2014
+ |*|
+ |*|  https://developer.mozilla.org/en-US/docs/Web/API/document.cookie
+ |*|  https://developer.mozilla.org/User:fusionchess
+ |*|
+ |*|  This framework is released under the GNU Public License, version 3 or later.
+ |*|  http://www.gnu.org/licenses/gpl-3.0-standalone.html
+ |*|
+ |*|  Syntaxes:
+ |*|
+ |*|  * mr_cookies.setItem(name, value[, end[, path[, domain[, secure]]]])
+ |*|  * mr_cookies.getItem(name)
+ |*|  * mr_cookies.removeItem(name[, path[, domain]])
+ |*|  * mr_cookies.hasItem(name)
+ |*|  * mr_cookies.keys()
+ |*|
+ \*/
 
 var mr_cookies = {
-  getItem: function (sKey) {
-    if (!sKey) { return null; }
-    return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null;
-  },
-  setItem: function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
-    if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) { return false; }
-    var sExpires = "";
-    if (vEnd) {
-      switch (vEnd.constructor) {
-        case Number:
-          sExpires = vEnd === Infinity ? "; expires=Fri, 31 Dec 9999 23:59:59 GMT" : "; max-age=" + vEnd;
-          break;
-        case String:
-          sExpires = "; expires=" + vEnd;
-          break;
-        case Date:
-          sExpires = "; expires=" + vEnd.toUTCString();
-          break;
-      }
+    getItem: function (sKey) {
+        if (!sKey) { return null; }
+        return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null;
+    },
+    setItem: function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
+        if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) { return false; }
+        var sExpires = "";
+        if (vEnd) {
+            switch (vEnd.constructor) {
+                case Number:
+                    sExpires = vEnd === Infinity ? "; expires=Fri, 31 Dec 9999 23:59:59 GMT" : "; max-age=" + vEnd;
+                    break;
+                case String:
+                    sExpires = "; expires=" + vEnd;
+                    break;
+                case Date:
+                    sExpires = "; expires=" + vEnd.toUTCString();
+                    break;
+            }
+        }
+        document.cookie = encodeURIComponent(sKey) + "=" + encodeURIComponent(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "");
+        return true;
+    },
+    removeItem: function (sKey, sPath, sDomain) {
+        if (!this.hasItem(sKey)) { return false; }
+        document.cookie = encodeURIComponent(sKey) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "");
+        return true;
+    },
+    hasItem: function (sKey) {
+        if (!sKey) { return false; }
+        return (new RegExp("(?:^|;\\s*)" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie);
+    },
+    keys: function () {
+        var aKeys = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, "").split(/\s*(?:\=[^;]*)?;\s*/);
+        for (var nLen = aKeys.length, nIdx = 0; nIdx < nLen; nIdx++) { aKeys[nIdx] = decodeURIComponent(aKeys[nIdx]); }
+        return aKeys;
     }
-    document.cookie = encodeURIComponent(sKey) + "=" + encodeURIComponent(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "");
-    return true;
-  },
-  removeItem: function (sKey, sPath, sDomain) {
-    if (!this.hasItem(sKey)) { return false; }
-    document.cookie = encodeURIComponent(sKey) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "");
-    return true;
-  },
-  hasItem: function (sKey) {
-    if (!sKey) { return false; }
-    return (new RegExp("(?:^|;\\s*)" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie);
-  },
-  keys: function () {
-    var aKeys = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, "").split(/\s*(?:\=[^;]*)?;\s*/);
-    for (var nLen = aKeys.length, nIdx = 0; nIdx < nLen; nIdx++) { aKeys[nIdx] = decodeURIComponent(aKeys[nIdx]); }
-    return aKeys;
-  }
 };
 
 /*\
-|*|  END COOKIE LIBRARY
-\*/
+ |*|  END COOKIE LIBRARY
+ \*/
 
 
