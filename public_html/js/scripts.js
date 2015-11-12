@@ -679,6 +679,7 @@ $(document).ready(function() {
                         dataType: 'json',
                         contentType: 'application/json; charset=utf-8',
                         success: function(data){
+                            console.log("Nob mailer success:");
                             console.log(data);
                             if (data.result != "success") {
                                 formError.attr('original-error', formError.text());
@@ -705,6 +706,7 @@ $(document).ready(function() {
                             }
                         },
                         error: function(error) {
+                            console.log("Nob mailer error:");
                             console.log(error);
                             formError.attr('original-error', formError.text());
                             formError.html(error).fadeIn(1000);
