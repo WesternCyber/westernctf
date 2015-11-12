@@ -18,7 +18,7 @@ $sendGridApi = "SG.KtDRNZlqSu2OcQVlv0crwQ.GUL3U9BWgruBiAH1_oqn13nlPyiKmnNTNbN-Li
 
 $emailBody = "Test message";
 $emailSubject = "Test email";
-$sendGridTemplateId = "daf01737-4403-4218-92cc-0b888254d80c";
+$sendGridTemplateId = "658b13d5-b11e-4e86-b274-39a9b829ea87";
 
 //$sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
 $sendgrid = new SendGrid($sendGridApi);
