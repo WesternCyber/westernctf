@@ -669,7 +669,7 @@ $(document).ready(function() {
                 // Create a new loading spinner in the submit button.
                 submitButton.html(jQuery('<div />').addClass('form-loading')).attr('disabled', 'disabled');
 
-                try{
+                try {
                     $.ajax({
                         url: "mail/mailer.php",
                         crossDomain: false,
@@ -713,7 +713,7 @@ $(document).ready(function() {
                             submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
                         }
                     });
-                }catch(err){
+                } catch(err) {
                     console.log(err);
                     // Keep the current error text in a data attribute on the form
                     formError.attr('original-error', formError.text());
