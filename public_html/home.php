@@ -176,7 +176,7 @@
                             <div class="row">
                                 <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
                                     <h1 class="mb8">Welcome to Western Cyber Security Club.</h1>
-                                    <!--<p class="lead mb48">
+                                    <p class="lead mb48">
                                         Please fill in the form if you would like to stay informed about club events.  
                                     </p>
                                     <form class="form-newsletter thirds" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly."> 
@@ -184,8 +184,7 @@
                                         <input type="text" name="email" class="validate-required validate-email  signup-email-field" placeholder="Email Address" /> 
                                         <button type="submit">Keep Me Informed</button> 
                                         <p class="sub text-center"> By signing up, you agree to our  <a href="#">Terms Of Service</a> </p>
-                                        <iframe srcdoc="<form class="mail-list-form"></iframe>
-                                    </form>-->
+                                    </form>
                                 </div>
                             </div>
                             <!--end of row-->
@@ -654,5 +653,16 @@
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="//crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+        <script type="text/javascript">
+            function submitForm() {
+                formData = $('.form-newsletter')[0].serialize();
+                console.log(formData);
+                formData = CryptoJS.MD5(formData);
+                console.log(formData);
+            }
+
+            document.getElementsByClassName("form-newsletter")[0].getElementsByTagName("button")[0].addEventListener("click", submitForm);
+        </script>
     </body>
 </html>
