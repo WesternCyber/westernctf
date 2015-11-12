@@ -673,7 +673,7 @@ $(document).ready(function() {
                     $.ajax({
                         url: "mail/mailer.php",
                         crossDomain: false,
-                        data: {"jsonData": JSON.stringify({"firstName": userFirstName, "lastName": userLastName, "fullName": userFullName, "email": userEmail})},
+                        data: JSON.stringify({"firstName": userFirstName, "lastName": userLastName, "fullName": userFullName, "email": userEmail}),
                         method: "POST",
                         cache: false,
                         dataType: 'json',
@@ -703,6 +703,14 @@ $(document).ready(function() {
                                     formSuccess.fadeOut(500);
                                 }, 5000);
                             }
+                        },
+                        error: function(error) {
+                            console.log(error);
+                            formError.attr('original-error', formError.text());
+                            formError.html(data).fadeIn(1000);
+                            formSuccess.fadeOut(1000);
+
+                            submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
                         }
                     });
                 }catch(err){
