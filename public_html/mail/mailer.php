@@ -44,4 +44,3 @@ try {
 
 echo "{'result': 'success'}";
 ?>
-
