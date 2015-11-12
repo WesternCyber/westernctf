@@ -179,7 +179,7 @@
                                     <p class="lead mb48">
                                         Please fill in the form if you would like to stay informed about club events.  
                                     </p>
-                                    <form class="form-newsletter thirds" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly."> 
+                                    <form class="form-newsletter thirds" data-form-type="nob" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly."> 
                                         <input type="text" name="name" class="validate-required signup-name-field" placeholder="Your Name" />
                                         <input type="text" name="email" class="validate-required validate-email  signup-email-field" placeholder="Email Address" /> 
                                         <button type="submit">Keep Me Informed</button> 
@@ -652,17 +652,7 @@
         <script src="js/countdown.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/parallax.js"></script>
+        <script src="js/md5.js"></script>
         <script src="js/scripts.js"></script>
-        <script src="//crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
-        <script type="text/javascript">
-            function submitForm() {
-                formData = $('.form-newsletter')[0].serialize();
-                console.log(formData);
-                formData = CryptoJS.MD5(formData);
-                console.log(formData);
-            }
-
-            document.getElementsByClassName("form-newsletter")[0].getElementsByTagName("button")[0].addEventListener("click", submitForm);
-        </script>
     </body>
 </html>

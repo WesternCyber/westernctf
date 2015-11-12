@@ -1,7 +1,3 @@
-<html>
-<head></head>
-<body>
-start
 <?php
 /**
  * Created by PhpStorm.
@@ -35,6 +31,7 @@ $message
 
 try {
     $sendgrid->send($message);
+
 } catch(SendGrid\Exception $e) {
     echo $e->getCode();
     foreach($e->getErrors() as $er) {
@@ -44,6 +41,4 @@ try {
 
 echo "done\n";
 ?>
-end
-</body>
-</html>
+
