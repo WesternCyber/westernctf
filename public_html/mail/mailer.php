@@ -39,6 +39,6 @@ try {
     }
 }
 
-echo "done\n";
+echo "success";
 ?>
 

@@ -678,41 +678,31 @@ $(document).ready(function() {
                         cache: false,
                         dataType: 'json',
                         contentType: 'application/json; charset=utf-8',
-                        success: function(data){ console.log(data);
-                            // Request was a success, what was the response?
-                            /*if (data.result != "success" && data.Status != 200) {
+                        success: function(data){
+                            console.log(data);
+                            if (data != "success") {
+                                formError.attr('original-error', formError.text());
+                                formError.html(data).fadeIn(1000);
+                                formSuccess.fadeOut(1000);
 
-                             // Error from Mail Chimp or Campaign Monitor
+                                submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
+                            } else {
+                                submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
 
-                             // Keep the current error text in a data attribute on the form
-                             formError.attr('original-error', formError.text());
-                             // Show the error with the returned error text.
-                             formError.html(data.msg).fadeIn(1000);
-                             formSuccess.fadeOut(1000);
+                                successRedirect = thisForm.attr('success-redirect');
+                                if (typeof successRedirect !== typeof undefined && successRedirect !== false && successRedirect !== "") {
+                                    window.location = successRedirect;
+                                }
 
-                             submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
-                             } else {
+                                thisForm.find('input[type="text"]').val("");
+                                thisForm.find('textarea').val("");
+                                formSuccess.fadeIn(1000);
 
-                             // Got Success from Mail Chimp
-
-                             submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
-
-                             successRedirect = thisForm.attr('success-redirect');
-                             // For some browsers, if empty `successRedirect` is undefined; for others,
-                             // `successRedirect` is false.  Check for both.
-                             if (typeof successRedirect !== typeof undefined && successRedirect !== false && successRedirect !== "") {
-                             window.location = successRedirect;
-                             }
-
-                             thisForm.find('input[type="text"]').val("");
-                             thisForm.find('textarea').val("");
-                             formSuccess.fadeIn(1000);
-
-                             formError.fadeOut(1000);
-                             setTimeout(function() {
-                             formSuccess.fadeOut(500);
-                             }, 5000);
-                             }*/
+                                formError.fadeOut(1000);
+                                setTimeout(function() {
+                                    formSuccess.fadeOut(500);
+                                }, 5000);
+                            }
                         }
                     });
                 }catch(err){
