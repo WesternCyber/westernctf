@@ -42,5 +42,5 @@ try {
 }
 
 
-echo "{'result': 'success'}";
+echo json_encode(["result" => "success"]);
 ?>
