@@ -7,7 +7,9 @@
  */
 require '../../vendor/autoload.php';
 
-$sendTo = "iamnobodyrandom@yahoo.com";
+//$sendTo = "iamnobodyrandom@yahoo.com";
+$sendTo = $_POST["email"];
+$sendToName = $_POST["fullName"];
 $sendFrom = "info@westerncyber.club";
 $sendFromName = "Western Cyber Security Club";
 $sendGridUsr = "app43353028@heroku.com";
@@ -21,7 +23,7 @@ $sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
 
 $message = new SendGrid\Email();
 $message
-    ->addTo($sendTo)
+    ->addTo($sendTo, $sendToName)
     ->setFrom($sendFrom)
     ->setFromName($sendFromName)
     ->setSubject($emailSubject)
