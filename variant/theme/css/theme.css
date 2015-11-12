@@ -679,7 +679,7 @@ footer.bg-dark li,
   z-index: 1;
   background: #292929;
   background-size: cover !important;
-  background-position: 50% 50% !important;
+  background-position: 90% 90% !important;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
