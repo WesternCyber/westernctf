@@ -707,7 +707,7 @@ $(document).ready(function() {
                         error: function(error) {
                             console.log(error);
                             formError.attr('original-error', formError.text());
-                            formError.html(data).fadeIn(1000);
+                            formError.html(error).fadeIn(1000);
                             formSuccess.fadeOut(1000);
 
                             submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
