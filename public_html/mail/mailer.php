@@ -43,6 +43,15 @@ try {
     }
 }
 
+// Add user to mailing list now.
+$r = new HttpRequest('//api.sendgrid.com/v3/contactdb/recipients', HttpRequest::METH_POST);
+$r->setOptions(array('Authorization' => "Bearer " . $sendGridApi));
+$r->addPostFields(array(json_encode(["email" => $sendTo, "first_name" => $sendToName, "last_name" => ""])));
+try {
+    $r->send()->getBody();
+} catch (HttpException $ex) {
+    echo $ex;
+}
 
 echo json_encode(["result" => "success"]);
 ?>
