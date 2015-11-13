@@ -47,7 +47,7 @@ try {
 
 // Add user to contacts
 $url = "https://api.sendgrid.com/v3/contactdb/recipients";
-$data = array(json_encode(["email" => $sendTo, "first_name" => $sendToName, "last_name" => ""]));
+$data = json_encode(["email" => $sendTo, "first_name" => $sendToName, "last_name" => ""]);
 
 $options = array(
     'http' => array(
@@ -62,6 +62,8 @@ $response = file_get_contents($url, false, $context);
 // Add user to subscription list
 if ($response != "") {
     echo $response;
+    print_r($response);
+    echo "\n";
     $response = json_decode($response);
 }
 
