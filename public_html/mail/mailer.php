@@ -43,7 +43,6 @@ $response = file_get_contents($url, false, $context);
 
 // Add user to subscription list
 if ($response != "") {
-    print_r($response);
     $response = json_decode($response);
     if ($response->error_count == 1) {
         echo json_encode(["result" => "failed", "message" => "email is invalid"]);
@@ -51,7 +50,6 @@ if ($response != "") {
     }
     $usrId = $response->persisted_recipients;
     $usrId = $usrId[0];
-    print_r($usrId);
     $listId = "17788";
     $url = "https://api.sendgrid.com/v3/contactdb/lists/" . $listId . "/recipients/" . $usrId;
 
