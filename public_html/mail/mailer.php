@@ -51,9 +51,8 @@ $data = array(json_encode(["email" => $sendTo, "first_name" => $sendToName, "las
 
 $options = array(
     'http' => array(
-        'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+        'header'  => "Content-type: application/x-www-form-urlencoded\r\nAuthorization: Bearer " . $sendGridApi . "\r\n",
         'method'  => 'POST',
-        'Authorization' => "Bearer " . $sendGridApi,
         'content' => http_build_query($data),
     ),
 );
