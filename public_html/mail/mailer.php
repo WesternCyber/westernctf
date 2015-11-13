@@ -29,6 +29,7 @@ $message
     ->setFrom($sendFrom)
     ->setFromName($sendFromName)
     ->setSubject($emailSubject)
+    ->setCategory("Subscription")
     ->setHtml($emailBody)
     ->setTemplateId($sendGridTemplateId)
 ;
