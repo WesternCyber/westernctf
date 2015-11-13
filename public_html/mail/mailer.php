@@ -5,7 +5,7 @@
  * Date: 11/11/15
  * Time: 12:23 AM
  */
-//$getPost = (array) json_decode(file_get_contents('php://input'));
+$getPost = (array) json_decode(file_get_contents('php://input'));
 require '../../vendor/autoload.php';
 
 //$sendTo = "abcabc@test.com";
@@ -13,10 +13,10 @@ require '../../vendor/autoload.php';
 $sendTo = $getPost["email"];
 $sendToName = $getPost["fullName"];
 if ($sendTo == "") {
-    echo json_encode(["result" => "failed", "message" => $sendTo."email is invalid"]);
+    echo json_encode(["result" => "failed", "message" => "email is invalid"]);
     exit;
 }
-if ($sendToName == "") $sendToName = "none";
+//if ($sendToName == "") $sendToName = "none";
 
 $sendFrom = "info@westerncyber.club";
 $sendFromName = "Western Cyber Security Club";
@@ -46,7 +46,7 @@ if ($response != "") {
     print_r($response);
     $response = json_decode($response);
     if ($response->error_count == 1) {
-        echo json_encode(["result" => "failed", "message" => "email is invalid 1"]);
+        echo json_encode(["result" => "failed", "message" => "email is invalid"]);
         exit;
     }
     $usrId = $response->persisted_recipients;
