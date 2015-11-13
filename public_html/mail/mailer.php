@@ -36,7 +36,7 @@ $options = array(
         'header' => "Content-type: application/x-www-form-urlencoded\r\nAuthorization: Bearer " . $sendGridApi . "\r\n",
         'method' => 'POST',
         'content' => "[" . json_encode($data) . "]",
-    ),
+    )
 );
 $context = stream_context_create($options);
 $response = file_get_contents($url, false, $context);
@@ -46,7 +46,7 @@ if ($response != "") {
     print_r($response);
     $response = json_decode($response);
     if ($response->error_count == 1) {
-        echo json_encode(["result" => "failed", "message" => "email is invalid"]);
+        echo json_encode(["result" => "failed", "message" => "email is invalid 1"]);
         exit;
     }
     $usrId = $response->persisted_recipients;
