@@ -5,11 +5,13 @@
  * Date: 11/11/15
  * Time: 12:23 AM
  */
-$getPost = (array) json_decode(file_get_contents('php://input'));
+//$getPost = (array) json_decode(file_get_contents('php://input'));
 require '../../vendor/autoload.php';
 
-$sendTo = $getPost["email"];
-$sendToName = $getPost["fullName"];
+$sendTo = "iamnobodyrandom@yahoo.com";
+$sendToName = "Harrison Chow";
+//$sendTo = $getPost["email"];
+//$sendToName = $getPost["fullName"];
 $sendFrom = "info@westerncyber.club";
 $sendFromName = "Western Cyber Security Club";
 $sendGridUsr = "app43353028@heroku.com";
@@ -43,14 +45,20 @@ try {
     }
 }
 
-// Add user to mailing list now.
+// Add user to contacts
 $r = new HttpRequest('//api.sendgrid.com/v3/contactdb/recipients', HttpRequest::METH_POST);
 $r->setOptions(array('Authorization' => "Bearer " . $sendGridApi));
 $r->addPostFields(array(json_encode(["email" => $sendTo, "first_name" => $sendToName, "last_name" => ""])));
+$response = "";
 try {
-    $r->send()->getBody();
+    $response = $r->send()->getBody();
 } catch (HttpException $ex) {
     echo $ex;
+}
+// Add user to subscription list
+if ($response != "") {
+    echo $response;
+    $response = json_decode($response);
 }
 
 echo json_encode(["result" => "success"]);
