@@ -16,6 +16,7 @@ if ($sendTo == "") {
     echo json_encode(["result" => "failed", "message" => "email is invalid"]);
     exit;
 }
+if ($sendToName == "") $sendToName = "none";
 
 $sendFrom = "info@westerncyber.club";
 $sendFromName = "Western Cyber Security Club";
