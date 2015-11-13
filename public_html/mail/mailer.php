@@ -13,7 +13,7 @@ require '../../vendor/autoload.php';
 $sendTo = $getPost["email"];
 $sendToName = $getPost["fullName"];
 if ($sendTo == "") {
-    echo json_encode(["result" => "failed", "message" => "email is invalid"]);
+    echo json_encode(["result" => "failed", "message" => $sendTo."email is invalid"]);
     exit;
 }
 if ($sendToName == "") $sendToName = "none";
