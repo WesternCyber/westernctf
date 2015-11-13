@@ -12,7 +12,7 @@ require '../../vendor/autoload.php';
 //$sendToName = "Harrison Chow";
 $sendTo = $getPost["email"];
 $sendToName = $getPost["fullName"];
-if ($sendTo == "" || $sendTo) {
+if ($sendTo == "") {
     echo json_encode(["result" => "failed", "message" => "email is invalid"]);
     exit;
 }
