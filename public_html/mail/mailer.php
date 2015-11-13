@@ -8,15 +8,64 @@
 //$getPost = (array) json_decode(file_get_contents('php://input'));
 require '../../vendor/autoload.php';
 
-$sendTo = "iamnobodyrandom@yahoo.com";
-$sendToName = "Harrison Chow";
-//$sendTo = $getPost["email"];
-//$sendToName = $getPost["fullName"];
+//$sendTo = "abcabc@test.com";
+//$sendToName = "Harrison Chow";
+$sendTo = $getPost["email"];
+$sendToName = $getPost["fullName"];
+if ($sendTo == "" || $sendTo) {
+    echo json_encode(["result" => "failed", "message" => "email is invalid"]);
+    exit;
+}
+
 $sendFrom = "info@westerncyber.club";
 $sendFromName = "Western Cyber Security Club";
 $sendGridUsr = "app43353028@heroku.com";
 $sendGridPassword = "khpoaec44366";
 $sendGridApi = "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";
+
+// Add user to contacts
+$url = "https://api.sendgrid.com/v3/contactdb/recipients";
+$data = new stdClass();
+$data->email = $sendTo;
+$data->first_name = $sendToName;
+$data->last_name = '';
+
+$options = array(
+    'http' => array(
+        'header' => "Content-type: application/x-www-form-urlencoded\r\nAuthorization: Bearer " . $sendGridApi . "\r\n",
+        'method' => 'POST',
+        'content' => "[" . json_encode($data) . "]",
+    ),
+);
+$context = stream_context_create($options);
+$response = file_get_contents($url, false, $context);
+
+// Add user to subscription list
+if ($response != "") {
+    print_r($response);
+    $response = json_decode($response);
+    if ($response->error_count == 1) {
+        echo json_encode(["result" => "failed", "message" => "email is invalid"]);
+        exit;
+    }
+    $usrId = $response->persisted_recipients;
+    $usrId = $usrId[0];
+    print_r($usrId);
+    $listId = "17788";
+    $url = "https://api.sendgrid.com/v3/contactdb/lists/" . $listId . "/recipients/" . $usrId;
+
+    $options = array(
+        'http' => array(
+            'header' => "Content-type: application/x-www-form-urlencoded\r\nAuthorization: Bearer " . $sendGridApi . "\r\n",
+            'method' => 'POST'
+        ),
+    );
+    $context = stream_context_create($options);
+    $response = file_get_contents($url, false, $context);
+} else {
+    echo json_encode(["result" => "failed", "message" => "server has encountered an error"]);
+    exit;
+}
 
 $emailBody = "Test message";
 $emailSubject = "Test email";
@@ -33,39 +82,13 @@ $message
     ->setSubject($emailSubject)
     ->setCategory("Subscription")
     ->setHtml($emailBody)
-    ->setTemplateId($sendGridTemplateId)
-;
+    ->setTemplateId($sendGridTemplateId);
 
 try {
     $sendgrid->send($message);
-} catch(SendGrid\Exception $e) {
-    echo $e->getCode();
-    foreach($e->getErrors() as $er) {
-        echo $er;
-    }
+} catch (SendGrid\Exception $e) {
+    echo json_encode(["result" => "failed", "message" => "email failed to send", "exception" => $e]);
+    exit;
 }
-
-// Add user to contacts
-$url = "https://api.sendgrid.com/v3/contactdb/recipients";
-$data = json_encode(["email" => $sendTo, "first_name" => $sendToName, "last_name" => ""]);
-
-$options = array(
-    'http' => array(
-        'header'  => "Content-type: application/x-www-form-urlencoded\r\nAuthorization: Bearer " . $sendGridApi . "\r\n",
-        'method'  => 'POST',
-        'content' => http_build_query($data),
-    ),
-);
-$context  = stream_context_create($options);
-$response = file_get_contents($url, false, $context);
-
-// Add user to subscription list
-if ($response != "") {
-    echo $response;
-    print_r($response);
-    echo "\n";
-    $response = json_decode($response);
-}
-
-echo json_encode(["result" => "success"]);
+echo json_encode(["result" => "success", "message" => "email has been sent"]);
 ?>
