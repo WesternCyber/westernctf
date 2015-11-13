@@ -46,15 +46,20 @@ try {
 }
 
 // Add user to contacts
-$r = new HttpRequest('//api.sendgrid.com/v3/contactdb/recipients', HttpRequest::METH_POST);
-$r->setOptions(array('Authorization' => "Bearer " . $sendGridApi));
-$r->addPostFields(array(json_encode(["email" => $sendTo, "first_name" => $sendToName, "last_name" => ""])));
-$response = "";
-try {
-    $response = $r->send()->getBody();
-} catch (HttpException $ex) {
-    echo $ex;
-}
+$url = "//api.sendgrid.com/v3/contactdb/recipients";
+$data = array(json_encode(["email" => $sendTo, "first_name" => $sendToName, "last_name" => ""]));
+
+$options = array(
+    'http' => array(
+        'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+        'method'  => 'POST',
+        'Authorization' => "Bearer " . $sendGridApi,
+        'content' => http_build_query($data),
+    ),
+);
+$context  = stream_context_create($options);
+$response = file_get_contents($url, false, $context);
+
 // Add user to subscription list
 if ($response != "") {
     echo $response;
