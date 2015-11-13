@@ -46,7 +46,7 @@ try {
 }
 
 // Add user to contacts
-$url = "//api.sendgrid.com/v3/contactdb/recipients";
+$url = "https://api.sendgrid.com/v3/contactdb/recipients";
 $data = array(json_encode(["email" => $sendTo, "first_name" => $sendToName, "last_name" => ""]));
 
 $options = array(
