@@ -54,7 +54,7 @@
                                 </li>   
 
                                 <li>
-                                <a href="About-us.html">About-us</a>
+                                <a href="about-us.html">About-us</a>
                                 </li>
                                 
                                 <li>
@@ -249,7 +249,38 @@
                 <div class="container">
                          
                     <h3 class="uppercase mb0">Notifications</h3>
-                   
+
+                    <section class="image-bg overlay">
+                        <div class="background-image-holder">
+                            <img alt="Background Image" class="background-image" src="img/BANNER.jpg">
+                        </div>
+                        <div class="container">
+                            <div class="row mb64 mb-xs-24">
+                                <div class="col-sm-6 col-md-5 text-right text-center-xs">
+                                    <h1 class="large mb8"></h1>
+                                    <h6 class="uppercase"></h6>
+                                </div>
+                                <div class="col-md-2 text-center hidden-sm hidden-xs">
+
+                                </div>
+                                <div class="col-sm-6 col-md-5 text-center-xs">
+                                    <h1 class="large mb8"></h1>
+                                    <h6 class="uppercase"></h6>
+                                </div>
+                            </div>
+                            <!--end of row-->
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    <h3 class="mb40 mb-xs-24">Latest event coming your way.
+                                        <br /> If your interested sign up.</h3>
+                                    <a class="btn btn-lg btn-filled" href="chooser.html">Sign-up now</a>
+                                </div>
+                            </div>
+                            <!--end of row-->
+                        </div>
+                        <!--end of container-->
+                    </section>
+
                     <section class="bg-secondary">
                         <div class="container">
                             <div class="col-md-9 col-md-push-3">
@@ -486,7 +517,6 @@
                         <!--end of container-->
                     </section>
                 </div>
-
             </section>
             
             <section>
@@ -518,45 +548,40 @@
                 </div>
                 <!--end of container-->
             </section>
-    
-            <section class="image-bg parallax overlay">
-                <div class="background-image-holder">
-                    <img alt="Background Image" class="background-image" src="img/home2.jpg">
-                </div>
-                <div class="container">
-                    <div class="row mb64 mb-xs-24">
-                        <div class="col-sm-6 col-md-5 text-right text-center-xs">
-                            <h1 class="large mb8">10,000+</h1>
-                            <h6 class="uppercase">Customers using our templates</h6>
-                        </div>
-                        <div class="col-md-2 text-center hidden-sm hidden-xs">
-                            <i class="ti-infinite icon icon-lg mt8 mt-xs-0"></i>
-                        </div>
-                        <div class="col-sm-6 col-md-5 text-center-xs">
-                            <h1 class="large mb8">Limitless</h1>
-                            <h6 class="uppercase">Layout potential using Foundry</h6>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <h3 class="mb40 mb-xs-24">Authentic, handcrafted design that gives your
-                                <br /> site subtle, confident appeal.</h3>
-                            <a class="btn btn-lg btn-filled" href="chooser.html">Check Out The Demos</a>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>
 
+
+            <!-- footer -->
             <footer class="footer-1 bg-dark">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <img alt="Logo" class="logo" src="img/LOGO-head.jpg" />
+                        <div class="col-md-2 col-sm-6">
+
+                            <div class="row">
+                                <img alt="Logo" class="logo" src="img/LOGO-head.jpg" />
+                            </div>
+
+                            <div class= "row">
+                                <div class="row">
+                                    <i class="ti-location-arrow">&nbsp;</i>
+                                    <span class="sub">Western University</span>
+                                </div>
+
+                                <div class="row">
+                                    <span class="sub">1151 Richmond St</span>
+                                </div>
+                                <div class="row">
+                                    <span class="sub">London, ON N6A 3K7</span>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <i class="ti-email">&nbsp;</i>
+                                <span class="sub">info@westerncyber.club</span>
+                            </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+
+                        <div class="col-md-5 col-sm-6">
                             <div class="widget">
                                 <h6 class="title">Recent Posts</h6>
                                 <hr>
@@ -583,23 +608,17 @@
                             </div>
                             <!--end of widget-->
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-5 col-sm-6">
                             <div class="widget">
                                 <h6 class="title">Latest Updates</h6>
                                 <hr>
+
+                                <!-- The twitter feed needs an id that is created on your twitter site... look at the foundry documentation -->
+
                                 <div class="twitter-feed">
                                     <div class="tweets-feed" data-widget-id="492085717044981760">
+
                                     </div>
-                                </div>
-                            </div>
-                            <!--end of widget-->
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="widget">
-                                <h6 class="title">Instagram</h6>
-                                <hr>
-                                <div class="instafeed" data-user-name="funsizeco">
-                                    <ul></ul>
                                 </div>
                             </div>
                             <!--end of widget-->
@@ -608,15 +627,10 @@
                     <!--end of row-->
                     <div class="row">
                         <div class="col-sm-6">
-                            <span class="sub">&copy; Copyright 2015 - Medium Rare</span>
+                            <span class="sub">&copy; Copyright 2015 - Western Cyber Security Club</span>
                         </div>
                         <div class="col-sm-6 text-right">
                             <ul class="list-inline social-list">
-                                <li>
-                                    <a href="#">
-                                        <i class="ti-twitter-alt"></i>
-                                    </a>
-                                </li>
                                 <li>
                                     <a href="#">
                                         <i class="ti-facebook"></i>
@@ -624,12 +638,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="ti-dribbble"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="ti-vimeo-alt"></i>
+                                        <i class="ti-github"></i>
                                     </a>
                                 </li>
                             </ul>
