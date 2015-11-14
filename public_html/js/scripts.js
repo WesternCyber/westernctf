@@ -679,11 +679,10 @@ $(document).ready(function() {
                         dataType: 'json',
                         contentType: 'application/json; charset=utf-8',
                         success: function(data){
-                            console.log("Nob mailer success:");
                             console.log(data);
                             if (data.result != "success") {
                                 formError.attr('original-error', formError.text());
-                                formError.html(data).fadeIn(1000);
+                                formError.html(data.message).fadeIn(1000);
                                 formSuccess.fadeOut(1000);
 
                                 submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
