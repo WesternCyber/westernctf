@@ -175,7 +175,7 @@
                         <div class="col-md-5 col-sm-6">
 
                             <div class="row">
-                                <img alt="Logo" class="logo" src="img/emblem.png" />
+                                <img alt="Logo" class="logo" src="img/purpleinvertlogo.png" />
                             </div>
 
                             <div class= "row">
