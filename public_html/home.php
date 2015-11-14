@@ -557,7 +557,7 @@
                         <div class="col-md-2 col-sm-6">
 
                             <div class="row">
-                                <img alt="Logo" class="logo" src="img/LOGO-head.jpg" />
+                                <img alt="Logo" class="logo" src="img/emblem.png" />
                             </div>
 
                             <div class= "row">
