@@ -66,8 +66,8 @@ if ($response != "") {
     exit;
 }
 
-$emailBody = "Test message";
-$emailSubject = "Test email";
+$emailBody = "Hello there,\n You are now subscribed to our mailing list, and will be contacted for future events.";
+$emailSubject = "Welcome to Western Security Club";
 $sendGridTemplateId = "658b13d5-b11e-4e86-b274-39a9b829ea87";
 
 //$sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
