@@ -11,5 +11,6 @@ require '../../vendor/autoload.php';
 
 print_r($getPost);
 
+
 echo "OK";
 ?>
