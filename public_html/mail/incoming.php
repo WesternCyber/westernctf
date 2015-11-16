@@ -9,8 +9,7 @@
 $getPost = (array) json_decode(file_get_contents('php://input'));
 require '../../vendor/autoload.php';
 
-print_r($getPost);
-
+fwrite(STDERR, $getPost);
 
 echo "OK";
 ?>
