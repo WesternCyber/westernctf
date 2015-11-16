@@ -7,9 +7,10 @@
  */
 
 $getPost = (array) json_decode(file_get_contents('php://input'));
-require '../../vendor/autoload.php';
+//require '../../vendor/autoload.php';
 
-fwrite(STDERR, $getPost);
+$STDERR = fopen('php://stderr', 'w+');
+fwrite($STDERR, $getPost."\n");
 
 echo "OK";
 ?>
