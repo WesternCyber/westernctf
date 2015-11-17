@@ -48,6 +48,11 @@ if ($response != "") {
         echo json_encode(["result" => "failed", "message" => "email is invalid"]);
         exit;
     }
+    if ($response->new_count == 0) {
+        echo json_encode(["result" => "failed", "message" => "email is already in the list"]);
+        exit;
+    }
+
     $usrId = $response->persisted_recipients;
     $usrId = $usrId[0];
     $listId = "17788";
