@@ -66,8 +66,16 @@ if ($response != "") {
     exit;
 }
 
-$emailBody = "Hello there,<br /> You are now subscribed to our mailing list, and will be contacted for future events.";
-$emailSubject = "Welcome to Western Security Club";
+if ($getPost["emailBody"] == null || $getPost["emailBody"] == undefined || $getPost["emailBody"] == "")
+    $emailBody = "Hello there,<br /> You are now subscribed to our mailing list, and will be contacted for future events.";
+else
+    $emailBody = $getPost["emailBody"];
+
+if ($getPost["emailSubject"] == null || $getPost["emailSubject"] == undefined || $getPost["emailSubject"] == "")
+    $emailSubject = "Welcome to Western Security Club";
+else
+    $emailBody = $getPost["emailBody"];
+
 $sendGridTemplateId = "658b13d5-b11e-4e86-b274-39a9b829ea87";
 
 //$sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
