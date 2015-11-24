@@ -6,7 +6,7 @@
  * Time: 6:22 PM
  */
 
-
+echo $_GET['test'];
 
 echo json_encode(["result" => "success"]);
 ?>
