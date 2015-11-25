@@ -774,7 +774,7 @@
                                                             class="center" alt="Western Cyber Security on Facebook"
                                                             style="content:'\e741'; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
                                                             align="none">-->
-                                                        <span class="ti-facebook"></span>
+                                                        <span class="ti-facebook" style="font-size: 2em;"></span>
                                                     </a>
                                                 </td>
                                                 <td pardot-removable="" class="center"
@@ -786,7 +786,7 @@
                                                             class="center" alt="Western Cyber Security on GitHub"
                                                             style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
                                                             align="none">-->
-                                                        <span class="ti-github"></span>
+                                                        <span class="ti-github" style="font-size: 2em;"></span>
                                                     </a>
                                                 </td>
                                                 <td class="expander"
