@@ -668,9 +668,9 @@
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; width: 100%; margin: 0; padding: 20px 0;"
                                                     align="center" valign="top">
                                                     <img
-                                                        src="https://hello.heroku.com/l/36622/2015-04-28/4dp73m/36622/87492/footer_separator.png"
+                                                        src="http://westerncyber.club/img/line.png"
                                                         width="26" height="6" class="center"
-                                                        style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto;"
+                                                        style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: 500px; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto;"
                                                         align="none"></td>
                                             </tr>
                                             </tbody>
