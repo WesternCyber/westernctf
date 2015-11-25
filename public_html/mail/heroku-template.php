@@ -568,7 +568,7 @@
                                                        class="right-align block browser-link"
                                                        style="color: #a189d5 !important; text-decoration: underline; text-align: right; display: block;">View
                                                         in Browser</a>
-
+<!-- TODO: Logo -->
                                                     <img
                                                         src="https://hello.heroku.com/l/36622/2015-05-06/4hz5w7/36622/87710/header_purple.png"
                                                         alt="Heroku" width="580" height="170" class="center"
@@ -584,7 +584,8 @@
                         </td>
                     </tr>
                     </tbody>
-                </table><!-- /HEADER --><!-- Main Content Block -->
+                </table><!-- /HEADER -->
+                <!-- Main Content Block -->
                 <table pardot-repeatable="" class="container"
                        style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;">
                     <tbody>
@@ -606,53 +607,11 @@
                                             <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
                                                 <td pardot-region="main-content" class="text-pad"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 14px; margin: 0; padding: 0 35px 10px;"
-                                                    align="left" valign="top"><p align="left"
-                                                                                 style="color: #555; font-family: Helvetica,Arial,sans-serif; font-weight: 400; text-align: left; line-height: 1.6; font-size: 14px; margin: 0 0 10px; padding: 0 0 10px;">
-                                                        <br>
-                                                        When you deploy or change your app configuration, Heroku creates
-                                                        a new release and restarts your app.&nbsp;<span
-                                                            style="line-height: 1.6;">You can list the history of releases, and use rollbacks to revert to prior releases for backing out of bad deploys or config changes.</span>
-                                                    </p>
-
-                                                    <p align="left"
-                                                       style="color: #555; font-family: Helvetica,Arial,sans-serif; font-weight: 400; text-align: left; line-height: 1.6; font-size: 14px; margin: 0 0 10px; padding: 0 0 10px;">
-                                                        This is awesome if you've just deployed a new release of your
-                                                        application that breaks something critical.<br>
-                                                        &nbsp;</p>
-
-                                                    <p align="left"
-                                                       style="font-family: monospace; color: #555; font-weight: 400; text-align: left; line-height: 1.6; font-size: 14px; margin: 0 0 10px; padding: 0 0 10px;">
-                                                        $ heroku releases<br>
-                                                        Rel &nbsp; Change &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;By &nbsp;
-                                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;When<br>
-                                                        ---- &nbsp;-------------- &nbsp;-------------------- &nbsp;--------------<br>
-                                                        v51 &nbsp;Deploy de6388 &nbsp; &nbsp;stephan@example.com &nbsp;
-                                                        7 minutes ago<br>
-                                                        v50 &nbsp;Deploy 7c35f77 &nbsp; stephan@example.com &nbsp; 3
-                                                        hours ago<br>
-                                                        <br>
-                                                        $ heroku rollback<br>
-                                                        Rolled back to v50</p>
-
-                                                    <p align="left"
-                                                       style="color: #555; font-family: Helvetica,Arial,sans-serif; font-weight: 400; text-align: left; line-height: 1.6; font-size: 14px; margin: 0 0 10px; padding: 0 0 10px;">
-                                                        <br>
-                                                        Running on a rolled-back release is meant as a temporary fix —
-                                                        especially useful when you realize you've accidentally deployed
-                                                        a bug. If you are on a rolled-back release, fix and commit the
-                                                        problem locally and redeploy to create a new release.</p>
-
-                                                    <p align="left"
-                                                       style="color: #555; font-family: Helvetica,Arial,sans-serif; font-weight: 400; text-align: left; line-height: 1.6; font-size: 14px; margin: 0 0 10px; padding: 0 0 10px;">
-                                                        For more information, visit the <a
-                                                            href="https://hello.heroku.com/e/36622/articles-releases/6sdghl/495053275">release
-                                                            documentation</a>.</p>
-
-                                                    <p align="left"
-                                                       style="color: #555; font-family: Helvetica,Arial,sans-serif; font-weight: 400; text-align: left; line-height: 1.6; font-size: 14px; margin: 0 0 10px; padding: 0 0 10px;">
-                                                        Happy coding!<br>
-                                                        <br>
-                                                        <strong>The Heroku team</strong></p>
+                                                    align="left" valign="top">
+                                                    <!-- INSERT BODY -->
+                                                    <div>
+                                                    &lt;%body%&gt;
+                                                    </div>
                                                 </td>
                                             </tr>
                                             </tbody>
@@ -735,11 +694,12 @@
                                                 <td class="center"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
                                                     align="center" valign="top">
-                                                    <img
+                                                    <!-- TODO: Add left of footer -->
+                                                    <!--<img
                                                         src="https://hello.heroku.com/l/36622/2015-04-28/4dp74f/36622/87516/sfdc_logo.png"
                                                         alt="Salesforce + Heroku" class="center"
                                                         style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto;"
-                                                        align="none"></td>
+                                                        align="none">--></td>
                                                 <td class="expander"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0;"
                                                     align="left" valign="top"></td>
@@ -758,13 +718,14 @@
                                             <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
                                                 <td pardot-region="footer" class="center"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
-                                                    align="center" valign="top">Heroku, Inc., 650 7th Street<br>
-                                                    San Francisco, CA 94103<br>
-                                                    <a href="https://hello.heroku.com/KeepMeuptoDate?ehash=6dae86ba348727f815914c654f1225ab9260e01583af2a301493331c76953453&amp;email_id=495053275"
+                                                    align="center" valign="top">Western Cyber Security<br>
+                                                    University of Western Ontario, 1151 Richmond St, London, ON, Canada N6A 3K7<br>
+                                                    <!-- TODO: ADD unsubscribe/email pref -->
+                                                    <a href=""
                                                        style="color: #fff !important; text-decoration: underline;">Update
                                                         your email preferences</a><br>
                                                     or <a
-                                                        href="https://hello.heroku.com/unsubscribe/u/36622/6dae86ba348727f815914c654f1225ab9260e01583af2a301493331c76953453/495053275"
+                                                        href=""
                                                         style="color: #fff !important; text-decoration: underline;">click
                                                         here to unsubscribe</a>.
                                                 </td>
@@ -807,10 +768,10 @@
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
                                                     align="center" valign="top">
                                                     <a href="https://hello.heroku.com/e/36622/heroku/6sdghs/495053275"
-                                                       style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
-                                                            src="https://hello.heroku.com/l/36622/2015-04-28/4dp749/36622/87508/icon_fb.png"
-                                                            class="center" alt="Heroku on Facebook"
-                                                            style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
+                                                       style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;">
+                                                        <!--src="https://hello.heroku.com/l/36622/2015-04-28/4dp749/36622/87508/icon_fb.png"--><img
+                                                            class="center" alt="Western Cyber Security on Facebook"
+                                                            style="content:'\e741'; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
                                                             align="none"></a>
                                                 </td>
                                                 <td pardot-removable="" class="center"

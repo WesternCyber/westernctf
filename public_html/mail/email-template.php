@@ -202,7 +202,7 @@
                                                                                                     <td bgcolor="#ffffff" height="100%" role="module-content" style="padding: 0px 0px 0px 0px;" valign="top">
                                                                                                         <div style="font-size:12px;line-height:150%;margin:0;text-align:center;">This email was sent by: [Sender_Name] [Sender_Address], [Sender_City] [Sender_State] [Sender_Zip]</div>
 
-                                                                                                        <div style="font-size:12px;line-height:150%;margin:0;text-align:center;">To unsubscribe click: [Unsubscribe]</div>
+                                                                                                        <div style="font-size:12px;line-height:150%;margin:0;text-align:center;">To unsubscribe click: [unsubscribe]</div>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                                 </tbody>

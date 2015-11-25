@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<script src="http://westerncyber.club/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $.ajax({
+        url: 'https://api.sendgrid.com/v3/asm/groups',
+        beforeSend: function(xhr) {
+            xhr.setRequestHeader('Authorization', 'Bearer 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');
+        },
+        method: 'POST',
+        data: {
+            name: 'Unsubscribe',
+            description: 'People who unsubscribed',
+            is_default: false
+        },
+        success: function (e) {
+            console.log(e);
+        },
+        error: function (e) {
+            console.log(e);
+        }
+    });
+</script>
+</body>
+</html>
