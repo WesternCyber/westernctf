@@ -23,6 +23,6 @@ switch ($linkTo) {
         $url = "http://westerncyber.club";
 }
 
-header("Location : " . $url);
+header("Location: " . $url);
 exit;
 ?>
