@@ -564,16 +564,16 @@
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 14px; margin: 0; padding: 0;"
                                                     align="left" valign="top">
 
-                                                    <a href="https://hello.heroku.com/webmail/36622/495053275/6dae86ba348727f815914c654f1225ab9260e01583af2a301493331c76953453"
+                                                    <a href="http://westerncyber.club/mail/links.php?link=home"
                                                        class="right-align block browser-link"
                                                        style="color: #a189d5 !important; text-decoration: underline; text-align: right; display: block;">View
                                                         in Browser</a>
 <!-- TODO: Logo -->
-                                                    <!--<img
-                                                        src="https://hello.heroku.com/l/36622/2015-05-06/4hz5w7/36622/87710/header_purple.png"
-                                                        alt="Heroku" width="580" height="170" class="center"
+                                                    <img
+                                                        src="http://westerncyber.club/img/purpleinvertlogoemail.png"
+                                                        alt="Western Cyber Security" width="580" height="170" class="center"
                                                         style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto;"
-                                                        align="none">--></td>
+                                                        align="none"></td>
                                             </tr>
                                             </tbody>
                                         </table>

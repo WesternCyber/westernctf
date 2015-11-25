@@ -19,6 +19,7 @@ switch ($linkTo) {
     case "github":
         $url = "https://github.com/nobodyrandom/westerncyber";
         break;
+    case "home":
     default:
         $url = "http://westerncyber.club";
 }
