@@ -718,6 +718,15 @@ footer.bg-dark li,
     -webkit-transform: none !important;
   }
 }
+.newit > .background-image-holder {
+  height: 100vh;
+  top: -30vh;
+  transition: all 0s ease !important;
+  transition: opacity 0.3s ease !important;
+  -webkit-transform-style: preserve-3d;
+  background-position: 70% 70% !important;
+}
+
 /*!---------- 6. BUTTONS ----------*/
 .btn {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
