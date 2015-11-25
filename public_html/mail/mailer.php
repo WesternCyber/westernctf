@@ -72,14 +72,14 @@ if ($response != "") {
 }
 
 if ($getPost["emailBody"] == null || $getPost["emailBody"] == undefined || $getPost["emailBody"] == "")
-    $emailBody = file_get_contents("welcome-message.html");
+    $emailBody = file_get_contents("emails/welcome-message.html");
 else
     $emailBody = $getPost["emailBody"];
 
 if ($getPost["emailSubject"] == null || $getPost["emailSubject"] == undefined || $getPost["emailSubject"] == "")
     $emailSubject = "Welcome to Western Security Club";
 else
-    $emailBody = $getPost["emailBody"];
+    $emailSubject = $getPost["emailSubject"];
 
 $sendGridTemplateId = "658b13d5-b11e-4e86-b274-39a9b829ea87";
 

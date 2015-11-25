@@ -3,9 +3,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width">
-    <style type="text/css"></style>
-    <script type="text/javascript"
-            src="https://pi.pardot.com/analytics?ver=3&amp;visitor_id=317516403&amp;pi_opt_in=&amp;campaign_id=30616&amp;account_id=37622&amp;title=&amp;url=https%3A%2F%2Fhello.heroku.com%2Fwebmail%2F36622%2F495053275%2F6dae86ba348727f815914c654f1225ab9260e01583af2a301493331c76953453&amp;referrer=https%3A%2F%2Fus-mg5.mail.yahoo.com%2Fneo%2Flaunch%3F.rand%3Devht34hb5vkqa"></script>
+    <link href="http://westerncyber.club/css/themify-icons.css" rel="stylesheet">
+    <!--<script type="text/javascript"
+            src="https://pi.pardot.com/analytics?ver=3&amp;visitor_id=317516403&amp;pi_opt_in=&amp;campaign_id=30616&amp;account_id=37622&amp;title=&amp;url=https%3A%2F%2Fhello.heroku.com%2Fwebmail%2F36622%2F495053275%2F6dae86ba348727f815914c654f1225ab9260e01583af2a301493331c76953453&amp;referrer=https%3A%2F%2Fus-mg5.mail.yahoo.com%2Fneo%2Flaunch%3F.rand%3Devht34hb5vkqa"></script>-->
 </head>
 <body
     style="width: 100% !important; min-width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #222; font-family: Helvetica,Arial,sans-serif; font-weight: 400; text-align: left; line-height: 19px; font-size: 14px; background: #513491; margin: 0; padding: 0;"
@@ -569,11 +569,11 @@
                                                        style="color: #a189d5 !important; text-decoration: underline; text-align: right; display: block;">View
                                                         in Browser</a>
 <!-- TODO: Logo -->
-                                                    <img
+                                                    <!--<img
                                                         src="https://hello.heroku.com/l/36622/2015-05-06/4hz5w7/36622/87710/header_purple.png"
                                                         alt="Heroku" width="580" height="170" class="center"
                                                         style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto;"
-                                                        align="none"></td>
+                                                        align="none">--></td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -748,11 +748,13 @@
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
                                                     align="center" valign="top">
                                                     <a href="http://westerncyber.club/mail/links.php?link=medium"
-                                                       style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
+                                                       style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><!--<img
                                                             src="https://hello.heroku.com/l/36622/2015-04-28/4dp747/36622/87512/icon_rss.png"
-                                                            class="center" alt="Heroku Blog"
+                                                            class="center" alt="Western Cyber Security on Medium"
                                                             style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
-                                                            align="none"></a>
+                                                            align="none">-->
+                                                        <span class="ti-facebook"></span>
+                                                    </a>
                                                 </td>
                                                 <!--<td pardot-removable="" class="center"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
@@ -769,20 +771,20 @@
                                                     align="center" valign="top">
                                                     <a href="http://westerncyber.club/mail/links.php?link=facebook"
                                                        style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;">
-                                                        <!--src="https://hello.heroku.com/l/36622/2015-04-28/4dp749/36622/87508/icon_fb.png"--><img
+                                                        <!--src="https://hello.heroku.com/l/36622/2015-04-28/4dp749/36622/87508/icon_fb.png"<img
                                                             class="center" alt="Western Cyber Security on Facebook"
                                                             style="content:'\e741'; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
-                                                            align="none"></a>
+                                                            align="none">--></a>
                                                 </td>
                                                 <td pardot-removable="" class="center"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
                                                     align="center" valign="top">
                                                     <a href="http://westerncyber.club/mail/links.php?link=github"
-                                                       style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
+                                                       style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><!--<img
                                                             src="https://hello.heroku.com/l/36622/2015-04-28/4dp745/36622/87510/icon_github.png"
-                                                            class="center" alt="Heroku on GitHub"
+                                                            class="center" alt="Western Cyber Security on GitHub"
                                                             style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
-                                                            align="none"></a>
+                                                            align="none">--></a>
                                                 </td>
                                                 <td class="expander"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0;"
@@ -839,7 +841,7 @@
 </table>
 
 
-<script type="text/javascript" src="https://pi.pardot.com/pd.js"></script>
+<!--<script type="text/javascript" src="https://pi.pardot.com/pd.js"></script>
 <script type="text/javascript">
     piAId = '37622';
     piCId = '30616';
@@ -860,6 +862,6 @@
             window.addEventListener('load', async_load, false);
         }
     })();
-</script>
+</script>-->
 </body>
 </html>
