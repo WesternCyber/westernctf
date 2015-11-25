@@ -747,27 +747,27 @@
                                                 <td pardot-removable="" class="center"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
                                                     align="center" valign="top">
-                                                    <a href="https://hello.heroku.com/e/36622/blog/6sdghn/495053275"
+                                                    <a href="http://westerncyber.club/mail/links.php?link=medium"
                                                        style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
                                                             src="https://hello.heroku.com/l/36622/2015-04-28/4dp747/36622/87512/icon_rss.png"
                                                             class="center" alt="Heroku Blog"
                                                             style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
                                                             align="none"></a>
                                                 </td>
-                                                <td pardot-removable="" class="center"
+                                                <!--<td pardot-removable="" class="center"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
                                                     align="center" valign="top">
-                                                    <a href="https://hello.heroku.com/e/36622/heroku/6sdghq/495053275"
+                                                    <a href="http://westerncyber.club/mail/links.php?link=facebook"
                                                        style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
                                                             src="https://hello.heroku.com/l/36622/2015-04-28/4dp74c/36622/87514/icon_twitter.png"
                                                             class="center" alt="Heroku Twitter"
                                                             style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
                                                             align="none"></a>
-                                                </td>
+                                                </td>-->
                                                 <td pardot-removable="" class="center"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
                                                     align="center" valign="top">
-                                                    <a href="https://hello.heroku.com/e/36622/heroku/6sdghs/495053275"
+                                                    <a href="http://westerncyber.club/mail/links.php?link=facebook"
                                                        style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;">
                                                         <!--src="https://hello.heroku.com/l/36622/2015-04-28/4dp749/36622/87508/icon_fb.png"--><img
                                                             class="center" alt="Western Cyber Security on Facebook"
@@ -777,7 +777,7 @@
                                                 <td pardot-removable="" class="center"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
                                                     align="center" valign="top">
-                                                    <a href="https://hello.heroku.com/e/36622/heroku/6sdghv/495053275"
+                                                    <a href="http://westerncyber.club/mail/links.php?link=github"
                                                        style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
                                                             src="https://hello.heroku.com/l/36622/2015-04-28/4dp745/36622/87510/icon_github.png"
                                                             class="center" alt="Heroku on GitHub"

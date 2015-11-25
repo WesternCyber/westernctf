@@ -11,6 +11,7 @@ switch ($linkTo) {
     case "facebook":
         $url = "https://www.facebook.com/westerncsc/?fref=ts";
         break;
+    case "blog":
     case "rss":
     case "medium":
         $url = "https://medium.com/@WesternCyberSecurity";
@@ -22,6 +23,6 @@ switch ($linkTo) {
         $url = "http://westerncyber.club";
 }
 
-header($url);
+header("Location : " . $url);
 exit;
 ?>
