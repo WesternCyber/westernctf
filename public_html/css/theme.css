@@ -436,7 +436,7 @@ a:hover {
 }
 a {
   font-weight: 600;
-  color: #47b475;
+  color: #4F2683;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -679,7 +679,7 @@ footer.bg-dark li,
   z-index: 1;
   background: #292929;
   background-size: cover !important;
-  background-position: 99% 99% !important;
+  background-position: 20% 20% !important;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -3602,12 +3602,12 @@ img {
 .image-bg.bg-light h4,
 .image-bg.bg-light h5,
 .image-bg.bg-light h6 {
-  color: #222222;
+  color: #4F2683;
 }
 .image-bg.bg-light p,
 .image-bg.bg-light span,
 .image-bg.bg-light li {
-  color: #777777;
+  color: #4F2683;
 }
 .cover:first-child .fullscreen {
   max-height: 100%;
