@@ -784,7 +784,7 @@
                                                     align="center" valign="top">
                                                     <a href="http://westerncyber.club/mail/links.php?link=github"
                                                        style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
-                                                            src="http://westerncyber.club/img/github-white-01.png.png"
+                                                            src="http://westerncyber.club/img/github-white-01.png"
                                                             class="center" alt="Western Cyber Security on GitHub"
                                                             style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
                                                             align="none">
