@@ -568,10 +568,11 @@
                                                        class="right-align block browser-link"
                                                        style="color: #a189d5 !important; text-decoration: underline; text-align: right; display: block;">View
                                                         in Browser</a>
-<!-- TODO: Logo -->
+                                                    <!-- TODO: Logo -->
                                                     <img
                                                         src="http://westerncyber.club/img/purpleinvertlogoemail.png"
-                                                        alt="Western Cyber Security" width="580" height="170" class="center"
+                                                        alt="Western Cyber Security" width="580" height="170"
+                                                        class="center"
                                                         style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto;"
                                                         align="none"></td>
                                             </tr>
@@ -610,7 +611,7 @@
                                                     align="left" valign="top">
                                                     <!-- INSERT BODY -->
                                                     <div>
-                                                    &lt;%body%&gt;
+                                                        &lt;%body%&gt;
                                                     </div>
                                                 </td>
                                             </tr>
@@ -719,7 +720,8 @@
                                                 <td pardot-region="footer" class="center"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
                                                     align="center" valign="top">Western Cyber Security<br>
-                                                    University of Western Ontario, 1151 Richmond St, London, ON, Canada N6A 3K7<br>
+                                                    University of Western Ontario, 1151 Richmond St, London, ON, Canada
+                                                    N6A 3K7<br>
                                                     <!-- TODO: ADD unsubscribe/email pref -->
                                                     <a href=""
                                                        style="color: #fff !important; text-decoration: underline;">Update
@@ -749,7 +751,7 @@
                                                     align="center" valign="top">
                                                     <a href="http://westerncyber.club/mail/links.php?link=medium"
                                                        style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
-                                                            src="https://westerncyber.club/img/medium-m-light-200px.png"
+                                                            src="https://westerncyber.club/img/medium-m-light-500px-purple.png"
                                                             class="center" alt="Western Cyber Security on Medium"
                                                             style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
                                                             align="none">
@@ -770,23 +772,23 @@
                                                     align="center" valign="top">
                                                     <a href="http://westerncyber.club/mail/links.php?link=facebook"
                                                        style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;">
-                                                        <!--src="https://hello.heroku.com/l/36622/2015-04-28/4dp749/36622/87508/icon_fb.png"<img
-                                                            class="center" alt="Western Cyber Security on Facebook"
-                                                            style="content:'\e741'; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
-                                                            align="none">-->
-                                                        <span class="ti-facebook" style="font-size: 2em;"></span>
+                                                        <img class="center" alt="Western Cyber Security on Facebook"
+                                                             src="http://westerncyber.club/img/facebook-white-01.png"
+                                                             style="content:'\e741'; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
+                                                             align="none">
+                                                        <!--<span class="ti-facebook" style="font-size: 2em;"></span>-->
                                                     </a>
                                                 </td>
                                                 <td pardot-removable="" class="center"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0 0 10px;"
                                                     align="center" valign="top">
                                                     <a href="http://westerncyber.club/mail/links.php?link=github"
-                                                       style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><!--<img
-                                                            src="https://hello.heroku.com/l/36622/2015-04-28/4dp745/36622/87510/icon_github.png"
+                                                       style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
+                                                            src="http://westerncyber.club/img/github-white-01.png"
                                                             class="center" alt="Western Cyber Security on GitHub"
                                                             style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
-                                                            align="none">-->
-                                                        <span class="ti-github" style="font-size: 2em;"></span>
+                                                            align="none">
+                                                        <!--<span class="ti-github" style="font-size: 2em;"></span>-->
                                                     </a>
                                                 </td>
                                                 <td class="expander"
