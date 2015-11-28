@@ -646,7 +646,8 @@ $(document).ready(function() {
         formSuccess = thisForm.find('.form-success');
         thisForm.addClass('attempted-submit');
 
-        if (thisForm.attr('data-form-type') == "nob") { // Use custom mail engine
+        if (thisForm.attr('data-form-type').indexOf("nob") > 0) { // Use custom mail engine
+            var engineType = thisForm.attr('data-form-type');
             console.log("Using nob type mailer engine");
             if (typeof originalError !== typeof undefined && originalError !== false) {
                 formError.html(originalError);
@@ -670,6 +671,9 @@ $(document).ready(function() {
                 submitButton.html(jQuery('<div />').addClass('form-loading')).attr('disabled', 'disabled');
 
                 try {
+                    if (engineType == "nobInfo") {
+
+                    }
                     $.ajax({
                         url: "mail/mailer.php",
                         crossDomain: false,
