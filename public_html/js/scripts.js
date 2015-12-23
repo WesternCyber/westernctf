@@ -666,7 +666,7 @@ $(document).ready(function () {
             console.log(message);
             console.log(userEmail);
             console.log(userFullName);
-            return;
+            //return;
             // validateFields returns 1 on error;
             if (validateFields(thisForm) !== 1) {
                 thisForm.removeClass('attempted-submit');
@@ -681,15 +681,18 @@ $(document).ready(function () {
                     switch (engineType) {
                         case "nobInfo":
                             data = JSON.stringify({
+                                "type": "from",
                                 "firstName": userFirstName,
                                 "lastName": userLastName,
                                 "fullName": userFullName,
                                 "email": "info@westerncyber.club",
-                                "from": userEmail
+                                "from": userEmail,
+                                "message": message
                             });
                             break;
                         case "nob":
                             data = JSON.stringify({
+                                "type": "subscribe",
                                 "firstName": userFirstName,
                                 "lastName": userLastName,
                                 "fullName": userFullName,
