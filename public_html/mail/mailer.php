@@ -126,7 +126,7 @@ if ($getPost["type"] == "subscribe") {
     try {
         $sendgrid->send($message);
     } catch (SendGrid\Exception $e) {
-        echo json_encode(["result" => "failed", "message" => "The email failed to send. Check console for dump.", "exception" => $e]);
+        echo json_encode(["result" => "failed", "message" => "The email failed to send. Check console for dump.", "exception" => json_encode($e)]);
         exit;
     }
     echo json_encode(["result" => "success", "message" => "The message has been sent."]);
