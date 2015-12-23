@@ -19,7 +19,7 @@ $context = stream_context_create($options);
 $response = file_get_contents($url, false, $context);
 print_r($response);
 
-$XMLData =
+/*$XMLData =
     "<?xml version='1.0' encoding='UTF-8'?>
 <note>
 <to>Tove</to>
@@ -29,7 +29,7 @@ $XMLData =
 </note>";
 
 $xml=simplexml_load_string($XMLData) or die("Error: Cannot create object");
-print_r($xml);
+print_r($xml);*/
 
 echo "</div>";
 ?>
