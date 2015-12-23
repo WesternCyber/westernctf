@@ -38,6 +38,18 @@ $data->email = $sendTo;
 $data->first_name = $sendToName;
 $data->last_name = '';
 
+// Set email body and subject
+if ($getPost["message"] == null || $getPost["message"] == undefined || $getPost["message"] == "")
+    $emailBody = file_get_contents("emails/welcome-message.html");
+else
+    $emailBody = $getPost["message"];
+
+if ($getPost["emailSubject"] == null || $getPost["emailSubject"] == undefined || $getPost["emailSubject"] == "")
+    $emailSubject = "Welcome to Western Security Club";
+else
+    $emailSubject = $getPost["emailSubject"];
+
+// Check for subscribe type
 if ($getPost["type"] == "subscribe") {
     $options = array(
         'http' => array(
@@ -79,19 +91,8 @@ if ($getPost["type"] == "subscribe") {
         exit;
     }
 
-    if ($getPost["message"] == null || $getPost["message"] == undefined || $getPost["message"] == "")
-        $emailBody = file_get_contents("emails/welcome-message.html");
-    else
-        $emailBody = $getPost["message"];
-
-    if ($getPost["emailSubject"] == null || $getPost["emailSubject"] == undefined || $getPost["emailSubject"] == "")
-        $emailSubject = "Welcome to Western Security Club";
-    else
-        $emailSubject = $getPost["emailSubject"];
-
     $sendGridTemplateId = "658b13d5-b11e-4e86-b274-39a9b829ea87";
 
-//$sendgrid = new SendGrid($sendGridUsr, $sendGridPassword);
     $sendgrid = new SendGrid($sendGridApi);
 
     $message = new SendGrid\Email();
