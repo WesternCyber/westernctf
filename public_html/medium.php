@@ -19,21 +19,11 @@ $context = stream_context_create($options);
 $response = file_get_contents($url, false, $context);
 print_r($response);
 
-/*$XMLData =
-    "<?xml version='1.0' encoding='UTF-8'?>
-<note>
-<to>Tove</to>
-<from>Jani</from>
-<heading>Reminder</heading>
-<body>Don't forget me this weekend!</body>
-</note>";
-
-$xml=simplexml_load_string($XMLData) or die("Error: Cannot create object");
-print_r($xml);*/
+$xml=simplexml_load_string($response) or die("Error: Cannot create object");
+print_r($xml);
 
 //echo "</div>";
-?>
-<!--<div class="widget">
+/*<div class="widget">
     <h6 class="title"> Recent Posts </h6>
     <hr>
     <ul class="link-list recent-posts">
@@ -45,4 +35,5 @@ print_r($xml);*/
             </span>
         </li>
     </ul>
-</div>-->
+</div>*/
+?>
