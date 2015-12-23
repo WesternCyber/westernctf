@@ -8,7 +8,18 @@
 
 echo "<div class=\"widget\">";
 
-$myXMLData =
+$options = array(
+    'http' => array(
+        'header' => "Content-type: application/x-www-form-urlencoded\r\nAuthorization: Bearer " . $sendGridApi . "\r\n",
+        'method' => 'POST',
+        'content' => "[" . json_encode($data) . "]",
+    )
+);
+$context = stream_context_create($options);
+$response = file_get_contents($url, false, $context);
+print_r($response);
+
+$XMLData =
     "<?xml version='1.0' encoding='UTF-8'?>
 <note>
 <to>Tove</to>
@@ -17,7 +28,7 @@ $myXMLData =
 <body>Don't forget me this weekend!</body>
 </note>";
 
-$xml=simplexml_load_string($myXMLData) or die("Error: Cannot create object");
+$xml=simplexml_load_string($XMLData) or die("Error: Cannot create object");
 print_r($xml);
 
 echo "</div>";
