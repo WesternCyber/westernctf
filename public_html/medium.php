@@ -19,15 +19,17 @@ $context = stream_context_create($options);
 $response = file_get_contents($url, false, $context);
 
 $xml=simplexml_load_string($response) or die("Error: Cannot create object");
-print_r($xml);
 
 foreach ($xml->channel->item as $item) {
     $date = $item->pubDate;
     $date = strtotime($date);
-    echo $date;
+    $month = time('F', $date);
+    $day = time('j', $date);
+    $year = time('Y', $date);
+
     echo "<li>\n";
     echo "<a href=\"" . $item->link . "\"> " . $item->title . " </a>\n";
-    //echo "<span class=\"date\"> " . $month . "<span class=\"number\"> " . $day . ", " . $year . " </span></span>\n";
+    echo "<span class=\"date\"> " . $month . "<span class=\"number\"> " . $day . ", " . $year . " </span></span>\n";
     echo "</li>\n";
 }
 
