@@ -6,12 +6,12 @@
  * Time: 12:01 AM
  */
 
-echo "<div class=\"widget\">";
+//echo "<div class=\"widget\">";
 
 $url = "https://medium.com/feed/@WesternCyberSecurity";
 $options = array(
     'http' => array(
-        'header' => "Content-type: text/xml\r\n",
+        'header' => "Content-type: text/plain\r\n",
         'method' => 'GET'
     )
 );
@@ -31,7 +31,7 @@ print_r($response);
 $xml=simplexml_load_string($XMLData) or die("Error: Cannot create object");
 print_r($xml);*/
 
-echo "</div>";
+//echo "</div>";
 ?>
 <!--<div class="widget">
     <h6 class="title"> Recent Posts </h6>
