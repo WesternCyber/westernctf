@@ -6,7 +6,10 @@
  * Time: 12:01 AM
  */
 
-//echo "<div class=\"widget\">";
+echo "<div class=\"widget\">";
+echo "<h6 class=\"title\"> Recent Posts </h6>
+    <hr>
+    <ul class=\"link-list recent-posts\">";
 
 $url = "https://medium.com/feed/@WesternCyberSecurity";
 $options = array(
@@ -23,9 +26,9 @@ $xml=simplexml_load_string($response) or die("Error: Cannot create object");
 foreach ($xml->channel->item as $item) {
     $date = $item->pubDate;
     $date = strtotime($date);
-    $month = time('F', $date);
-    $day = time('j', $date);
-    $year = time('Y', $date);
+    $month = date('F', $date);
+    $day = date('j', $date);
+    $year = date('Y', $date);
 
     echo "<li>\n";
     echo "<a href=\"" . $item->link . "\"> " . $item->title . " </a>\n";
@@ -33,7 +36,8 @@ foreach ($xml->channel->item as $item) {
     echo "</li>\n";
 }
 
-//echo "</div>";
+echo "</ul>";
+echo "</div>";
 /*<div class="widget">
     <h6 class="title"> Recent Posts </h6>
     <hr>
