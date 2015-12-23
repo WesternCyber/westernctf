@@ -17,7 +17,7 @@ switch ($linkTo) {
         $url = "https://medium.com/@WesternCyberSecurity";
         break;
     case "github":
-        $url = "https://github.com/nobodyrandom/westerncyber";
+        $url = "https://github.com/WesternCyber";
         break;
     case "home":
     default:
