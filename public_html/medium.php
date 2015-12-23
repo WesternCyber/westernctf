@@ -30,8 +30,10 @@ foreach ($xml->channel->item as $item) {
     $day = date('j', $date);
     $year = date('Y', $date);
 
+    $title = str_replace(array(":"), "", $item->title);
+
     echo "<li>\n";
-    echo "<a href=\"" . $item->link . "\"> " . $item->title . " </a>\n";
+    echo "<a href=\"" . $item->link . "\"> " . $title . " </a>\n";
     echo "<span class=\"date\"> " . $month . "<span class=\"number\"> " . $day . ", " . $year . " </span></span>\n";
     echo "</li>\n";
 }
