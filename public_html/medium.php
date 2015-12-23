@@ -8,11 +8,11 @@
 
 echo "<div class=\"widget\">";
 
+$url = "https://medium.com/feed/@WesternCyberSecurity";
 $options = array(
     'http' => array(
-        'header' => "Content-type: application/x-www-form-urlencoded\r\nAuthorization: Bearer " . $sendGridApi . "\r\n",
-        'method' => 'POST',
-        'content' => "[" . json_encode($data) . "]",
+        'header' => "Content-type: application/x-www-form-urlencoded\r\n",
+        'method' => 'GET'
     )
 );
 $context = stream_context_create($options);

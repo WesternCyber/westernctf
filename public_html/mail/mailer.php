@@ -55,7 +55,7 @@ if ($getPost["type"] == "subscribe") {
         'http' => array(
             'header' => "Content-type: application/x-www-form-urlencoded\r\nAuthorization: Bearer " . $sendGridApi . "\r\n",
             'method' => 'POST',
-            'content' => "[" . json_encode($data) . "]",
+            'content' => "[" . json_encode($data) . "]"
         )
     );
     $context = stream_context_create($options);
