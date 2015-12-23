@@ -121,8 +121,7 @@ if ($getPost["type"] == "subscribe") {
         ->setFromName($sendFromName)
         ->setSubject($emailSubject)
         ->setCategory("Communication")
-        ->setHtml($emailBody)
-        ->setTemplateId($sendGridTemplateId);
+        ->setHtml($emailBody);
 
     try {
         $sendgrid->send($message);
