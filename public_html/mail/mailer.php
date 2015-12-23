@@ -113,5 +113,6 @@ if ($getPost["type"] == "subscribe") {
     echo json_encode(["result" => "success", "message" => "The email has been sent."]);
 } else {
 
+    echo json_encode(["result" => "failed", "message" => "Sorry function is not completed yet."]);
 }
 ?>
