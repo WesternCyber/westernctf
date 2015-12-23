@@ -675,17 +675,6 @@ $(document).ready(function () {
                 try {
                     var data;
                     switch (engineType) {
-                        case "nobInfo":
-                            data = JSON.stringify({
-                                "type": "from",
-                                "firstName": userFirstName,
-                                "lastName": userLastName,
-                                "fullName": userFullName,
-                                "email": "info@westerncyber.club",
-                                "from": userEmail,
-                                "message": message
-                            });
-                            break;
                         case "nob":
                             data = JSON.stringify({
                                 "type": "subscribe",
@@ -696,6 +685,89 @@ $(document).ready(function () {
                                 "from": "info@westerncyber.club"
                             });
                             break;
+                        case "nobPrez":
+                            data = JSON.stringify({
+                                "type": "from",
+                                "firstName": userFirstName,
+                                "lastName": userLastName,
+                                "fullName": userFullName,
+                                "email": "president@westerncyber.club",
+                                "from": userEmail,
+                                "message": message,
+                                "emailSubject": "Message to President of Western Cyber Security"
+                            });
+                            break;
+                        case "nobComs":
+                            data = JSON.stringify({
+                                "type": "from",
+                                "firstName": userFirstName,
+                                "lastName": userLastName,
+                                "fullName": userFullName,
+                                "email": "communications@westerncyber.club",
+                                "from": userEmail,
+                                "message": message,
+                                "emailSubject": "Message to VP Communications of Western Cyber Security"
+                            });
+                            break;
+                        case "nobEd":
+                            data = JSON.stringify({
+                                "type": "from",
+                                "firstName": userFirstName,
+                                "lastName": userLastName,
+                                "fullName": userFullName,
+                                "email": "education@westerncyber.club",
+                                "from": userEmail,
+                                "message": message,
+                                "emailSubject": "Message to VP Education of Western Cyber Security"
+                            });
+                            break;
+                        case "nobFin":
+                            data = JSON.stringify({
+                                "type": "from",
+                                "firstName": userFirstName,
+                                "lastName": userLastName,
+                                "fullName": userFullName,
+                                "email": "finance@westerncyber.club",
+                                "from": userEmail,
+                                "message": message,
+                                "emailSubject": "Message to VP Finance of Western Cyber Security"
+                            });
+                            break;
+                        case "nobOps":
+                            data = JSON.stringify({
+                                "type": "from",
+                                "firstName": userFirstName,
+                                "lastName": userLastName,
+                                "fullName": userFullName,
+                                "email": "operations@westerncyber.club",
+                                "from": userEmail,
+                                "message": message,
+                                "emailSubject": "Message to VP Operations of Western Cyber Security"
+                            });
+                            break;
+                        case "nobTech":
+                            data = JSON.stringify({
+                                "type": "from",
+                                "firstName": userFirstName,
+                                "lastName": userLastName,
+                                "fullName": userFullName,
+                                "email": "technology@westerncyber.club",
+                                "from": userEmail,
+                                "message": message,
+                                "emailSubject": "Message to VP Technology of Western Cyber Security"
+                            });
+                            break;
+                        default:
+                            data = JSON.stringify({
+                                "type": "from",
+                                "firstName": userFirstName,
+                                "lastName": userLastName,
+                                "fullName": userFullName,
+                                "email": "info@westerncyber.club",
+                                "from": userEmail,
+                                "message": message,
+                                "emailSubject": "Message to Western Cyber Security"
+                            });
                     }
 
                     $.ajax({

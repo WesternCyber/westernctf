@@ -79,10 +79,10 @@ if ($getPost["type"] == "subscribe") {
         exit;
     }
 
-    if ($getPost["emailBody"] == null || $getPost["emailBody"] == undefined || $getPost["emailBody"] == "")
+    if ($getPost["message"] == null || $getPost["message"] == undefined || $getPost["message"] == "")
         $emailBody = file_get_contents("emails/welcome-message.html");
     else
-        $emailBody = $getPost["emailBody"];
+        $emailBody = $getPost["message"];
 
     if ($getPost["emailSubject"] == null || $getPost["emailSubject"] == undefined || $getPost["emailSubject"] == "")
         $emailSubject = "Welcome to Western Security Club";
@@ -112,7 +112,24 @@ if ($getPost["type"] == "subscribe") {
     }
     echo json_encode(["result" => "success", "message" => "The email has been sent."]);
 } else {
+    $sendgrid = new SendGrid($sendGridApi);
 
-    echo json_encode(["result" => "failed", "message" => "Sorry, this form is still broken"]);
+    $message = new SendGrid\Email();
+    $message
+        ->addTo($sendTo, $sendToName)
+        ->setFrom($sendFrom)
+        ->setFromName($sendFromName)
+        ->setSubject($emailSubject)
+        ->setCategory("Communication")
+        ->setHtml($emailBody)
+        ->setTemplateId($sendGridTemplateId);
+
+    try {
+        $sendgrid->send($message);
+    } catch (SendGrid\Exception $e) {
+        echo json_encode(["result" => "failed", "message" => "The email failed to send. Check console for dump.", "exception" => $e]);
+        exit;
+    }
+    echo json_encode(["result" => "success", "message" => "The message has been sent."]);
 }
 ?>
