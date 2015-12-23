@@ -663,10 +663,6 @@ $(document).ready(function () {
                 userLastName = $(thisForm).find('.signup-last-name-field').val();
             }
 
-            console.log(message);
-            console.log(userEmail);
-            console.log(userFullName);
-            //return;
             // validateFields returns 1 on error;
             if (validateFields(thisForm) !== 1) {
                 thisForm.removeClass('attempted-submit');
