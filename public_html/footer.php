@@ -47,7 +47,8 @@
                             <div class="modal-container">
                                 <u><a class="btn-modal" href="#">FAQ</a></u>
 
-                                <div class="foundry_modal" style="height: 400px; overflow: scroll;">
+                                <div class="foundry_modal">
+                                    <div style="height: 400px; overflow: scroll;">
                                     <h4>Frequently asked questions</h4>
                                     <hr>
 
@@ -91,7 +92,7 @@
                                         We also like to document our milestones on our <a
                                             href="http://westerncyber.club/home" target="_blank">medium blog</a>
                                     </p>
-
+                                    </div>
                                 </div>
                             </div><!--end modal-->
                         </li>
