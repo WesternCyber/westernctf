@@ -370,13 +370,6 @@ $(document).ready(function () {
             linkedModal.find('iframe').attr('src', (linkedModal.find('iframe').attr('data-src') + autoplayMsg));
         }
         linkedModal.toggleClass('reveal-modal');
-
-        // NOB EDITS
-        $('body').on('mousewheel', function (e) {
-            linkedModal.scrollTop(linkedModal.scrollTop() - e.originalEvent.wheelDelta);
-            return false;
-        });
-        // END NOB EDITS
         return false;
     });
 
@@ -435,7 +428,6 @@ $(document).ready(function () {
             modal.find('iframe').attr('src', '');
         }
         $('.modal-screen').toggleClass('reveal-modal');
-        $('body').off('mousewheel');
     });
 
     $('.modal-screen').click(function () {
@@ -444,7 +436,6 @@ $(document).ready(function () {
         }
         $('.foundry_modal.reveal-modal').toggleClass('reveal-modal');
         $(this).toggleClass('reveal-modal');
-        $('body').off('mousewheel');
     });
 
     $(document).keyup(function (e) {
@@ -454,7 +445,6 @@ $(document).ready(function () {
             }
             $('.foundry_modal').removeClass('reveal-modal');
             $('.modal-screen').removeClass('reveal-modal');
-            $('body').off('mousewheel');
         }
     });
 
