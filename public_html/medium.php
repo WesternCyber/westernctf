@@ -33,7 +33,7 @@ foreach ($xml->channel->item as $item) {
     $title = str_replace(array(":"), "", $item->title);
 
     echo "<li>\n";
-    echo "<a href=\"" . $item->link . "\"> " . $title . " </a>\n";
+    echo "<a href=\"" . $item->link . "\" target=\"_blank\"> " . $title . " </a>\n";
     echo "<span class=\"date\"> " . $month . "<span class=\"number\"> " . $day . ", " . $year . " </span></span>\n";
     echo "</li>\n";
 }
