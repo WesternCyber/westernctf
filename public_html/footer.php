@@ -22,7 +22,7 @@
 
                         <li>
                             <div class="modal-container">
-                                <u><a class="btn-modal" href="#">Terms</a></u>
+                                <a class="btn-modal" href="#">Terms</a>
 
                                 <div class="foundry_modal">
                                     <h4>Terms of agreement</h4>
@@ -45,7 +45,7 @@
 
                         <li>
                             <div class="modal-container">
-                                <u><a class="btn-modal" href="#">FAQ</a></u>
+                                <a class="btn-modal" href="#">FAQ</a>
 
                                 <div class="foundry_modal">
                                     <div style="height: 100%; overflow-y: scroll;">
