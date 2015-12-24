@@ -28,9 +28,9 @@ $(document).ready(function () {
 
     // Update scroll variable for scrolling functions
 
-    /*addEventListener('scroll', function () {
+    addEventListener('scroll', function () {
         mr_scrollTop = window.pageYOffset;
-     }, false);*/
+    }, false);
 
     // Append .background-image-holder <img>'s as CSS backgrounds
 
