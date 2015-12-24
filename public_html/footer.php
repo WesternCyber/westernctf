@@ -47,7 +47,7 @@
                             <div class="modal-container">
                                 <a class="btn-modal" href="#">FAQ</a>
 
-                                <div class="foundry_modal">
+                                <div class="foundry_modal" style="height: 400px;">
                                     <div style="height: 100%; overflow-y: scroll;">
                                         <h4>Frequently asked questions</h4>
                                         <hr>
