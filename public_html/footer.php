@@ -4,16 +4,10 @@
         <div class="row">
             <!--<div class="col-md-5 col-sm-6">-->
 
-            <!--<div class="row">
-                <div class="col-md-12 center">
-                    <img alt="Logo" class="logo" src="img/emblem.png" />
-                </div>
-            </div>-->
-
             <div class="col-md-4">
                 <div class="widget">
                     <div class="row" style="text-align:center;">
-                        <img alt="Logo" class="logo" src="img/purpleinvertlogo.png"/>
+                        <a href="home"><img alt="Logo" class="logo" src="img/purpleinvertlogo.png"/></a>
                     </div>
                     <ul class="link-list">
                         <li>
