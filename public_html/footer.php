@@ -7,7 +7,7 @@
             <div class="col-md-4">
                 <div class="widget">
                     <div class="row" style="text-align:center;">
-                        <a href="home"><img alt="Logo" class="logo" src="img/purpleinvertlogo.png"/></a>
+                        <a href="home"><img alt="Logo" class="logo" src="img/purpleinvertlogo1.png"/></a>
                     </div>
                     <ul class="link-list">
                         <li>
