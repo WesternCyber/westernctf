@@ -357,7 +357,7 @@ $(document).ready(function () {
             iframe.attr('src', '');
         }
         $(this).find('.btn-modal').attr('modal-link', index);
-        $(this).find('.foundry_modal').clone().appendTo('body').attr('modal-link', index).wrap('<div class="modal-data">').prepend($('<i class="ti-close close-modal">'));
+        $(this).find('.foundry_modal').clone().appendTo('body').attr('modal-link', index).prepend($('<i class="ti-close close-modal">')).wrapInner('<div class="modal-data">');
     });
 
     $('.btn-modal').click(function () {
