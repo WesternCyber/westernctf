@@ -175,7 +175,7 @@
 <script src="js/ytplayer.min.js"></script>
 <script src="js/countdown.min.js"></script>
 <script src="js/smooth-scroll.min.js"></script>
-<script src="js/parallax.js"></script>
+<script src="js/parallax2.js"></script>
 <script src="js/md5.js"></script>
 <script src="js/scripts.js"></script>
 </body>
