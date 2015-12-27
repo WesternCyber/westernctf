@@ -96,7 +96,7 @@ function mr_parallax() {
     }, this.setupParallax = function () {
         C = void 0 == window.mr_variant ? !1 : !0, C && (B = jQuery(".viu").get(0), void 0 != B && (B.scrollBy = function (a, b) {
             this.scrollTop += b
-        })), void 0 != B && (B.addEventListener("scroll", g, !1), window.addWheelListener(B, h, !1), window.addEventListener("resize", function () {
+        })), void 0 != B && (B.addEventListener("scroll", g, !1), /*window.addWheelListener(B, h, !1),*/ window.addEventListener("resize", function () {
             n = Math.max(document.documentElement.clientHeight, window.innerHeight || 0), o = b(), E.profileParallaxElements()
         }, !1), d())
     }, this.profileParallaxElements = function () {
