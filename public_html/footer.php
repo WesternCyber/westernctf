@@ -177,6 +177,6 @@
 <script src="js/smooth-scroll.min.js"></script>
 <script src="js/parallax2.js"></script>
 <script src="js/md5.js"></script>
-<script src="js/scripts.js"></script>
+<script src="js/scripts.min.js"></script>
 </body>
 </html>

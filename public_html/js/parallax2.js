@@ -1,144 +1,114 @@
 function mr_parallax() {
-    function a(a) {
-        for (var b = 0; b < a.length; b++)
-            if ("undefined" != typeof document.body.style[a[b]]) return a[b];
+    function e(e) {
+        for (var t = 0; t < e.length; t++)if ("undefined" != typeof document.body.style[e[t]])return e[t];
         return null
     }
 
-    function b() {
-        var a = 0;
-        return a = C ? jQuery(".viu").find("nav:first").outerHeight(!0) : jQuery(document).find("nav:first").outerHeight(!0)
+    function t() {
+        var e = 0;
+        return e = D ? jQuery(".viu").find("nav:first").outerHeight(!0) : jQuery(document).find("nav:first").outerHeight(!0)
     }
 
-    function c(a, b, c, d) {
-        var e = a - 1;
-        return e /= d, a /= d, e--, a--, c * (a * a * a * a * a + 1) + b - (c * (e * e * e * e * e + 1) + b)
+    function n(e, t, n, o) {
+        var r = e - 1;
+        return r /= o, e /= o, r--, e--, n * (e * e * e * e * e + 1) + t - (n * (r * r * r * r * r + 1) + t)
     }
 
-    function d() {
-        if (D) {
-            for (var a = j.length, b = f(); a--;) e(j[a], b);
-            D = !1
+    function o() {
+        if (M) {
+            for (var e = s.length, t = a(); e--;)r(s[e], t);
+            M = !1
         }
-        p && (v += -s * c(r, 0, y, A), (v > z || -z > v) && (B.scrollBy(0, v), v = 0), r++, r > A && (r = 0, p = !1, q = !0, s = 0, t = 0, u = 0, v = 0)), k(d)
+        h && (x += -g * n(p, 0, T, H), (x > E || -E > x) && (j.scrollBy(0, x), x = 0), p++, p > H && (p = 0, h = !1, w = !0, g = 0, v = 0, y = 0, x = 0)), u(o)
     }
 
-    function e(a, b) {
-        if (C) {
-            if (b + n > a.elemTop && b < a.elemBottom)
-                if (a.isFirstSection) {
-                    var c = "translate3d(0, " + b / 2 + "px, 0)";
-                    a.imageHolder.style[m] = c
-                } else {
-                    var c = "translate3d(0, " + (b - a.elemTop - o) / 2 + "px, 0)";
-                    a.imageHolder.style[m] = c
-                }
-        } else if (b + n > a.elemTop && b < a.elemBottom)
-            if (a.isFirstSection) {
-                var c = "translate3d(0, " + b / 2 + "px, 0)";
-                a.imageHolder.style[m] = c
+    function r(e, t) {
+        if (D) {
+            if (t + c > e.elemTop && t < e.elemBottom)if (e.isFirstSection) {
+                var n = "translate3d(0, " + t / 2 + "px, 0)";
+                e.imageHolder.style[m] = n
             } else {
-                var c = "translate3d(0, " + (b + n - a.elemTop) / 2 + "px, 0)";
-                a.imageHolder.style[m] = c
+                var n = "translate3d(0, " + (t - e.elemTop - f) / 2 + "px, 0)";
+                e.imageHolder.style[m] = n
             }
+        } else if (t + c > e.elemTop && t < e.elemBottom)if (e.isFirstSection) {
+            var n = "translate3d(0, " + t / 2 + "px, 0)";
+            e.imageHolder.style[m] = n
+        } else {
+            var n = "translate3d(0, " + (t + c - e.elemTop) / 2 + "px, 0)";
+            e.imageHolder.style[m] = n
+        }
     }
 
-    function f() {
-        return B != window ? B.scrollTop : 0 == document.documentElement.scrollTop ? document.body.scrollTop : document.documentElement.scrollTop
+    function a() {
+        return j != window ? j.scrollTop : 0 == document.documentElement.scrollTop ? document.body.scrollTop : document.documentElement.scrollTop
     }
 
-    function g() {
-        D = !0
+    function i() {
+        M = !0
     }
 
-    /*function h(a) {
-        a.preventDefault && a.preventDefault(), s = a.notRealWheel ? -a.deltaY / 4 : 1 == a.deltaMode ? -a.deltaY / 3 : 100 === Math.abs(a.deltaY) ? -a.deltaY / 120 : -a.deltaY / 40, s = -w > s ? -w : s, s = s > w ? w : s, p = !0, r = x
-     }*/
-
-    function i(a) {
-        var b = {};
-        return a && "[object Function]" === b.toString.call(a)
+    function l(e) {
+        var t = {};
+        return e && "[object Function]" === t.toString.call(e)
     }
 
-    var j, k = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame,
-        l = ["transform", "msTransform", "webkitTransform", "mozTransform", "oTransform"],
-        m = a(l),
-        n = Math.max(document.documentElement.clientHeight, window.innerHeight || 0),
-        o = 0,
-        p = !1,
-        q = !0,
-        r = 0,
-        s = 0,
-        t = 0,
-        u = 0,
-        v = 0,
-        w = 2,
-        x = 4,
-        y = 300,
-        z = 1,
-        A = 30,
-        v = 0,
-        B = window,
-        C = void 0 == window.mr_variant ? !1 : !0,
-        D = !1,
-        E = this;
+    var s, u = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame, d = ["transform", "msTransform", "webkitTransform", "mozTransform", "oTransform"], m = e(d), c = Math.max(document.documentElement.clientHeight, window.innerHeight || 0), f = 0, h = !1, w = !0, p = 0, g = 0, v = 0, y = 0, x = 0, T = 300, E = 1, H = 30, x = 0, j = window, D = void 0 == window.mr_variant ? !1 : !0, M = !1, Q = this;
     jQuery(document).ready(function () {
-        E.documentReady()
+        Q.documentReady()
     }), jQuery(window).load(function () {
-        E.windowLoad()
+        Q.windowLoad()
     }), this.getScrollingState = function () {
-        return r > 0 ? !0 : !1
-    }, this.documentReady = function (a) {
+        return p > 0 ? !0 : !1
+    }, this.documentReady = function (e) {
         "use strict";
-        return n = Math.max(document.documentElement.clientHeight, window.innerHeight || 0), /Android|iPad|iPhone|iPod|BlackBerry|Windows Phone/i.test(navigator.userAgent || navigator.vendor || window.opera) ? jQuery(".parallax").removeClass("parallax") : k && (E.profileParallaxElements(), E.setupParallax()), i(a) ? void a() : void 0
+        return c = Math.max(document.documentElement.clientHeight, window.innerHeight || 0), /Android|iPad|iPhone|iPod|BlackBerry|Windows Phone/i.test(navigator.userAgent || navigator.vendor || window.opera) ? jQuery(".parallax").removeClass("parallax") : u && (Q.profileParallaxElements(), Q.setupParallax()), l(e) ? void e() : void 0
     }, this.windowLoad = function () {
-        n = Math.max(document.documentElement.clientHeight, window.innerHeight || 0), o = b(), window.mr_parallax.profileParallaxElements()
+        c = Math.max(document.documentElement.clientHeight, window.innerHeight || 0), f = t(), window.mr_parallax.profileParallaxElements()
     }, this.setupParallax = function () {
-        C = void 0 == window.mr_variant ? !1 : !0, C && (B = jQuery(".viu").get(0), void 0 != B && (B.scrollBy = function (a, b) {
-            this.scrollTop += b
-        })), void 0 != B && (B.addEventListener("scroll", g, !1), /*window.addWheelListener(B, h, !1),*/ window.addEventListener("resize", function () {
-            n = Math.max(document.documentElement.clientHeight, window.innerHeight || 0), o = b(), E.profileParallaxElements()
-        }, !1), d())
+        D = void 0 == window.mr_variant ? !1 : !0, D && (j = jQuery(".viu").get(0), void 0 != j && (j.scrollBy = function (e, t) {
+            this.scrollTop += t
+        })), void 0 != j && (j.addEventListener("scroll", i, !1), window.addEventListener("resize", function () {
+            c = Math.max(document.documentElement.clientHeight, window.innerHeight || 0), f = t(), Q.profileParallaxElements()
+        }, !1), o())
     }, this.profileParallaxElements = function () {
-        j = [], o = b(), selector = ".parallax > .background-image-holder, .parallax ul.slides > li > .background-image-holder", C && (selector = ".viu .parallax > .background-image-holder, .viu .parallax ul.slides > li > .background-image-holder"), jQuery(selector).each(function (a, b) {
-            var c = jQuery(this).closest(".parallax"),
-                d = C ? c.position().top : c.offset().top;
-            j.push({
-                section: c.get(0),
-                outerHeight: c.outerHeight(),
-                elemTop: d,
-                elemBottom: d + c.outerHeight(),
-                isFirstSection: c.is(":nth-of-type(1)") ? !0 : !1,
+        s = [], f = t(), selector = ".parallax > .background-image-holder, .parallax ul.slides > li > .background-image-holder", D && (selector = ".viu .parallax > .background-image-holder, .viu .parallax ul.slides > li > .background-image-holder"), jQuery(selector).each(function (e, t) {
+            var n = jQuery(this).closest(".parallax"), o = D ? n.position().top : n.offset().top;
+            s.push({
+                section: n.get(0),
+                outerHeight: n.outerHeight(),
+                elemTop: o,
+                elemBottom: o + n.outerHeight(),
+                isFirstSection: n.is(":nth-of-type(1)") ? !0 : !1,
                 imageHolder: jQuery(this).get(0)
-            }), C ? C && (c.is(":nth-of-type(1)") ? E.mr_setTranslate3DTransform(jQuery(this).get(0), 0 == f() ? 0 : f() / 2) : E.mr_setTranslate3DTransform(jQuery(this).get(0), (f() - d - o) / 2)) : c.is(":nth-of-type(1)") ? E.mr_setTranslate3DTransform(jQuery(this).get(0), 0 == f() ? 0 : f() / 2) : E.mr_setTranslate3DTransform(jQuery(this).get(0), (f() + n - d) / 2)
+            }), D ? D && (n.is(":nth-of-type(1)") ? Q.mr_setTranslate3DTransform(jQuery(this).get(0), 0 == a() ? 0 : a() / 2) : Q.mr_setTranslate3DTransform(jQuery(this).get(0), (a() - o - f) / 2)) : n.is(":nth-of-type(1)") ? Q.mr_setTranslate3DTransform(jQuery(this).get(0), 0 == a() ? 0 : a() / 2) : Q.mr_setTranslate3DTransform(jQuery(this).get(0), (a() + c - o) / 2)
         })
-    }, this.mr_setTranslate3DTransform = function (a, b) {
-        a.style[m] = "translate3d(0, " + b + "px, 0)"
+    }, this.mr_setTranslate3DTransform = function (e, t) {
+        e.style[m] = "translate3d(0, " + t + "px, 0)"
     }
 }
-window.mr_parallax = new mr_parallax,
-    function (a, b) {
-        function c(b, c, g, h) {
-            b[d](f + c, "wheel" == e ? g : function (b) {
-                !b && (b = a.event);
-                var c = {
-                    originalEvent: b,
-                    target: b.target || b.srcElement,
-                    type: "wheel",
-                    deltaMode: "MozMousePixelScroll" == b.type ? 0 : 1,
-                    deltaX: 0,
-                    deltaZ: 0,
-                    notRealWheel: 1,
-                    preventDefault: function () {
-                        b.preventDefault ? b.preventDefault() : b.returnValue = !1
-                    }
-                };
-                return "mousewheel" == e ? (c.deltaY = -1 / 40 * b.wheelDelta, b.wheelDeltaX && (c.deltaX = -1 / 40 * b.wheelDeltaX)) : c.deltaY = b.detail / 3, g(c)
-            }, h || !1)
-        }
+window.mr_parallax = new mr_parallax, function (e, t) {
+    function n(t, n, i, l) {
+        t[o](a + n, "wheel" == r ? i : function (t) {
+            !t && (t = e.event);
+            var n = {
+                originalEvent: t,
+                target: t.target || t.srcElement,
+                type: "wheel",
+                deltaMode: "MozMousePixelScroll" == t.type ? 0 : 1,
+                deltaX: 0,
+                deltaZ: 0,
+                notRealWheel: 1,
+                preventDefault: function () {
+                    t.preventDefault ? t.preventDefault() : t.returnValue = !1
+                }
+            };
+            return "mousewheel" == r ? (n.deltaY = -1 / 40 * t.wheelDelta, t.wheelDeltaX && (n.deltaX = -1 / 40 * t.wheelDeltaX)) : n.deltaY = t.detail / 3, i(n)
+        }, l || !1)
+    }
 
-        var d, e, f = "";
-        a.addEventListener ? d = "addEventListener" : (d = "attachEvent", f = "on"), e = "onwheel" in b.createElement("div") ? "wheel" : void 0 !== b.onmousewheel ? "mousewheel" : "DOMMouseScroll", a.addWheelListener = function (a, b, d) {
-            c(a, e, b, d), "DOMMouseScroll" == e && c(a, "MozMousePixelScroll", b, d)
-        }
-    }(window, document);
+    var o, r, a = "";
+    e.addEventListener ? o = "addEventListener" : (o = "attachEvent", a = "on"), r = "onwheel" in t.createElement("div") ? "wheel" : void 0 !== t.onmousewheel ? "mousewheel" : "DOMMouseScroll", e.addWheelListener = function (e, t, o) {
+        n(e, r, t, o), "DOMMouseScroll" == r && n(e, "MozMousePixelScroll", t, o)
+    }
+}(window, document);
