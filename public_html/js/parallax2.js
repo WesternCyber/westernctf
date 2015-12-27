@@ -51,9 +51,9 @@ function mr_parallax() {
         D = !0
     }
 
-    function h(a) {
+    /*function h(a) {
         a.preventDefault && a.preventDefault(), s = a.notRealWheel ? -a.deltaY / 4 : 1 == a.deltaMode ? -a.deltaY / 3 : 100 === Math.abs(a.deltaY) ? -a.deltaY / 120 : -a.deltaY / 40, s = -w > s ? -w : s, s = s > w ? w : s, p = !0, r = x
-    }
+     }*/
 
     function i(a) {
         var b = {};
