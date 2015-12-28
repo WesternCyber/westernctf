@@ -1,5 +1,8 @@
 CACHE MANIFEST
-# 2015-12-28 v1.0.0
+# 2015-12-29 v1.0.1
 /css/theme.css
 /img/purplewidestlogo1.png
 /js/scripts.js
+
+NETWORK:
+*
