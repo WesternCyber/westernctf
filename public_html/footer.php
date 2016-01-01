@@ -128,7 +128,7 @@
             <div class="col-sm-6 text-right">
                 <ul class="list-inline social-list">
                     <li>
-                        <a href="http://westerncyber.club/mail/links.php?link=facebook"
+                        <a target="_blank" href="http://westerncyber.club/mail/links.php?link=facebook"
                            style="color: #4F2683; display: block; width: 30px; height: auto;">
                             <!--src="https://hello.heroku.com/l/36622/2015-04-28/4dp749/36622/87508/icon_fb.png"<img
                                 class="center" alt="Western Cyber Security on Facebook"
@@ -138,8 +138,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="http://westerncyber.club/mail/links.php?link=github" target="_blank"
-                           style="color: #4F2683; display: block; width: 30px; height: auto;">
+                        <a target="_blank" href="http://westerncyber.club/mail/links.php?link=github" 
+                            style="color: #4F2683; display: block; width: 30px; height: auto;">
                             <!--<imgsrc="https://hello.heroku.com/l/36622/2015-04-28/4dp745/36622/87510/icon_github.png"
                                 class="center" alt="Western Cyber Security on GitHub"
                                 style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
@@ -148,7 +148,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="http://westerncyber.club/mail/links.php?link=medium"
+                        <a target="_blank" href="http://westerncyber.club/mail/links.php?link=medium"
                            style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
                                 src="https://westerncyber.club/img/medium-m-light-30px.png" class="center"
                                 alt="Western Cyber Security on Medium"
