@@ -751,7 +751,7 @@
                                                     align="center" valign="top">
                                                     <a href="http://westerncyber.club/mail/links.php?link=medium"
                                                        style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
-                                                            src="https://westerncyber.club/img/medium-m-light-30px-purple.png"
+                                                            src="http://westerncyber.club/img/medium-m-light-30px.png"
                                                             class="center" alt="Western Cyber Security on Medium"
                                                             style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
                                                             align="none">
