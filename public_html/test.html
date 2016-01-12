@@ -112,16 +112,36 @@
         <section>
             <div class="row" style="text-align:center;">
                 <span><img alt="Logo" class="logo" style="max-width: 10%;"
-                           src="img/emblem1.png"/><h2><b>VP of Education</b></h2></span>
+                           src="img/AppLogo.png"/><h2><b>Found a position your intersetsd in? <br/> Please fill in ath application form below</b></h2></span>
             </div>
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                 <div class="feature boxed bg-secondary">
                     <form class="text-center form-email" data-error="There were errors, please check all required fields and try again" data-success="Thanks for taking the time to complete the planner. We'll be in touch shortly!">
                         <h4 class="uppercase mt48 mt-xs-0">Please fill in the application form</h4>
                         
+                        <div class="overflow-hidden">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <h6 class="uppercase">
+                                1. Please select the position you would like to apply for.
+                                </h6>
+                                <div class="select-option">
+                                    <i class="ti-angle-down"></i>
+                                    <select name="referrer">
+                                        <option selected value="Default">Select An Option</option>
+                                        <option value="President">President</option>
+                                        <option value="VP Communications">VP Communications</option>
+                                        <option value="VP Education">VP Education</option>
+                                        <option value="VP Finance and Promotions">VP Finance and Promotions</option>
+                                        <option value="VP Operations">VP Operations</option>
+                                        <option value="VP Technology">VP Technology</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>   
+
                          <div class="overflow-hidden">
                             <h6 class="uppercase">
-                                1. Your personal details
+                                2. Your personal details
                             </h6>
                             <input type="text" name="name" class="col-md-9 validate-required" placeholder="Full Name*" />
                             <input type="text" name="email" class="col-md-6 validate-required validate-email" placeholder="Email Address*" />
@@ -176,12 +196,11 @@
                             <input type="text" name="name" class="col-md-9 validate-required" placeholder="Program*" />
                              
                             <button class="btn" type="upload">Attach your resume</button> 
-                            <textarea name="message" placeholder="Tell us something interesting about yourself (Insert cover letter here if you wish)" rows="2"></textarea>
                             <hr>
                         </div>
                         <div class="overflow-hidden">
                             <h6 class="uppercase">
-                                2. Links (fill in if you have any of these)
+                                3. Links (fill in if you have any of these)
                             </h6>
                             <input type="text" name="website" placeholder="Linkedin URL" />
                             <input type="text" name="website" placeholder="Github URL" />
