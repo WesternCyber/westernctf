@@ -564,10 +564,10 @@
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 14px; margin: 0; padding: 0;"
                                                     align="left" valign="top">
 
-                                                    <a href="http://westerncyber.club/mail/links.php?link=home"
+                                                    <!--<a href="http://westerncyber.club/mail/links.php?link=home"
                                                        class="right-align block browser-link"
                                                        style="color: #a189d5 !important; text-decoration: underline; text-align: right; display: block;">View
-                                                        in Browser</a>
+                                                        in Browser</a>-->
                                                     <!-- TODO: Logo -->
                                                     <img
                                                         src="http://westerncyber.club/img/purpleinvertlogoemail.png"
@@ -723,13 +723,13 @@
                                                     University of Western Ontario, 1151 Richmond St, London, ON, Canada
                                                     N6A 3K7<br>
                                                     <!-- TODO: ADD unsubscribe/email pref -->
-                                                    <a href=""
+                                                    <!--<a href=""
                                                        style="color: #fff !important; text-decoration: underline;">Update
                                                         your email preferences</a><br>
                                                     or <a
                                                         href=""
                                                         style="color: #fff !important; text-decoration: underline;">click
-                                                        here to unsubscribe</a>.
+                                                        here to unsubscribe</a>.-->
                                                 </td>
                                                 <td class="expander"
                                                     style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0; color: #9276ce; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 19px; font-size: 12px; margin: 0; padding: 0;"
@@ -846,7 +846,7 @@
 </table>
 
 
-<!--<script type="text/javascript" src="https://pi.pardot.com/pd.js"></script>
+<!--<script type="text/javascript" src="https://pi.pardot.com/pd.js"></script>a
 <script type="text/javascript">
     piAId = '37622';
     piCId = '30616';
