@@ -42,10 +42,25 @@
                     </h6>
                     <input type="text" name="name" class="col-md-9 validate-required" placeholder="Full Name*" />
                     <input type="text" name="email" class="col-md-9 validate-required validate-email" placeholder="Email Address*" />
+<<<<<<< HEAD
                     <input type="text" name="number" class="col-md-9 validate-required" placeholder="Phone Number*" />
                     <button class="btn" onclick="document.getElementsByName('fileToUpload')[0].click()">Attach your resume</button>
                     <input type="file" name="fileToUpload" style="display: none;" onchange="var temp = document.getElementsByName('fileToUpload').value; document.getElementById('filePlaceholder').value = temp[temp.length - 1]" />
                     <div id="filePlaceholder"></div>
+=======
+                    <input type="text" name="name" class="col-md-9 validate-required" placeholder="Phone Number*" />
+                    <button class="btn" name="filePlaceholder" onclick="document.getElementsByName('fileToUpload')[0].click()">Attach your resume</button>
+                    <input type="file" name="fileToUpload" style="display: none;" onchange="fileSubmit(this)" />
+                    <script>
+                        function fileSubmit(data) {
+                            var file = data.value;
+                            var fileName = file.split("\\");
+                            if (fileName == "") fileName = "Attach your resume";
+                            document.getElementsByName("filePlaceholder")[0].innerHTML = fileName[fileName.length-1];
+                            event.preventDefault();
+                        }
+                    </script>
+>>>>>>> 8f418cbb20bf92357bd297c451c9efcbed3dad7f
                 </div>
                 <div class="overflow-hidden">
                     <h6 class="uppercase">
