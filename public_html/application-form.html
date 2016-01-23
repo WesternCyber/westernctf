@@ -47,7 +47,7 @@
                     <input type="file" name="fileToUpload" style="display: none;" onchange="fileSubmit(this)" />
                     <script>
                         function fileSubmit(data) {
-                            var file = document.getElementsByName('fileToUpload').value;
+                            var file = data.value;
                             var fileName = file.split("\\");
                             document.getElementsByName("filePlaceholder")[0].innerHTML = fileName[fileName.length-1];
                             event.preventDefault();
