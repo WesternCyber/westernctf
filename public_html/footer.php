@@ -117,11 +117,11 @@
                     <p>*We won't share your email with third parties.</p>
                 </form>
 
-                <div class="container">
-                    <div class="row" style="text-align:center;">
-                        <a class="btn btn-sm btn-rounded" href="join-us">Join us</a>
-                    </div>
+
+                <div class="row" style="text-align:center;">
+                    <a class="btn btn-sm btn-rounded" href="join-us">Join us</a>
                 </div>
+                
 
                 <!--end of widget-->
             </div>
