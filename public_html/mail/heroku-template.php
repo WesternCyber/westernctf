@@ -569,12 +569,13 @@
                                                        style="color: #a189d5 !important; text-decoration: underline; text-align: right; display: block;">View
                                                         in Browser</a>-->
                                                     <!-- TODO: Logo -->
+                                                    <a href="http://westerncyber.club/mail/links.php?link=home">
                                                     <img
                                                         src="http://westerncyber.club/img/purpleinvertlogoemail.png"
                                                         alt="Western Cyber Security" width="580" height="170"
                                                         class="center"
                                                         style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto;"
-                                                        align="none"></td>
+                                                        align="none"></a></td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -839,7 +840,8 @@
                             </table><!-- SPACER --></td>
                     </tr>
                     </tbody>
-                </table><!-- /FOOTER --></center>
+                </table><!-- /FOOTER -->
+            </center>
         </td>
     </tr>
     </tbody>
