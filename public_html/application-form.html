@@ -44,8 +44,8 @@
                     <input type="text" name="email" class="col-md-9 validate-required validate-email" placeholder="Email Address*" />
                     <input type="text" name="name" class="col-md-9 validate-required" placeholder="Phone Number*" />
                     <button class="btn" onclick="document.getElementsByName('fileToUpload')[0].click()">Attach your resume</button>
-                    <input type="file" name="fileToUpload" style="display: none;" />
-                    
+                    <input type="file" name="fileToUpload" style="display: none;" onchange="var temp = document.getElementsByName('fileToUpload').value.split('\\'); document.getElementById('filePlaceholder').value = temp[temp.length - 1]" />
+                    <div id="filePlaceholder"></div>
                 </div>
                 <div class="overflow-hidden">
                     <h6 class="uppercase">
