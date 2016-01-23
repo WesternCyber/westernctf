@@ -19,7 +19,7 @@
                             <a href="http://westerncyber.club/mail/links.php?link=medium" target="_blank">Blog</a>
                             <!-- medium page -->
                         </li>
-
+                        <br>
                         <li>
                             <div class="modal-container">
                                 <a class="btn-modal" href="#">Terms</a>
@@ -42,7 +42,7 @@
                                 </div>
                             </div><!--end modal-->
                         </li>
-
+                        <br>
                         <li>
                             <div class="modal-container">
                                 <a class="btn-modal" href="#">FAQ</a>
