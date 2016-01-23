@@ -14,7 +14,7 @@
                             <a href="http://westerncyber.club/mail/links.php?link=github" target="_blank">Write-Ups</a>
                             <!-- github -->
                         </li>
-
+                        <br>
                         <li>
                             <a href="http://westerncyber.club/mail/links.php?link=medium" target="_blank">Blog</a>
                             <!-- medium page -->
