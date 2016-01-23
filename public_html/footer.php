@@ -10,6 +10,7 @@
                         <a href="home"><img alt="Logo" class="logo" src="img/purpleinvertlogo1.png"/></a>
                     </div>
                     <ul class="list-inline social-list">
+                        <br>
                         <li>
                             <a href="http://westerncyber.club/mail/links.php?link=github" target="_blank">Write-Ups</a>
                             <!-- github -->
