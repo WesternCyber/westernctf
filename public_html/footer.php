@@ -9,7 +9,7 @@
                     <div class="row" style="text-align:center;">
                         <a href="home"><img alt="Logo" class="logo" src="img/purpleinvertlogo1.png"/></a>
                     </div>
-                    <ul class="link-list">
+                    <ul class="list-inline social-list">
                         <li>
                             <a href="http://westerncyber.club/mail/links.php?link=github" target="_blank">Write-Ups</a>
                             <!-- github -->
