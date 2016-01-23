@@ -110,7 +110,7 @@
                     <input class="mb8 validate-required validate-email signup-email-field" type="text"
                            placeholder="Email Address" name="email"/>
                     <!--<a class="btn btn-sm btn-rounded" type="submit" href="#">Go</a>-->
-                    <button class="mb8" type="submit">Go</button>
+                    <button class="mb4" type="submit">Go</button>
                     <span>Sign up for our newsletter to get updates about events, our work and applications.</span>
 
                     <p>*We won't share your email with third parties.</p>
