@@ -14,5 +14,4 @@ require 'vendor/autoload.php';
 use Parse\ParseClient;
 ParseClient::initialize('1YK2gxEAAxFHBHR4DjQ6yQOJocIrtZNYjYwnxFGN', 'Ceoe5j4JTYsxR5EvQaX1vdmGNWKXSRfQWx4GLLso', 'RYf7WRp7HGEvyDX6geKVe3HPjpslqGGR6SbkEBDf');
 
-
 ?>
