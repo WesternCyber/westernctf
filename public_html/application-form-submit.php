@@ -1,6 +1,6 @@
 <?php
 echo "FORM DATA START<br>";
-$position = $_POST["position"]
+$position = $_POST["position"];
 $email = $_POST["email"];
 $name = $_POST["name"];
 $number = $_POST["number"];
