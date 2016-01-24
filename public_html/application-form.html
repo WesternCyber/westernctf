@@ -49,7 +49,6 @@
                         document.getElementsByName("filePlaceholder")[0].preventDefault();
 
                         function fileSubmit(data) {
-                            data.preventDefault();
                             var file = data.value;
                             var fileName = file.split("\\");
                             if (fileName == "") fileName = "Attach your resume";
