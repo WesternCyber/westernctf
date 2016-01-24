@@ -44,8 +44,12 @@
                     <input type="text" name="email" class="col-md-9 validate-required validate-email" placeholder="Email Address*" />
                     <input type="text" name="number" class="col-md-9 validate-required" placeholder="Phone Number*" />
                     <button class="btn" name="filePlaceholder" onclick="document.getElementsByName('fileToUpload')[0].click()">Attach your resume</button>
-                    <input type="file" name="fileToUpload" style="display: none;" onchange="fileSubmit(this)" />
+                    <input type="file" name="fileToUpload" style="display: none;" onchange="fileSubmit(this)" onclick="prevDefault(event)" />
                     <script>
+                        function prevDefault(event) {
+                            event.preventDefault();
+                        }
+
                         function fileSubmit(data) {
                             data.preventDefault();
                             var file = data.value;
