@@ -21,7 +21,7 @@ $application = new ParseObject("applications");
 $application->set("name", $name);
 $application->set("email", $email);
 $application->set("number", $number);
-$application->set("resume", $resume);
+//$application->set("resume", $resume);
 $application->set("schoolyear", $schoolyear);
 $application->set("program", $program);
 $application->set("linkedin", $linkedin);
