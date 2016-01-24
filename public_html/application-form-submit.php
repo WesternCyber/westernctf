@@ -8,6 +8,7 @@ $schoolyear = $_POST["school-year"];
 $program = $_POST["program"];
 $linkedin = $_POST["linkedin"];
 $github = $_POST["github"];
+echo $email.$name.$number.$resume.$schoolyear.$program.$linkedin.$github;
 echo "FORM DATA END\n";
 
 require 'vendor/autoload.php';
