@@ -27,7 +27,7 @@
                         </h6>
                         <div class="select-option">
                             <i class="ti-angle-down"></i>
-                            <select name="referrer">
+                            <select name="position">
                                 <option selected value="Default">Select An Option</option>
                                 <option value="VP Education">VP Education</option>
                                 <option value="Director of Media">VP Marketing</option>
@@ -42,13 +42,7 @@
                     </h6>
                     <input type="text" name="name" class="col-md-9 validate-required" placeholder="Full Name*" />
                     <input type="text" name="email" class="col-md-9 validate-required validate-email" placeholder="Email Address*" />
-<<<<<<< HEAD
                     <input type="text" name="number" class="col-md-9 validate-required" placeholder="Phone Number*" />
-                    <button class="btn" onclick="document.getElementsByName('fileToUpload')[0].click()">Attach your resume</button>
-                    <input type="file" name="fileToUpload" style="display: none;" onchange="var temp = document.getElementsByName('fileToUpload').value; document.getElementById('filePlaceholder').value = temp[temp.length - 1]" />
-                    <div id="filePlaceholder"></div>
-=======
-                    <input type="text" name="name" class="col-md-9 validate-required" placeholder="Phone Number*" />
                     <button class="btn" name="filePlaceholder" onclick="document.getElementsByName('fileToUpload')[0].click()">Attach your resume</button>
                     <input type="file" name="fileToUpload" style="display: none;" onchange="fileSubmit(this)" />
                     <script>
@@ -60,7 +54,6 @@
                             event.preventDefault();
                         }
                     </script>
->>>>>>> 8f418cbb20bf92357bd297c451c9efcbed3dad7f
                 </div>
                 <div class="overflow-hidden">
                     <h6 class="uppercase">
@@ -68,7 +61,7 @@
                     </h6>
                     <div class="select-option">
                         <i class="ti-angle-down"></i>
-                        <select name="referrer">
+                        <select name="school-year">
                             <option selected value="Default">Select your current school year</option>
                             <option value="1st year">1st year</option>
                             <option value="2nd year">2nd year</option>
@@ -78,15 +71,15 @@
                         </select>
                     </div>
 
-                    <input type="text" name="name" class="col-md-9 validate-required" placeholder="Program*"/>
+                    <input type="text" name="program" class="col-md-9 validate-required" placeholder="Program*"/>
                     <hr>
                 </div>
                 <div class="overflow-hidden">
                     <h6 class="uppercase">
                         4. Links (fill in if you have any of these)
                     </h6>
-                    <input type="text" name="website" placeholder="Linkedin URL" />
-                    <input type="text" name="website" placeholder="Github URL" />
+                    <input type="text" name="linkedin" placeholder="Linkedin URL" />
+                    <input type="text" name="github" placeholder="Github URL" />
                     <hr>
                 </div>
                 <div class="overflow-hidden">
