@@ -1,5 +1,6 @@
 <?php
-echo "FORM DATA START\n";
+echo "FORM DATA START<br>";
+$position = $_POST["position"]
 $email = $_POST["email"];
 $name = $_POST["name"];
 $number = $_POST["number"];
@@ -8,8 +9,8 @@ $schoolyear = $_POST["school-year"];
 $program = $_POST["program"];
 $linkedin = $_POST["linkedin"];
 $github = $_POST["github"];
-echo $email . "\n" . $name . "\n" . $number. "\n" . $resume. "\n" . $schoolyear . "\n" . $program. "\n" . $linkedin. "\n" . $github;
-echo "FORM DATA END\n";
+echo $position . "<br>" . $email . "<br>" . $name . "<br>" . $number. "<br>" . $resume . "<br>" . $schoolyear . "<br>" . $program. "<br>" . $linkedin. "<br>" . $github;
+echo "FORM DATA END<br>";
 
 require 'vendor/autoload.php';
 use Parse\ParseClient;
