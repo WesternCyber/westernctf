@@ -8,12 +8,12 @@ $position = $_POST["position"];
 $email = $_POST["email"];
 $name = $_POST["name"];
 $number = $_POST["number"];
-$resume = $_POST["fileToUpload"];
+//$resume = $_POST["fileToUpload"];
 $schoolyear = $_POST["school-year"];
 $program = $_POST["program"];
 $linkedin = $_POST["linkedin"];
 $github = $_POST["github"];
-echo $position . "<br>" . $email . "<br>" . $name . "<br>" . $number. "<br>" . $resume . "<br>" . $schoolyear . "<br>" . $program. "<br>" . $linkedin. "<br>" . $github;
+echo $position . "<br>" . $email . "<br>" . $name . "<br>" . $number. "<br>" . "<br>" . $schoolyear . "<br>" . $program. "<br>" . $linkedin. "<br>" . $github;
 echo "FORM DATA END<br>";
 
 $application = new ParseObject("applications");
