@@ -47,11 +47,11 @@
                     <input type="file" name="fileToUpload" style="display: none;" onchange="fileSubmit(this)" />
                     <script>
                         function fileSubmit(data) {
+                            data.preventDefault();
                             var file = data.value;
                             var fileName = file.split("\\");
                             if (fileName == "") fileName = "Attach your resume";
                             document.getElementsByName("filePlaceholder")[0].innerHTML = fileName[fileName.length-1];
-                            event.preventDefault();
                         }
                     </script>
                 </div>
