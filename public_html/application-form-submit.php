@@ -16,7 +16,7 @@ $github = $_POST["github"];
 echo $position . "<br>" . $email . "<br>" . $name . "<br>" . $number. "<br>" . $resume . "<br>" . $schoolyear . "<br>" . $program. "<br>" . $linkedin. "<br>" . $github;
 echo "FORM DATA END<br>";
 
-$application = new ParseObject("application");
+$application = new ParseObject("applications");
 
 $application->set("name", $name);
 $application->set("email", $email);
