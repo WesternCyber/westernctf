@@ -1,6 +1,6 @@
 [submodule "writeups/Hacking-101-Write-Up"]
 	path = writeups/Hacking-101-Write-Up
-	url = https://github.com/WesternCyber/Hacking-101-Write-Up.git
+	url = https://github.com/WesternCyber/Hacking-101-WriteUp.git
 [submodule "writeups/CTF-WriteUp"]
 	path = writeups/CTF-WriteUp
 	url = https://github.com/WesternCyber/CTF-WriteUp.git
