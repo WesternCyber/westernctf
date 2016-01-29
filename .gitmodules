@@ -1,6 +1,3 @@
-[submodule "writeups/workshop/Hacking-101-Write-Up"]
-	path = writeups/workshop/Hacking-101-Write-Up
-	url = https://github.com/WesternCyber/Hacking-101-Write-Up.git
 [submodule "writeups/Hacking-101-Write-Up"]
 	path = writeups/Hacking-101-Write-Up
 	url = https://github.com/WesternCyber/Hacking-101-Write-Up.git
