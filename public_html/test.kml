@@ -1,0 +1,11 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <name>Untitled Path</name>
+    <LineString>
+      <tessellate>1</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>
+        -35.55821034571538,149.688189453125 -35.57608366029834,149.688189453125
+        -35.611818326741655,149.688189453125 -35.6207495005006,149.688189453125
+      </coordinates>
+    </LineString>
+</kml>
