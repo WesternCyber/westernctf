@@ -282,12 +282,6 @@
       <option name="number" value="Default" />
       <updated>1447191692514</updated>
     </task>
-    <task id="LOCAL-00228" summary="Fix template">
-      <created>1452287604372</created>
-      <option name="number" value="00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1452287604372</updated>
-    </task>
     <task id="LOCAL-00229" summary="Add in minified version of template">
       <created>1453477827745</created>
       <option name="number" value="00229" />
@@ -576,7 +570,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454100004128</updated>
     </task>
-    <option name="localTasksCounter" value="277" />
+    <task id="LOCAL-00277" summary="Position thing&#10;">
+      <created>1454100232459</created>
+      <option name="number" value="00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1454100232459</updated>
+    </task>
+    <option name="localTasksCounter" value="278" />
     <servers />
   </component>
   <component name="TodoView">

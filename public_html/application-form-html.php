@@ -17,8 +17,7 @@
     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
         <div class="feature boxed bg-secondary">
             <form class="text-center" data-form-type="default" action="application-form-submit.php" method="post" enctype="multipart/form-data" data-error="There were errors, please check all required fields and try again" data-success="Thanks for taking the time to complete the planner. We'll be in touch shortly!">
-                <h4 class="uppercase mt48 mt-xs-0">Please fill in the application form</h4>
-                <? echo $_GET["position"]; ?>
+                <h4 class="uppercase mt48 mt-xs-0">Please fill in the application form for <? echo $_GET["position"]; ?></h4>
                 <div class="overflow-hidden">
                     <div class="col-sm-6 col-sm-offset-3">
                         <h6 class="uppercase">
@@ -39,6 +38,7 @@
                     <h6 class="uppercase">
                         2. Your personal details
                     </h6>
+                    <input type="text" name="position" value="<? ehco $_GET['position']; ?>" disabled style="display: none;" />
                     <input type="text" name="name" class="col-md-9 validate-required" placeholder="Full Name*" />
                     <input type="text" name="email" class="col-md-9 validate-required validate-email" placeholder="Email Address*" />
                     <input type="text" name="number" class="col-md-9 validate-required" placeholder="Phone Number*" />
