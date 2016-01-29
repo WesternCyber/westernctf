@@ -18,25 +18,10 @@
         <div class="feature boxed bg-secondary">
             <form class="text-center" data-form-type="default" action="application-form-submit.php" method="post" enctype="multipart/form-data" data-error="There were errors, please check all required fields and try again" data-success="Thanks for taking the time to complete the planner. We'll be in touch shortly!">
                 <h4 class="uppercase mt48 mt-xs-0">Please fill in the application form for <? echo $_GET["position"]; ?></h4>
-                <div class="overflow-hidden">
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <h6 class="uppercase">
-                        1. Please select the position you would like to apply for.
-                        </h6>
-                        <div class="select-option">
-                            <i class="ti-angle-down"></i>
-                            <select name="position">
-                                <option selected value="Default">Select An Option</option>
-                                <option value="VP Education">VP Education</option>
-                                <option value="Director of Media">VP Marketing</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>   
-
+        
                 <div class="overflow-hidden">
                     <h6 class="uppercase">
-                        2. Your personal details
+                        1. Your personal details
                     </h6>
                     <input type="text" name="position" value="<? echo $_GET['position']; ?>" disabled style="display: none;" />
                     <input type="text" name="name" class="col-md-9 validate-required" placeholder="Full Name*" />
@@ -58,7 +43,7 @@
                 </div>
                 <div class="overflow-hidden">
                     <h6 class="uppercase">
-                        3. Program details
+                        2. Program details
                     </h6>
                     <div class="select-option">
                         <i class="ti-angle-down"></i>
@@ -77,7 +62,7 @@
                 </div>
                 <div class="overflow-hidden">
                     <h6 class="uppercase">
-                        4. Links (fill in if you have any of these)
+                        3. Links (fill in if you have any of these)
                     </h6>
                     <input type="text" name="linkedin" placeholder="Linkedin URL" />
                     <input type="text" name="github" placeholder="Github URL" />
