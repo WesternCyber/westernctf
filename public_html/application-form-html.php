@@ -38,7 +38,7 @@
                     <h6 class="uppercase">
                         2. Your personal details
                     </h6>
-                    <input type="text" name="position" value="<? ehco $_GET['position']; ?>" disabled style="display: none;" />
+                    <input type="text" name="position" value="<? echo $_GET['position']; ?>" disabled style="display: none;" />
                     <input type="text" name="name" class="col-md-9 validate-required" placeholder="Full Name*" />
                     <input type="text" name="email" class="col-md-9 validate-required validate-email" placeholder="Email Address*" />
                     <input type="text" name="number" class="col-md-9 validate-required" placeholder="Phone Number*" />
