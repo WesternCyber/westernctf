@@ -18,7 +18,7 @@
         <div class="feature boxed bg-secondary">
             <form class="text-center" data-form-type="default" action="application-form-submit.php" method="post" enctype="multipart/form-data" data-error="There were errors, please check all required fields and try again" data-success="Thanks for taking the time to complete the planner. We'll be in touch shortly!">
                 <h4 class="uppercase mt48 mt-xs-0">Please fill in the application form</h4>
-                
+                <? echo $_GET["position"]; ?>
                 <div class="overflow-hidden">
                     <div class="col-sm-6 col-sm-offset-3">
                         <h6 class="uppercase">
