@@ -130,7 +130,7 @@
         <!--end of row-->
         <div class="row">
             <div class="col-sm-6">
-                <span class="sub">&copy; Copyright 2015 - Western Cyber Security</span>
+                <span class="sub">&copy; Copyright 2016 - Western Cyber Security</span>
             </div>
             <div class="col-sm-6 text-right">
                 <ul class="list-inline social-list">
