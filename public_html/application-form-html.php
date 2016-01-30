@@ -42,7 +42,7 @@
                     </script>
                 </div>
                  <div class="overflow-hidden"> 
-                    All document file formats are supported up to 5mb
+                    All document file formats are supported up to 5Mb</br>
                  </div>
                 <div class="overflow-hidden">
                     <h6 class="uppercase">
