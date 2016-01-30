@@ -40,6 +40,7 @@
                             return false;
                         }
                     </script>
+                    All document file formats are supported up to 5mb
                 </div>
                 <div class="overflow-hidden">
                     <h6 class="uppercase">
