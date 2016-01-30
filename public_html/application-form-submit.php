@@ -87,6 +87,6 @@ if ($uploadOk == 0) {
 }
 echo "<br>DONE PROCESSING FILE";
 
-header("Location: http://westerncyber.club/join-us"); /* Redirect browser */
+header("Location: http://westerncyber.club/submitted"); /* Redirect browser */
 exit();
 ?>
