@@ -12,7 +12,7 @@
 <section>
     <div class="row" style="text-align:center;">
         <span><img alt="Logo" class="logo" style="max-width: 10%;"
-                   src="img/AppLogo.png"/><h2><b>Found a position your intersetsd in? <br/> Please fill in the application form below</b></h2></span>
+                   src="img/AppLogo.png"/><h2><b>Found a position you're interested in? <br/> Please fill in the application form below</b></h2></span>
     </div>
     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
         <div class="feature boxed bg-secondary">
