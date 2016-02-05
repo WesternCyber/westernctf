@@ -8,5 +8,5 @@
 	branch = master
 [submodule "database"]
 	path = database
-	url = git@github.com:nobodyrandom/westerncyber-database.git
+	url = https://github.com/WesternCyber/Hacking-Tools.git
 	branch = master
