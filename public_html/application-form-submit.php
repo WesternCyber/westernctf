@@ -89,6 +89,6 @@ if ($uploadOk == 0) {
 // Message out JSON
 echo "{success:" . $success . ",errorMessage:" . $errMsg . "}";
 
-header("Location: http://westerncyber.club/submitted"); /* Redirect browser */
+//header("Location: http://westerncyber.club/submitted"); /* Redirect browser */
 exit();
 ?>
