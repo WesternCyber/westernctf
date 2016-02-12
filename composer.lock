@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "79a9a11855f7ae4b9974fdb1829f9e50",
-    "content-hash": "708e2c88e635e106b57ca5e74993e33c",
+    "hash": "b5786f8df8fa9b67137c18957319df91",
+    "content-hash": "9c871658235508e6cccfdaa6e66db26f",
     "packages": [
         {
             "name": "guzzle/guzzle",
@@ -104,16 +104,16 @@
         },
         {
             "name": "parse/php-sdk",
-            "version": "1.1.9",
+            "version": "1.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ParsePlatform/parse-php-sdk.git",
-                "reference": "ba0400e187029d40070b5456455b85e91b337e53"
+                "reference": "6ec74ed193e608f74b3fee9187447d81de947236"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ParsePlatform/parse-php-sdk/zipball/ba0400e187029d40070b5456455b85e91b337e53",
-                "reference": "ba0400e187029d40070b5456455b85e91b337e53",
+                "url": "https://api.github.com/repos/ParsePlatform/parse-php-sdk/zipball/6ec74ed193e608f74b3fee9187447d81de947236",
+                "reference": "6ec74ed193e608f74b3fee9187447d81de947236",
                 "shasum": ""
             },
             "require": {
@@ -153,7 +153,7 @@
                 "parse",
                 "sdk"
             ],
-            "time": "2015-11-30 07:33:06"
+            "time": "2016-01-25 19:05:20"
         },
         {
             "name": "sendgrid/sendgrid",

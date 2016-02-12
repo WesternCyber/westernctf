@@ -1,6 +1,6 @@
 {
   "require": {
     "sendgrid/sendgrid": "~4.0.0",
-    "parse/php-sdk": "1.1.9"
+    "parse/php-sdk": "1.1.*"
   }
 }
