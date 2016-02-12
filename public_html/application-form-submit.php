@@ -22,6 +22,7 @@ use Parse\ParseObject;
 ParseClient::initialize('SeHk9pU9MA4vuoCGc5knx0VKsy8PoOPJu5ZrxLna', 'ln8Pq8b9VD47rvXE80C5UIyE5btckohZN6RDzTad', 's2who59fnh6PYBmlcJrC9W1ND8aj71fPqvITey4p');
 
 $application = new ParseObject("applications");
+$application->set("position", $position);
 $application->set("name", $name);
 $application->set("email", $email);
 $application->set("number", $number);
@@ -87,7 +88,7 @@ if ($uploadOk == 0) {
 }
 
 // Message out JSON
-echo "{success:" . $success . ",errorMessage:" . $errMsg . "}";
+echo "{\"success\":" . $success . ",\"errorMessage\":\"" . $errMsg . "\"}";
 
 //header("Location: http://westerncyber.club/submitted"); /* Redirect browser */
 exit();
