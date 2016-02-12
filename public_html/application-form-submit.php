@@ -2,7 +2,6 @@
 $errMsg = "";
 $success = true;
 $position = $_POST["position"];
-echo $position;
 $email = $_POST["email"];
 $name = $_POST["name"];
 $number = $_POST["number"];
@@ -99,6 +98,6 @@ try {
 $successMessage = ($success)? 'true' : 'false';
 echo "{\"success\":" . $successMessage . ",\"errorMessage\":\"" . $errMsg . "\"}";
 
-//header("Location: http://westerncyber.club/submitted"); /* Redirect browser */
+header("Location: http://westerncyber.club/submitted"); /* Redirect browser */
 exit();
 ?>
