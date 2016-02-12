@@ -31,19 +31,8 @@ $application->set("program", $program);
 $application->set("linkedin", $linkedin);
 $application->set("github", $github);
 
-try {
-    $application->save();
-    //echo 'New object created with objectId: ' . $application->getObjectId();
-} catch (ParseException $ex) {
-// Execute any logic that should take place if the save fails.
-// error is a ParseException object with an error code and message.
-    //echo 'Failed to create new object, with error message: ' . $ex->getMessage();
-    $success = false;
-    $errMsg = $errMsg . 'Failed to create new object, with error message: ' . $ex->getMessage() . '<br>';
-}
-
 // Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
+//if(isset($_POST["submit"])) {
     /*$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
     if($check !== false) {
         echo "File is an image - " . $check["mime"] . ".";
@@ -52,7 +41,7 @@ if(isset($_POST["submit"])) {
         echo "File is not an image.";
         $uploadOk = 0;
     }*/
-}
+//}
 
 // Check if file already exists
 if (file_exists($target_file)) {
@@ -86,8 +75,24 @@ if ($uploadOk == 0) {
     }
 }
 
+$file = ParseFile::createFromFile($target_file, basename($_FILES["fileToUpload"]["name"]));
+$file->save();
+$application->set("resumeFile", $file);
+
+try {
+    $application->save();
+    //echo 'New object created with objectId: ' . $application->getObjectId();
+} catch (ParseException $ex) {
+// Execute any logic that should take place if the save fails.
+// error is a ParseException object with an error code and message.
+    //echo 'Failed to create new object, with error message: ' . $ex->getMessage();
+    $success = false;
+    $errMsg = $errMsg . 'Failed to create new object, with error message: ' . $ex->getMessage() . '<br>';
+}
+
 // Message out JSON
-echo "{\"success\":" . ($success )? 'true' : 'false' . ",\"errorMessage\":\"" . $errMsg . "\"}";
+$successMessage = ($success)? 'true' : 'false';
+echo "{\"success\":" . $successMessage . ",\"errorMessage\":\"" . $errMsg . "\"}";
 
 //header("Location: http://westerncyber.club/submitted"); /* Redirect browser */
 exit();
