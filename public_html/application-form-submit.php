@@ -77,7 +77,9 @@ if ($uploadOk == 0) {
 
 $file = ParseFile::createFromFile($target_file, basename($_FILES["fileToUpload"]["name"]));
 $file->save();
+$url = $file->getURL();
 $application->set("resumeFile", $file);
+$application->set("resumeURL", $url);
 
 try {
     $application->save();
