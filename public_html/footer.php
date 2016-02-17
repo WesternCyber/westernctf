@@ -45,55 +45,8 @@
                         </li>
                         <br>
                         <li>
-                            <div class="modal-container">
-                                <a class="btn-modal" href="#">FAQ</a>
-
-                                <div class="foundry_modal" style="height: 400px;">
-                                    <h4>Frequently asked questions</h4>
-                                    <hr>
-
-                                    <h5>What is Western Cyber Security and what do we do?</h5>
-
-                                    <p>Western Cyber Security aims to educate students on methods and strategies to
-                                        ethical hacking. Our club was inspired by a group of students who were
-                                        interested in Capture the Flag (CTF) competitions and wanted to create a
-                                        program to learn more about hacking.
-
-                                        We regularly organize teams to compete at international competitions, host
-                                        workshops by researchers in the Cyber Security and hold networking events to
-                                        connect students with the corporate space.</p>
-
-                                    <h5>Who can join our club?</h5>
-
-                                    <p>Anyone! Western Cyber Security welcomes all students who are interested in
-                                        learning more about cryptography and cyber security.</p>
-
-
-                                    <h5>What is a CTF?</h5>
-
-                                    <p>CTFs, or Capture the Flag, are global competitions where teams race each
-                                        other to obtain a certain goal by completing reverse engineering tasks or
-                                        simply exploiting holes in software and servers.</p>
-
-                                    <h5>What are the main types of CTFs?</h5>
-
-                                    <p>There are two types of CTFs, one being jeopardy style CTF where teams have a
-                                        grid on available tasks and their worth (in points). As we complete tasks,
-                                        we are rewarded points. The team with most points win. The second type is
-                                        attack/defend which is where each team is given a server to protect and is
-                                        expected to take down other team’s servers.</p>
-
-                                    <h5>Where can I get more info?</h5>
-
-                                    <p>Like our facebook page <a href="https://www.facebook.com/westerncsc/?fref=ts"
-                                                                 target="_blank">here</a> to stay updated with our
-                                        upcoming events.
-
-                                        We also like to document our milestones on our <a
-                                            href="http://westerncyber.club/home" target="_blank">medium blog</a>
-                                    </p>
-                                </div>
-                            </div><!--end modal-->
+                            <a href="faq" target="_blank">FAQ</a>
+                            <!-- FAQ -->
                         </li>
                     </ul>
                 </div>
