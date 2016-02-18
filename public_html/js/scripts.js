@@ -757,6 +757,18 @@ $(document).ready(function () {
                                 "emailSubject": "Message to VP Technology of Western Cyber Security"
                             });
                             break;
+                        case "nobSpons":
+                            data = JSON.stringify({
+                                "type": "from",
+                                "firstName": userFirstName,
+                                "lastName": userLastName,
+                                "fullName": userFullName,
+                                "email": "sponsorships@westerncyber.club",
+                                "from": userEmail,
+                                "message": message,
+                                "emailSubject": "Message to VP Sponsorships of Western Cyber Security"
+                            });
+                            break;
                         default:
                             data = JSON.stringify({
                                 "type": "from",
