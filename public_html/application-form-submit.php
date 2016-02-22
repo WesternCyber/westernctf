@@ -14,7 +14,8 @@ $github = $_POST["github"];
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
-$imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
+//$imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
+echo $target_file;
 
 require '../vendor/autoload.php';
 use Parse\ParseClient;
@@ -98,6 +99,6 @@ try {
 $successMessage = ($success)? 'true' : 'false';
 echo "{\"success\":" . $successMessage . ",\"errorMessage\":\"" . $errMsg . "\"}";
 
-header("Location: http://westerncyber.club/submitted"); /* Redirect browser */
+//header("Location: http://westerncyber.club/submitted"); /* Redirect browser */
 exit();
 ?>
