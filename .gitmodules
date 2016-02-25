@@ -6,3 +6,7 @@
 	path = writeups/CTF-WriteUp
 	url = https://github.com/WesternCyber/CTF-WriteUp.git
 	branch = master
+[submodule "database"]
+	path = database
+	url = https://westerncyber:Abcd1234@github.com/nobodyrandom/westerncyber-database.git
+	branch = master
