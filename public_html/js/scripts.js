@@ -769,6 +769,18 @@ $(document).ready(function () {
                                 "emailSubject": "Message to VP Sponsorships of Western Cyber Security"
                             });
                             break;
+                            case "nobMArk":
+                            data = JSON.stringify({
+                                "type": "from",
+                                "firstName": userFirstName,
+                                "lastName": userLastName,
+                                "fullName": userFullName,
+                                "email": "marketing@westerncyber.club",
+                                "from": userEmail,
+                                "message": message,
+                                "emailSubject": "Message to VP Marketing of Western Cyber Security"
+                            });
+                            break;
                         default:
                             data = JSON.stringify({
                                 "type": "from",
