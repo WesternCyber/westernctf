@@ -769,7 +769,7 @@ $(document).ready(function () {
                                 "emailSubject": "Message to VP Sponsorships of Western Cyber Security"
                             });
                             break;
-                            case "nobMArk":
+                            case "nobMark":
                             data = JSON.stringify({
                                 "type": "from",
                                 "firstName": userFirstName,
