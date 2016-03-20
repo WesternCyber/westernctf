@@ -1,363 +1,101 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Western Cyber Security</title>
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Favicon END -->
-    <meta name="viewport" content="width=device-width, initial-scale=0.9">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/table.css" rel="stylesheet" type="text/css" media="all"/>
-    <!--<link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>-->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600'
-          rel='stylesheet' type='text/css'>
-    <script>
-        var _prum = [['id', '51cd7768abe53d806f000000'],
-            ['mark', 'firstbyte', (new Date()).getTime()]];
-        (function () {
-            var s = document.getElementsByTagName('script')[0]
-                    , p = document.createElement('script');
-            p.async = 'async';
-            p.src = '//rum-static.pingdom.net/prum.min.js';
-            s.parentNode.insertBefore(p, s);
-        })();
 
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                        (i[r].q = i[r].q || []).push(arguments)
-                    }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-70756805-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-</head>
-<body>
-<!-- Navbar -->
-<div class="nav-container">
-    <a id="top"></a>
-    <nav>
-        <div class="nav-bar">
-            <div class="module left">
-                <a href="home">
-                    <img class="logo logo-dark" alt="WSCS" src="img/purplewidestlogo1.png"/><img class="logo logo-dark" alt="WSCS"
-                    src="img/purplewidesttext1.png"/>
-                </a>
-            </div>
-            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-                <i class="ti-menu"></i>
-            </div>
-            <div class="module-group right">
-                <div class="module left">
-                    <ul class="menu">
-                        <li>
-                            <a href="about-us">About</a>
-                        </li>
-
-                        <li>
-                            <a href="events">Events</a>
-                        </li>
-
-                        <li>
-                            <a href="http://westerncyber.club/mail/links.php?link=github" target="_blank">Write-Ups</a>
-                            <!-- github -->
-                        </li>
-
-                        <li>
-                            <a href="http://westerncyber.club/mail/links.php?link=medium" target="_blank">Blog</a>
-                            <!-- medium page -->
-                        </li>
-
-                        <li>
-                            <a href="faq">FAQ</a>
-                        </li>
-
-                        <li>
-                            <a href="contact-us">Contact Us</a>
-                        </li>
-                        
-                        <li>
-                            <a class="btn btn-sm btn-rounded" href="join-us">Join us</a>
-                        </li><!--style="border: 2px solid #4F2683;"-->
-                    
-                    </ul>
-                </div>
-                <!--end of menu module-->
-            </div>
-            <!--end of container-->
-        </div>
-    </nav>
-</div>
-
-<div class="main-container">
-    <section style="padding-top: 70px; padding-bottom: 20px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-                     <h2 class="uppercase">Scoreboard</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section style="padding-top: 30px;">
-        <table>
-            <thead>
-                <tr>
-                  <th style= "text-align: center">Competition</th>
-                  <th>Year</th>
-                  <th>Score</th>
-                  <th>Rank</th>
-                  <th>Total participants</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <a href="http://bctf.cn/"> 
-                            <img class="mb16" style="text-align: center; margin-bottom: 0px;" alt="Post Image" src="img/blue-lotus.png" />
-                            <h4 style="font-family: chaitin; color: #337ab7;">BCTF 2016</h4>
-                        </a>
-                    </td>
-                    <td>2016</td>
-                    <td>On-going</td>
-                    <td>On-going</td>
-                    <td>2465</td>
-                </tr>
-                <tr>
-                    <td><a href="https://ctf.internetwache.org/">
-                            <img class="mb16" style="text-align: center" alt="Post Image" src="img/inter.png" />
-                        </a>
-                    </td>
-                    <td>2016</td>
-                    <td>1030 points</td>
-                    <td>166th</td>
-                    <td>1492</td>
-                </tr>
-                <tr>
-                    <td><a href="http://ctf.nullcon.net/scoreboard.php">
-                            <img class="mb16" style="text-align: center" alt="Post Image" src="img/hackim.png" />
-                        </a>
-                    </td>
-                    <td>2016</td>
-                    <td>2700 points</td>
-                    <td>163rd</td>
-                    <td>1830</td>
-                </tr>
-                <tr>
-                    <td><a href="http://insomnihack.ch/">
-                            <img class="mb24" style="text-align: center; padding-top: 20px" alt="Post Image" src="img/insomni.jpg" />
-                            <h4>Insomni'hack teaser 2016</h4>
-                        </a>
-                    </td>
-                    <td>2016</td>
-                    <td>200 points</td>
-                    <td>143rd</td>
-                    <td>245</td>
-                </tr>
-                <tr>
-                    <td><a href="https://9447.plumbing/home">
-                            <img class="mb24" style="text-align: center; padding-top: 20px" alt="Post Image" src="img/9447SSC.png" />
-                            <h4> 9447 Security Society CTF 2015</h4>
-                        </a>
-                    </td>
-                    <td>2015</td>
-                    <td>2 points</td>
-                    <td>468th</td>
-                    <td>1148</td>
-                </tr>
-                <tr>
-                    <td><a href="https://ructf.org/e/2015/index.html">
-                            <img class="mb24" style="text-align: center; padding-top: 20px" alt="Post Image" src="img/ructfe.png" />
-                        </a>
-                    </td>
-                    <td>2015</td>
-                    <td>382570 points</td>
-                    <td>93rd</td>
-                    <td>140</td>
-                </tr>
-                <tr>
-                    <td><a href="https://ctf.isis.poly.edu/">
-                            <img class="mb24" style="text-align: center; padding-top: 20px" alt="Post Image" src="img/CSAW15LOGO_COLOR.png" />
-                        </a>
-                    </td>
-                    <td>2015</td>
-                    <td>1310 points</td>
-                    <td>246th</td>
-                    <td>1364</td>
-                </tr>
-            </tbody>
-        </table>
-
-    </section>
-
-<!-- footer -->
-<footer class="footer-1 bg-dark">
+<section style="padding-top: 70px; padding-bottom: 20px;">
     <div class="container">
         <div class="row">
-            <!--<div class="col-md-5 col-sm-6">-->
-
-            <div class="col-md-4">
-                <div class="widget">
-                    <div class="row" style="text-align:center;">
-                        <a href="home"><img alt="Logo" class="logo" src="img/purpleinvertlogo1.png"/></a>
-                    </div>
-                    <ul class="list-inline social-list">
-                        <br>
-                        <li>
-                            <a href="http://westerncyber.club/mail/links.php?link=github" target="_blank">Write-Ups</a>
-                            <!-- github -->
-                        </li>
-                        <br>
-                        <li>
-                            <a href="http://westerncyber.club/mail/links.php?link=medium" target="_blank">Blog</a>
-                            <!-- medium page -->
-                        </li>
-                        <br>
-                        <li>
-                            <div class="modal-container">
-                                <a class="btn-modal" href="#">Terms</a>
-
-                                <div class="foundry_modal">
-                                    <h4>Terms of agreement</h4>
-                                    <hr>
-                                    <p>
-                                        We will not disclose your information to any third parties. All information
-                                        collected is only available for purposes of Western Cyber Security
-                                        organization.
-                                        In using the site you agree that Western Cyber Security is not liable for
-                                        any loss
-                                        or
-                                        damage resulting from unintended circumstances that may arise from the use
-                                        of
-                                        this website that are out of our control. Western Cyber Security is an
-                                        independent organization that is not affiliated with the university.
-                                    </p>
-                                </div>
-                            </div><!--end modal-->
-                        </li>
-                        <br>
-                        <li>
-                            <a href="faq" target="_blank">FAQ</a>
-                            <!-- FAQ -->
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-                <?php include_once("medium.php"); ?>
-                <!--end of widget-->
-            </div>
-            <div class="col-md-4 col-sm-6">
-
-                <form class="halves form-newsletter" data-form-type="nob"
-                      data-success="Thanks for your submission, we will be in touch shortly."
-                      data-error="Please fill all fields correctly.">
-                    <input class="mb8 validate-required validate-email signup-email-field" type="text"
-                           placeholder="Email Address" name="email"/>
-                    <!--<a class="btn btn-sm btn-rounded" type="submit" href="#">Go</a>-->
-                    <button class="mb4" type="submit">Go</button>
-                    <span>Sign up for our newsletter to get updates about events, our work and applications.</span>
-
-                    <p>*We won't share your email with third parties.</p>
-                </form>
-
-                <div class="row" style="text-align:center;">
-                    <a class="btn btn-sm btn-rounded" href="join-us">Join us</a>
-                </div>                
-
-                <!--end of widget-->
-            </div>
-            <!--</div>-->
-        </div>
-        <!--end of row-->
-        <div class="row">
-            <div class="col-sm-6">
-                <span class="sub">&copy; Copyright 2016 - Western Cyber Security</span>
-            </div>
-            <div class="col-sm-6 text-right">
-                <ul class="list-inline social-list">
-                    <li>
-                        <a target="_blank" href="http://westerncyber.club/mail/links.php?link=facebook"
-                           style="color: #4F2683; display: block; width: 30px; height: auto;">
-                            <!--src="https://hello.heroku.com/l/36622/2015-04-28/4dp749/36622/87508/icon_fb.png"<img
-                                class="center" alt="Western Cyber Security on Facebook"
-                                style="content:'\e741'; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
-                                align="none">-->
-                            <span class="ti-facebook" style="font-size: 2em;"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="http://westerncyber.club/mail/links.php?link=github" 
-                            style="color: #4F2683; display: block; width: 30px; height: auto;">
-                            <!--<imgsrc="https://hello.heroku.com/l/36622/2015-04-28/4dp745/36622/87510/icon_github.png"
-                                class="center" alt="Western Cyber Security on GitHub"
-                                style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
-                                align="none">-->
-                            <span class="ti-github" style="font-size: 2em;"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="http://westerncyber.club/mail/links.php?link=medium"
-                           style="color: #cec2e9 !important; text-decoration: underline; display: block; width: 30px; height: auto;"><img
-                                src="https://westerncyber.club/img/medium-m-light-30px.png" class="center"
-                                alt="Western Cyber Security on Medium"
-                                style="outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0 auto; border: none;"
-                                align="none">
-                        </a>
-                    </li>
-                </ul>
+            <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
+                 <h2 class="uppercase">Scoreboard</h2>
             </div>
         </div>
     </div>
-    <!--end of container-->
-    <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
-</footer>
-</div> <!-- main container close -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/flickr.min.js"></script>
-<script src="js/flexslider.min.js"></script>
-<script src="js/lightbox.min.js"></script>
-<script src="js/masonry.min.js"></script>
-<script src="js/twitterfetcher.min.js"></script>
-<script src="js/spectragram.min.js"></script>
-<script src="js/ytplayer.min.js"></script>
-<script src="js/countdown.min.js"></script>
-<script src="js/smooth-scroll.min.js"></script>
-<script src="js/parallax2.min.js"></script>
-<script src="js/md5.js"></script>
-<script src="js/scripts.min.js"></script>
-<script src="js/table.js"></script>
-</body>
-</html>
+</section>
+
+<section style="padding-top: 30px;">
+    <table>
+        <thead>
+            <tr>
+              <th style= "text-align: center">Competition</th>
+              <th>Year</th>
+              <th>Score</th>
+              <th>Rank</th>
+              <th>Total participants</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a href="http://bctf.cn/"> 
+                        <img class="mb16" style="text-align: center; margin-bottom: 0px;" alt="Post Image" src="img/blue-lotus.png" />
+                        <h4 style="font-family: chaitin; color: #337ab7;">BCTF 2016</h4>
+                    </a>
+                </td>
+                <td>2016</td>
+                <td>On-going</td>
+                <td>On-going</td>
+                <td>2465</td>
+            </tr>
+            <tr>
+                <td><a href="https://ctf.internetwache.org/">
+                        <img class="mb16" style="text-align: center" alt="Post Image" src="img/inter.png" />
+                    </a>
+                </td>
+                <td>2016</td>
+                <td>1030 points</td>
+                <td>166th</td>
+                <td>1492</td>
+            </tr>
+            <tr>
+                <td><a href="http://ctf.nullcon.net/scoreboard.php">
+                        <img class="mb16" style="text-align: center" alt="Post Image" src="img/hackim.png" />
+                    </a>
+                </td>
+                <td>2016</td>
+                <td>2700 points</td>
+                <td>163rd</td>
+                <td>1830</td>
+            </tr>
+            <tr>
+                <td><a href="http://insomnihack.ch/">
+                        <img class="mb24" style="text-align: center; padding-top: 20px" alt="Post Image" src="img/insomni.jpg" />
+                        <h4>Insomni'hack teaser 2016</h4>
+                    </a>
+                </td>
+                <td>2016</td>
+                <td>200 points</td>
+                <td>143rd</td>
+                <td>245</td>
+            </tr>
+            <tr>
+                <td><a href="https://9447.plumbing/home">
+                        <img class="mb24" style="text-align: center; padding-top: 20px" alt="Post Image" src="img/9447SSC.png" />
+                        <h4> 9447 Security Society CTF 2015</h4>
+                    </a>
+                </td>
+                <td>2015</td>
+                <td>2 points</td>
+                <td>468th</td>
+                <td>1148</td>
+            </tr>
+            <tr>
+                <td><a href="https://ructf.org/e/2015/index.html">
+                        <img class="mb24" style="text-align: center; padding-top: 20px" alt="Post Image" src="img/ructfe.png" />
+                    </a>
+                </td>
+                <td>2015</td>
+                <td>382570 points</td>
+                <td>93rd</td>
+                <td>140</td>
+            </tr>
+            <tr>
+                <td><a href="https://ctf.isis.poly.edu/">
+                        <img class="mb24" style="text-align: center; padding-top: 20px" alt="Post Image" src="img/CSAW15LOGO_COLOR.png" />
+                    </a>
+                </td>
+                <td>2015</td>
+                <td>1310 points</td>
+                <td>246th</td>
+                <td>1364</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
