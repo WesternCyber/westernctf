@@ -136,5 +136,6 @@
 <script src="js/parallax2.min.js"></script>
 <script src="js/md5.js"></script>
 <script src="js/scripts.min.js"></script>
+<script src="js/table.js"></script>
 </body>
 </html>
