@@ -1,0 +1,4020 @@
+[33mcommit 3bc7b88858e78a4ae7d09791b22fd4f3f73f1beb[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Apr 25 01:52:59 2016 -0400
+
+    BCTF scoreboard addition
+
+[33mcommit fb6661490447082d9adfdc27afa4884af11d9e6a[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Mar 21 13:51:53 2016 -0400
+
+    percentile column added to the scoreboard
+
+[33mcommit 44860be56ec003e2fc14e7643b1edcdd79c80b59[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sun Mar 20 17:58:01 2016 -0400
+
+    header fix
+
+[33mcommit 1d2774244e2e08c0ff552485264f45b8d857b752[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sun Mar 20 17:53:06 2016 -0400
+
+    header scoreborad addition
+
+[33mcommit 01b749884c6a5d952bd8dc00af99b6ecbb6aeb3d[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sun Mar 20 17:50:08 2016 -0400
+
+    header and footer change for scoreboard
+
+[33mcommit a83bf640034d76b2feb3a2d90fb1b6f7b55eebcd[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sun Mar 20 17:47:54 2016 -0400
+
+    scoreboard additions 3
+
+[33mcommit 5d97923555a8f7ad2a07e0dfe581f3cfa8a6615a[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sun Mar 20 17:46:34 2016 -0400
+
+    scoreboard additions 2
+
+[33mcommit 438560cf23fd374d57aff8ae65ee497339c4328f[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sun Mar 20 17:12:34 2016 -0400
+
+    Scoreboard addition
+
+[33mcommit afc3fc8f1de1f0ee042de5af7de81a2b99529aaf[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Mar 18 23:04:27 2016 -0400
+
+    team additions final
+
+[33mcommit e9429917074bab0ccaf1e2b3199b2c650d0099cb[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Mar 18 21:38:33 2016 -0400
+
+    team additions
+
+[33mcommit 48cc881cd39e668e54605a7a50c36e2757490d11[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Mar 18 21:33:28 2016 -0400
+
+    team additions
+
+[33mcommit e9b0eaff845c512d6643021881f4a1927d76ea44[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Mar 18 21:31:31 2016 -0400
+
+    team additions
+
+[33mcommit e5dd8add6239c0e4979a01c53dda71c24dc171f9[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Mar 18 21:27:33 2016 -0400
+
+    team additions
+
+[33mcommit 4e95ed517bdb1f977d9304b15009602f92706432[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Mar 18 21:22:52 2016 -0400
+
+    team additions
+
+[33mcommit 479d324a676f69ff2df7622e1529806ecfbe2108[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Mar 18 20:43:28 2016 -0400
+
+    nob additions and minification
+
+[33mcommit a1a10f444b3ac767233e7c3d32f1ca96fbdee216[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Mar 17 17:17:50 2016 -0400
+
+    homepage additions
+
+[33mcommit 483dc0573d4e3186cd025d70fbd2064a847410b9[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Mar 17 17:15:56 2016 -0400
+
+    homepage additions
+
+[33mcommit 4872375c069e9a78845c64fdb2c089700f6c8611[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Mar 17 17:06:56 2016 -0400
+
+    homepage additions
+
+[33mcommit 147ff32c32f2c42f82720b1339ff78ab32f3471b[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Mar 17 17:04:22 2016 -0400
+
+    homepage additions
+
+[33mcommit 1594f3e7b2c21aedb1c2dcdff269c19ba45d1fc7[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Mar 17 17:00:28 2016 -0400
+
+    homepage additions
+
+[33mcommit 240796c9a9541aa352b4d9e0ab3df1ee32693327[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 22:42:38 2016 -0400
+
+    BCTF final addition
+
+[33mcommit eaff97fa49c0023e7f984822d6f134b9589cdd9b[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 22:30:55 2016 -0400
+
+    Adding Bctf addition 1
+
+[33mcommit 1c9cdc0413d456e886987255ee8e8d57719ed6a8[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 22:20:22 2016 -0400
+
+    Adding Bctf addition 1
+
+[33mcommit 650af5f8ad017c99ee9319b791b5ef5c88b02c9c[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 22:17:50 2016 -0400
+
+    Adding Bctf addition 1
+
+[33mcommit 03ae70b85e5f9103a2a6a062ebb39e266730fadd[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 22:15:48 2016 -0400
+
+    Adding Bctf addition 1
+
+[33mcommit abe826cff16942cac24ef13915e7a720d57a27a0[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 22:12:20 2016 -0400
+
+    Adding Bctf addition 1
+
+[33mcommit 1ac140157adf402c83857e6c2e3c5b14727967a8[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 21:52:55 2016 -0400
+
+    Adding Bctf addition 1
+
+[33mcommit dce8a75267e3729ba95a80ca7d9b5f54fa769246[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 21:33:27 2016 -0400
+
+    Adding Bctf addition 1
+
+[33mcommit 458d8a475ceb62717181702978728eb83c1afb17[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 21:31:47 2016 -0400
+
+    Adding Bctf addition 1
+
+[33mcommit d6f92bc0726844d3404ac983a3c56c70eaef0cde[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 21:04:53 2016 -0400
+
+    fixing ratio on the bitcoin image
+
+[33mcommit 33c755250e5ddb85a52d88fcdb269ded6cd89c3a[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 21:01:24 2016 -0400
+
+    adding Bitcoin Event banner to events pag
+
+[33mcommit 82c0642bcd0e0dcc815c9df570ecbb163202ceef[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 16 20:56:05 2016 -0400
+
+    removed chatlio
+
+[33mcommit 2ce50e1365751db129333748485f723501cdd0e3[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Mon Mar 14 16:38:54 2016 -0400
+
+    bitcoin writeup
+
+[33mcommit 429692d1bfccf8b6b82cd9b11038dd11fe4d12da[m
+Merge: 2e41e09 97f01ce
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Mon Mar 14 16:38:03 2016 -0400
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 97f01cee0cebba760e783698c33f9f30c6c6f914[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Mar 14 12:47:21 2016 -0400
+
+    open links in new tabs
+
+[33mcommit a3a0661ba276cfcb40a4f59cf2e82eaee7e964cd[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Mar 14 12:45:20 2016 -0400
+
+    final sponsors banner
+
+[33mcommit 024784afc4a5f75202f4789af836eb181080ee68[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Mar 14 12:39:50 2016 -0400
+
+    changing the banner
+
+[33mcommit 844bd9b242e99082c268c4d84d04dc30095f0ece[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Mar 14 12:38:05 2016 -0400
+
+    changing the banner
+
+[33mcommit 2e41e09bcd2b13ba21c5351be0b116dd43383dcf[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Mar 11 13:53:17 2016 -0500
+
+    bitcoin writeup
+
+[33mcommit b0174bf7b1ae632c52b7646b8c50a65ff6f2e4b4[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Mar 10 17:11:39 2016 -0500
+
+    banner
+
+[33mcommit 1d1fcb07ce139ebe5cc5172054e6662ef5c358dc[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Mar 10 17:10:01 2016 -0500
+
+    banner
+
+[33mcommit e1471da86d3f94fab84eaeb731fa5adf0cef6e3a[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Mar 7 21:13:38 2016 -0500
+
+    testing still
+
+[33mcommit 8198cfe5bb88cc65dcfe6b279375ee656856bf14[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Mar 7 21:03:30 2016 -0500
+
+    test banner
+
+[33mcommit b1faf1ea116dea4e2577726397ff7a98c5304229[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Mar 7 21:01:56 2016 -0500
+
+    checking banner
+
+[33mcommit 21c66e30a83e1f3d24a4d4057393edd444f444a3[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Mar 7 20:57:39 2016 -0500
+
+    checking banner
+
+[33mcommit 8b4f7a5902d53c091381d10c531049aaf707d02c[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Mar 7 20:56:05 2016 -0500
+
+    checking banner
+
+[33mcommit 9d223fe93d633a1fcad455d5c141230568d07c9f[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Mar 2 14:01:05 2016 -0500
+
+    just added a nob for Raj
+
+[33mcommit 853b0fa29e1a44dca67379c255ee0d90759f1b56[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Feb 29 16:48:47 2016 -0500
+
+    Script up
+
+[33mcommit 8949bd104f17cae8bb58d6384037575535b09efa[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Feb 25 22:42:13 2016 -0500
+
+    event pages
+
+[33mcommit 776e567a3ede14a5e7f870d3f7aa4590ff66553d[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Feb 25 21:06:01 2016 -0500
+
+    finalized events page
+
+[33mcommit dfe07f9d2ec66f7265179e02ca51017e1433485c[m
+Merge: a7ff0ae 1de1487
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 19:43:27 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit a7ff0ae59ef265640498dd8effa8044dba68569c[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 19:43:10 2016 -0500
+
+    test
+
+[33mcommit 1de1487454f36998afa3f2410c6d09efdeb65326[m
+Merge: d4e24e1 2123b1a
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Feb 25 19:35:48 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit d4e24e16dfddfdb9ed189fbedae0faa86152d24f[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Feb 25 19:34:34 2016 -0500
+
+    added support chat
+
+[33mcommit 2123b1ab054d4f433058086ab26f1030736da954[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 17:59:57 2016 -0500
+
+    bitcoin subdomain
+
+[33mcommit 919fe25fb644b42ba47eee4b3c0c78ff9b4d3b1a[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 17:07:36 2016 -0500
+
+    test
+
+[33mcommit d5962b622b1e3b7ec5a1e551a5b4dd79bd685588[m
+Merge: bc57054 b3e2bd5
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 16:59:04 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit bc570543227a2c88a8b21f74cca7f4559feec746[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 16:58:45 2016 -0500
+
+    test
+
+[33mcommit b3e2bd5979690351818669c5b366a0456c9fd780[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Feb 25 16:43:52 2016 -0500
+
+    added support chat
+
+[33mcommit 9370decc4965d40925e482156f9895ca7f8b3a2f[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 16:30:56 2016 -0500
+
+    database
+
+[33mcommit ee7c5a1fbc4bce5c4cf8990822a165e4885bee81[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 14:14:34 2016 -0500
+
+    database
+
+[33mcommit e7ad7ec543c14d367dd098ef9a773fcc82dfdfbc[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 14:05:55 2016 -0500
+
+    password
+
+[33mcommit 9f940d713068e05900bd3ac21c766f0c3f5985c6[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 13:54:33 2016 -0500
+
+    test
+
+[33mcommit 37b60b342d3d52bad794fdeb338ba6a17045e4c8[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 13:46:53 2016 -0500
+
+    test
+
+[33mcommit 58489bcc2da2519c7930c1d5e9c5b89c95f43734[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 13:45:56 2016 -0500
+
+    test
+
+[33mcommit 0842f81e6eada2d1164d1708d9ccdfb253645f84[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 13:43:03 2016 -0500
+
+    test
+
+[33mcommit f8dc1fbd23479ac84d94d779236a5084e415a0f5[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 13:40:26 2016 -0500
+
+    database
+
+[33mcommit 28ccc216fe8526f7ed089ae2f412f40eb2dda0a6[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 13:21:14 2016 -0500
+
+    database
+
+[33mcommit 449dc070ecd73a06aefc27f8cead8a751ea6fd7b[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 12:54:38 2016 -0500
+
+    database
+
+[33mcommit 321afe2ea868c92b04b7c784fdcacb95f59d54d2[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 25 12:39:11 2016 -0500
+
+    database
+
+[33mcommit 686bc60f08da6eb1effbb4596151fcbdd0d51035[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Mon Feb 22 17:40:20 2016 -0500
+
+    Writeup
+
+[33mcommit 858430a3f16241618f52013c9ff306d98452ad18[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Mon Feb 22 17:27:03 2016 -0500
+
+    test
+
+[33mcommit 3c77beb50e30c685360f2d438b8c33468bc42516[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Mon Feb 22 17:11:33 2016 -0500
+
+    test
+
+[33mcommit 066c3953070584c874767e78b66105e576956963[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Feb 19 21:57:15 2016 -0500
+
+    event page changes
+
+[33mcommit b11229c00ca47cda8ce6781ccb2ae238626c066e[m
+Merge: dbcd476 2de8a95
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 19 20:58:10 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit dbcd47658a1a83911bbddf7653ba80c91b63b72c[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 19 20:58:00 2016 -0500
+
+    test
+
+[33mcommit 2de8a956e576abdcaf6b70687bdd35ad317e86c9[m
+Merge: 28c7496 7199d38
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Feb 18 18:44:01 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 28c7496ade3fe853c1d760b31c47786d528f4cd8[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Thu Feb 18 18:41:53 2016 -0500
+
+    events page
+
+[33mcommit 7199d38f3e945de0755653cf5799fd0e43e2fc32[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 17 20:27:44 2016 -0500
+
+    Add nobSpons
+
+[33mcommit bcc1dda8a3d17d7dde1314d75cd7e3297fa20dd2[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 17 20:12:14 2016 -0500
+
+    Readme
+
+[33mcommit 569afc90e93ab48246a834a940d0ba99772fa701[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 17 20:11:04 2016 -0500
+
+    Readme
+
+[33mcommit fee7c1c8ab06b536073828b021958ecd07ecf20b[m
+Merge: e034d80 1ced957
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 17 20:08:50 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 1ced957ef12f856e0ebb1c18da41bfc0ac03ec1b[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Feb 17 20:06:14 2016 -0500
+
+    FAQ page
+
+[33mcommit e034d80c2770e5cd5c1af13daaffa6c72c5525d2[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 17 20:04:44 2016 -0500
+
+    Readme
+
+[33mcommit 611857f4d54b0e45ea85408576b380a76a3b2f72[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Feb 17 20:04:24 2016 -0500
+
+    FAQ page
+
+[33mcommit bb14200d5efc3b374bfe503816a34bba44ee854e[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Feb 17 13:59:21 2016 -0500
+
+    FAQ page
+
+[33mcommit 9a35a02ebdf67a1cdb0a1e22d19e3a92549e60e3[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sun Feb 14 15:03:32 2016 -0500
+
+    spencers changes added the nobSpons to his fform to direct email
+
+[33mcommit 7dd228d8d4ce332598603d6a2fb878d5781b9008[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sun Feb 14 14:50:26 2016 -0500
+
+    spencers changes added the nobSpons to his fform to direct email
+
+[33mcommit cdcc5fc54a8151f0560765ca7397cf537984b184[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sun Feb 14 14:47:24 2016 -0500
+
+    spencers changes
+
+[33mcommit 827b751df9b1c163f24c063876967b7fb88d7534[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Feb 12 18:19:10 2016 -0500
+
+    spencers changes
+
+[33mcommit a91eaec71c7e0145b6bc606a5586e40b3d82ed8f[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Feb 12 18:13:45 2016 -0500
+
+    spencers changes
+
+[33mcommit cd08dd8bf7c4866ee349a3335e7a8a7099292033[m
+Merge: 4ae514c b8db338
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Feb 12 16:39:20 2016 -0500
+
+    what i did last time
+
+[33mcommit b8db338250a8624f7faedaf9913d53cb28ec336a[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 02:12:20 2016 -0500
+
+    Try fix form
+
+[33mcommit 30bf68fe093580a5e593b6340ea842d37ffe5cab[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 02:09:29 2016 -0500
+
+    Try fix form
+
+[33mcommit b336a4c1082f15a4b4174df5797679e098ad3ee6[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 02:05:45 2016 -0500
+
+    Try fix form
+
+[33mcommit 0a545a1e8305e058f47a6e3947e73946d3220efd[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 02:04:23 2016 -0500
+
+    Try fix form
+
+[33mcommit 917c33255cb3d40663a763dd6af61b9c80a65823[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 01:56:35 2016 -0500
+
+    Try fix form
+
+[33mcommit 51748ed6581e44269ab496d56d964faf227c27c1[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 01:54:13 2016 -0500
+
+    Try fix form
+
+[33mcommit e847a408a609be3196f15df65164344d2eaa7d23[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 01:47:15 2016 -0500
+
+    Try fix form
+
+[33mcommit c8639cc673a85c4c539a2d4062670ab78750f6a7[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 01:31:21 2016 -0500
+
+    Fix
+
+[33mcommit 1b78304f7a5fc4145877f02ced2ab28a3e82a617[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 01:28:36 2016 -0500
+
+    Fix
+
+[33mcommit 5aa09c77efad812143f5eeef7d3553f34982bc43[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 01:22:37 2016 -0500
+
+    Fix
+
+[33mcommit 978c47ab48bb8425b74136b7a7ce6c023507a936[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 12 01:04:27 2016 -0500
+
+    Fix
+
+[33mcommit cd94da2b3f37f0a6c53a2a358b4c82d250ce3e71[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 11 18:11:45 2016 -0500
+
+    test
+
+[33mcommit 412713cf91ebea6794900a1eba38befc691632dc[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Thu Feb 11 18:06:58 2016 -0500
+
+    test
+
+[33mcommit 4ae514c836a6f7b18e82490fa52188b0f6b3b6aa[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Wed Feb 10 14:15:59 2016 -0500
+
+    removed redundant html files
+
+[33mcommit d1f863e9b285c6b1e3e0478fbed2f4b8674496b1[m
+Merge: e34ad8a 35e04f1
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Feb 8 18:14:50 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit e34ad8aca9d648034b2da8b9991ffcf318221a54[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Feb 8 18:14:32 2016 -0500
+
+    test
+
+[33mcommit 35e04f11b87da2e858bf43bdeeb5522d2ebc9bd9[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Feb 6 20:23:18 2016 -0500
+
+    databae
+
+[33mcommit bf98396cd85963bbe9788cb941990cf7d7b551cd[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Feb 6 20:13:58 2016 -0500
+
+    Add in database implementation
+
+[33mcommit cb89dc74201aa5488aac7e945efe1d85ecb14b49[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Feb 6 19:13:05 2016 -0500
+
+    Add in database implementation
+
+[33mcommit 6a6413570b9452c746bff87dd0bcec3d6f75205c[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Feb 6 00:24:18 2016 -0500
+
+    test
+
+[33mcommit 6bcd953543544b8763da7b46171f26dba209b2c0[m
+Merge: 2a9df0a 40eb0a5
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 5 23:53:56 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 2a9df0a8eb4841148c9501c492507916c1b1e066[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 5 23:53:44 2016 -0500
+
+    Add in database implementation
+
+[33mcommit 40eb0a530e8991ee5404d4b87ca6bb797cf313a0[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Feb 5 14:09:41 2016 -0500
+
+    Programming 1 Write up
+
+[33mcommit 203d564511007fbd9e1da173a1ec173fe1460c5b[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 5 12:12:36 2016 -0500
+
+    Add in database implementation
+
+[33mcommit 40d3964fe5f27f48b375f8a366aab725521e8d72[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 5 12:09:00 2016 -0500
+
+    Add in database implementation
+
+[33mcommit c2426ebd66f6980f64536cab146218e792491f73[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Feb 5 12:02:21 2016 -0500
+
+    Add in database implementation
+
+[33mcommit 227a3d614f88f7468de019e4cf3d2810ba370ddb[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 3 17:14:36 2016 -0500
+
+    Test
+
+[33mcommit 0ac7410c025bde145e411c4012df5a1f790eadde[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 3 17:13:10 2016 -0500
+
+    Test
+
+[33mcommit fa7dbf1ef1bfc6b68001520cb51a94f0b4f3e6fd[m
+Merge: 50d1c92 9101748
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 3 14:09:10 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 50d1c927997ec1e3f6131252320e5bcf903b542d[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 3 14:09:03 2016 -0500
+
+    Test
+
+[33mcommit 9101748b982ee7baffc3f6f182841f0ab425bb65[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 3 13:35:04 2016 -0500
+
+    Test
+
+[33mcommit 20fc5bf453cb405818b82fbfc5af2b4b853b19d1[m
+Merge: a95cab9 31665fa
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 3 09:51:53 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit a95cab9a2d033c46834886596e66b6205e7bbd1e[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Wed Feb 3 09:51:42 2016 -0500
+
+    Add position
+
+[33mcommit 31665fa7b01b2612d065419a6ef34143fcad6d96[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Tue Feb 2 20:24:18 2016 -0500
+
+    Spencer title fix
+
+[33mcommit 9cdab778251e9ec19f3cbfed37cf2010aa1f58b9[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Tue Feb 2 19:12:25 2016 -0500
+
+    spencer title change
+
+[33mcommit 26a4c63372dceb95bdc7a1e06a1625b13748d81b[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Mon Feb 1 12:39:28 2016 -0500
+
+    Spencer title update
+
+[33mcommit 05208b819a47ae24428380f96f186cdc87e9127c[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 31 18:49:45 2016 -0500
+
+    Readme
+
+[33mcommit 5943b84a02da3730401845ee6cd0dd90a119c524[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 30 17:53:01 2016 -0500
+
+    Readme
+
+[33mcommit 8141a8993d70dd4cca1dfaf5aa0ad74da65c9ede[m
+Merge: 8982aa2 a7ece89
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 30 17:09:24 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 8982aa272408d0d82e7a40c66fdc86ff8af68441[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 30 17:09:12 2016 -0500
+
+    Change output to JSON
+
+[33mcommit a7ece8955809d411157474ef09f52d7ad40f9ba9[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sat Jan 30 17:05:56 2016 -0500
+
+    application form edit
+
+[33mcommit 877c2540277a43939b09f8a22b2e9faa66e7ca79[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sat Jan 30 17:04:13 2016 -0500
+
+    application form edit
+
+[33mcommit c4d11e3793f5b35242ca2cd036a4662dcd3f61e2[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sat Jan 30 17:02:14 2016 -0500
+
+    application form edit
+
+[33mcommit b81a3a7e5ea5881097c6e1afc80a5fe8c867c17d[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sat Jan 30 16:58:10 2016 -0500
+
+    Join us page is live :D
+
+[33mcommit cf800012dde674f7ee2bac930fb7710b683f70f5[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sat Jan 30 16:21:38 2016 -0500
+
+    Spencer fix
+
+[33mcommit 82252bbdd97e1669d13309281f821e559bac2b95[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sat Jan 30 15:47:29 2016 -0500
+
+    adding spencer
+
+[33mcommit 1b1a56f1990123c4c58a0407cd0b0e24769b2f44[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sat Jan 30 15:44:54 2016 -0500
+
+    adding spencer
+
+[33mcommit 72e3358c508613dea0c123efc1a2d87d478281c6[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sat Jan 30 15:25:23 2016 -0500
+
+    pulling join us page links down
+
+[33mcommit dad14ebc857b6616fc45febae78e921f0016a8b6[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sat Jan 30 15:15:43 2016 -0500
+
+    Fady's changes
+
+[33mcommit 8bb0a8bd12bf925fd94e4738fafcc9539228eaa1[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Sat Jan 30 10:32:24 2016 -0500
+
+    vp market fix
+
+[33mcommit adb1e3709ba997ec457616d7dcf80be5897aff36[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:57:49 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit 1d6525119e2aa5bead39b7f74c157e004395bf1d[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:45:22 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit 903ea690508e74775746fe41df511a8203b31836[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:39:37 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit cb7d7ecb463a03b1e17e1517c24c022c5cf08039[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:36:50 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit 5abeb72f6f2878e2160486eb9c3784e3b159ff24[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:34:23 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit 7386ddfccba44e4319c4f1e8aeb7d02e1cf0dadf[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:32:01 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit 95db8111073be4883868bbb06edb8c0d2ae1611a[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:31:08 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit b79afaf7737960ae74785b91ca2c5d1398c32b60[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:22:49 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit 34d23c55f3ca1792f96fba3a4cfb20c8a16f052e[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:21:11 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit 8df687dc5eb2747286ccb346c08f0ab41e72e533[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:12:46 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit 67b9551cdcf9968f8e7f246b9f731209b3c26e7e[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 20:05:11 2016 -0500
+
+    adding submit accepted page
+
+[33mcommit 03e3e2efb50fc9a6c0ccf36f7c15ccd20f1a2c1c[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 19:59:04 2016 -0500
+
+    adding submit acepted page
+
+[33mcommit 48e4051ae287b629ef63db038f9e4b7e29b94d1d[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 19:30:54 2016 -0500
+
+    join us page formating final
+
+[33mcommit 66aa442ee024823f769bfc81791902ef5e71d96e[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 19:25:50 2016 -0500
+
+    join us page formating final
+
+[33mcommit b06bebe6312a757af27be55ef2c92f61bbdc85a8[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 19:03:55 2016 -0500
+
+    join us page formating final
+
+[33mcommit cdb6c81605376a98df051a77f7db870e5655813e[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 19:01:53 2016 -0500
+
+    join us page formating final
+
+[33mcommit f11f4d600d41c10eb5823b8538e908bc31f1ec8a[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 18:56:56 2016 -0500
+
+    join us page bullet indentation
+
+[33mcommit 0f6ee3c837cbd199d0dd954019d9170027d66de5[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 18:48:23 2016 -0500
+
+    join us page bullet indentation
+
+[33mcommit 4a502280702a3b8fe6945ca339ccfc3eda96e4f7[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 18:45:23 2016 -0500
+
+    join us page bullet indentation
+
+[33mcommit 8ce46997ef966faad8713cf2f300080018af7687[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 18:36:53 2016 -0500
+
+    join us page update
+
+[33mcommit bd7c42a579ab3fb4864744cad68055ad03cde285[m
+Merge: d17e442 f2d1598
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 18:13:39 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit d17e442170ec6834f5f516175dfa534811e90210[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 18:13:23 2016 -0500
+
+    Test CTF
+
+[33mcommit f2d15988400a979c1fa4cff16b04da1b64267c6c[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 16:25:21 2016 -0500
+
+    application form change and submit php redirect
+
+[33mcommit 1a611ccc143b649159d8eb5e98e397cbb4f9663e[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 15:50:16 2016 -0500
+
+    deletion
+
+[33mcommit 6398411d389df1a1da07bb42da8c4406cc64ba37[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 15:45:44 2016 -0500
+
+    Position thing
+
+[33mcommit cb78a5d1593b5326f320226f7bd9e2945eb08763[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 15:44:58 2016 -0500
+
+    Position thing
+
+[33mcommit 83a1bf77fcac99da2e976e143bba662e730d1468[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 15:43:52 2016 -0500
+
+    Position thing
+
+[33mcommit 60d1498316e16d6024844b0d6195b92cb1053cb0[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 15:40:04 2016 -0500
+
+    Position thing
+
+[33mcommit 882a2d91fb20b5bae0a237968ff62b456fd045e4[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 15:38:42 2016 -0500
+
+    Position thing
+
+[33mcommit 1614e146714f9e7277dfab26ec4564b31d351ef4[m
+Merge: 5835167 ab01b1b
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 15:36:18 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 583516750fd634e8b8989904e980b9692a96051a[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 15:36:11 2016 -0500
+
+    Deploy other repo
+
+[33mcommit 4c061e82b6b629f566a01a2089525ca7246a4a75[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 15:36:00 2016 -0500
+
+    lol
+
+[33mcommit c7fef355a726037766bbb5e99e0c687eada277cb[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 15:35:12 2016 -0500
+
+    Deploy other repo
+
+[33mcommit ab01b1bb507008439c3bf12bba50b94f9f23ded3[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 15:30:30 2016 -0500
+
+    join us page update
+
+[33mcommit 0ae5ab41081af65f4cdcf0e1af48f6a65bdd3fea[m
+Merge: cacd43e 103b972
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 12:09:45 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit cacd43effdee2b4866a02cd8ddbf8aa28d21c1f7[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 12:09:32 2016 -0500
+
+    join us page update
+
+[33mcommit 2457fcb3e151d00150d75e211f1568dabed67db8[m
+Author: ajeffre9 <ajeffre9@wo.ca>
+Date:   Fri Jan 29 12:03:07 2016 -0500
+
+    join us page update
+
+[33mcommit 103b9720e89eff97a696ea8b48b71dfbcb4f02ec[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 11:45:52 2016 -0500
+
+    Deploy other repo
+
+[33mcommit 08eb78b7e8b724b5d14d8028dafb094a49310eb5[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 11:34:57 2016 -0500
+
+    Fix module
+
+[33mcommit a373a4585873e6ed2050c7adf88957bbb038f1ff[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 11:22:11 2016 -0500
+
+    Fix gitignore
+
+[33mcommit 4fba11b15f5b4a97fb53ae085faf208e7ea5a9ed[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 11:17:27 2016 -0500
+
+    Fix gitignore
+
+[33mcommit f4f3178f07079962d14d3b7bfa1c753ff97e7075[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 11:15:17 2016 -0500
+
+    Link to other git
+
+[33mcommit 91b25b96e48957fed5b7e3d7f7f2f8e9c88a1c7c[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 29 11:12:31 2016 -0500
+
+    Link to other git
+
+[33mcommit 51f3f2511895dd2c283286896b1598f700bd33aa[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Tue Jan 26 21:07:08 2016 -0500
+
+    Fix typo
+
+[33mcommit 27acce4e2833adf93e6fb4fed73a4fdaad8c88c7[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Tue Jan 26 20:45:50 2016 -0500
+
+    Fix typo
+
+[33mcommit 6a7cbf1961db290c665340f5929e41ebfb7b7567[m
+Merge: 5254565 5ae9d8e
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Tue Jan 26 20:37:50 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 5254565362f840c8e3de7070a55f520a134e464f[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Tue Jan 26 20:37:42 2016 -0500
+
+    Add file processing - Testing phase
+
+[33mcommit 5ae9d8ed8ca07b0737ae77af3f357f4c397e9895[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Jan 26 12:09:30 2016 -0500
+
+    contact us page update
+
+[33mcommit f6eb0839a308fd8ee46ad4401e982557c2c8ff9b[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Jan 26 11:57:51 2016 -0500
+
+    contact us page update
+
+[33mcommit 3ab039d6285f3bdd7cc1e15dc6b3bf84de31ac9a[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Jan 26 11:38:07 2016 -0500
+
+    contact us page update
+
+[33mcommit f972e12d2431f3d921b5995f72881ea683e3c98f[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Jan 26 01:42:33 2016 -0500
+
+    contact us page update
+
+[33mcommit 22589d39bf29d64564e87967fa8fbaccd8f77dc0[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Jan 26 01:36:00 2016 -0500
+
+    contact us page update
+
+[33mcommit 10dc83a7336ff218137beb82ddc65e33b3dc7545[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Jan 26 01:34:04 2016 -0500
+
+    contact us page update
+
+[33mcommit 3b072eb229390cc0069ff0ba2666634e000ea61e[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Jan 26 01:21:41 2016 -0500
+
+    Join us page update
+
+[33mcommit 2480a00905e2b7e6d6158464b2d190b6cff4e56d[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Jan 26 01:17:27 2016 -0500
+
+    Join us page update
+
+[33mcommit d910f502e775262fbda6d3085389a815341fcc1e[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 14:52:54 2016 -0500
+
+    Fix typo
+
+[33mcommit 123b6f0e3ddecec31410540662829bc55be9a1aa[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:54:38 2016 -0500
+
+    Fix typo
+
+[33mcommit cd4944faa0cdd19d9517ea38215c4a47608989b6[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:47:41 2016 -0500
+
+    Fix typo
+
+[33mcommit 8698b0990215e7a4bc8fb430baa8efccb74969ce[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:43:26 2016 -0500
+
+    Fix typo
+
+[33mcommit 43b7531cd84cabbfe073325e0b033f1275772bb3[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:40:54 2016 -0500
+
+    Fix typo
+
+[33mcommit e2d7091546bed08238ab961c24641b7a165b8db0[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:38:49 2016 -0500
+
+    Fix typo
+
+[33mcommit e43abb56d5f2d9ae0612f6316ed93d17f685d1cf[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:29:53 2016 -0500
+
+    Fix typo
+
+[33mcommit 20d2b393688abc7227b25a2d2676345f36a1c5be[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:26:22 2016 -0500
+
+    Fix typo
+
+[33mcommit 3c9baea2b63cbc6782cda716121e6ca295c4bab5[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:17:50 2016 -0500
+
+    Fix typo
+
+[33mcommit 58d6d52ea60c76d902c8072768ae9834b4a53741[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:12:10 2016 -0500
+
+    Fix typo
+
+[33mcommit 03359b1047e870f46b77be0ada549b1becb1165d[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:11:22 2016 -0500
+
+    Fix typo
+
+[33mcommit 344a2f04d80e5c308787f55428829ad5a1fc7d9d[m
+Merge: 9569ced c35ada9
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:10:19 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 9569ced7f9f1db8fadba3a359b19839a8eb83b99[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:10:14 2016 -0500
+
+    Fix typo
+
+[33mcommit 98c3d403cb3d6e2fbd70139b3cd675a2a4e6aecf[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sun Jan 24 00:09:21 2016 -0500
+
+    bcd:wq
+    :wq
+    :exit
+
+[33mcommit c35ada970db65d978fb37decf5709641a9624aa9[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Jan 24 00:04:44 2016 -0500
+
+    vendor update
+
+[33mcommit f05abcea14cf9f7df3ca0740a4d2a444765dce5d[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 23:55:15 2016 -0500
+
+    Fix typo
+
+[33mcommit a9add499f1257a640a20b87714745087048a21d1[m
+Merge: 1161166 cad42bb
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 23:52:03 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 11611660efecac270cf75ca801aa021ac62833d0[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 23:51:53 2016 -0500
+
+    Fix typo
+
+[33mcommit cad42bbcb6541539de7f9b60f7caae7542b3b512[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 23:42:24 2016 -0500
+
+    form page fix and application-form.php set-up
+
+[33mcommit 518eb0ef460f900de9255f186d8a0c6f4ae9b191[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 22:09:38 2016 -0500
+
+    form page fix and application-form.php set-up
+
+[33mcommit 3c044a6bb49c729621722f0879a0c1ee0898593d[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 22:04:09 2016 -0500
+
+    form page fix and application-form.php set-up
+
+[33mcommit 6f23eb9d5fe258a2eab95823008882304a881230[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 21:56:41 2016 -0500
+
+    form page fix and application-form.php set-up
+
+[33mcommit a5297d117312c5e0faf68d64cddfa83332a6b115[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 21:40:45 2016 -0500
+
+    form page fix and application-form.php set-up
+
+[33mcommit 743fbbb2dff857b75196baafa20baf4273ab49ce[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 20:26:42 2016 -0500
+
+    form page fix and application-form.php set-up
+
+[33mcommit c044dbdae1dbcd6284f53d27fe6c9b367da0aeed[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 20:21:02 2016 -0500
+
+    Fix typo
+
+[33mcommit fec39f2a69b6b8be91cbdedde9bf03d04993640e[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 20:14:11 2016 -0500
+
+    Fix typo
+
+[33mcommit fbbd1e1e5785033a56df32538eccdd9c2a82536a[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 20:09:57 2016 -0500
+
+    Fix typo
+
+[33mcommit 52da8ecb8b010c1c092f30d7b713eef8a37f9503[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 20:00:47 2016 -0500
+
+    Fix typo
+
+[33mcommit 00650b5135db86ac4e70e19290562282794b25ca[m
+Merge: 08c4dff b667a07
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 19:29:45 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 08c4dffc1302be8c4f56eb62bab512adfd3dcb5f[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 19:29:35 2016 -0500
+
+    Fix typo
+
+[33mcommit b667a07dfac019736b2d9b371606ce00bdae8d69[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 19:24:13 2016 -0500
+
+    form page fix and application-form.php set-up
+
+[33mcommit 8ab5cc98a46aa92eee81375b26c7a6bc991a477f[m
+Merge: d84a2c4 84eeaaf
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 19:20:11 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit d84a2c4f64d188fe50fd973cb302feaae005f2f8[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 19:20:00 2016 -0500
+
+    form page fix and application-form.php set-up
+
+[33mcommit 84eeaafba648f4fea11945dbe48fbdab1e8e184e[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 19:17:18 2016 -0500
+
+    Fix typo
+
+[33mcommit ed09079be411f51d04d54b962245ffce5b05a48e[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 19:14:07 2016 -0500
+
+    Fix typo
+
+[33mcommit ff6653477d96e85c191298d355791019cf6a903d[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 19:07:20 2016 -0500
+
+    form page fix and application-form.php set-up
+
+[33mcommit d13055dba8f76baad696a811b51eec4ad7869129[m
+Merge: 940316a 8f418cb
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 18:48:04 2016 -0500
+
+    form page fix
+
+[33mcommit 940316ae234ab513014350b73ce81bb4d72766a2[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 18:47:27 2016 -0500
+
+    form page fix
+
+[33mcommit 8f418cbb20bf92357bd297c451c9efcbed3dad7f[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:46:00 2016 -0500
+
+    Change file thing
+
+[33mcommit eb0c77eba84a8cd2b5a55a7195d8010a4e8a6e31[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:44:02 2016 -0500
+
+    Change file thing
+
+[33mcommit 7a6a61d945af46ad1d9409afe2c33fb8e0e26a14[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:41:19 2016 -0500
+
+    Change file thing
+
+[33mcommit 01040ef6595aec2439724d388a2cb8cdcc2af4d4[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:39:50 2016 -0500
+
+    Change file thing
+
+[33mcommit ff6d829bf90a60240fbc85d1534c6abfdbf311e2[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:38:25 2016 -0500
+
+    Change file thing
+
+[33mcommit 188aaaebbcff766d764580f991704c4acbb52528[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:36:24 2016 -0500
+
+    Change file thing
+
+[33mcommit 7c032bcda7887e9194a201446d9757bf1322caf9[m
+Merge: 98625b2 c4e44b7
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:34:46 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 98625b28a7f4013cffbf70a02775d441998fa35d[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:34:34 2016 -0500
+
+    Change file thing
+
+[33mcommit c4e44b7cc652262def5adc2b79186c2c24469bfe[m
+Merge: 8c895c5 07db113
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 18:30:39 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 8c895c5d1cc642142113221e9e685eb421b3b161[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 18:30:20 2016 -0500
+
+    form page fix
+
+[33mcommit 07db113adadcd526318d007a7e7de980824510fd[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:26:22 2016 -0500
+
+    Change file thing
+
+[33mcommit 26c4b5f10ccfc7853229ff0989d67ea835b2f282[m
+Merge: cb0df47 3a930b6
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:21:26 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit cb0df47b005f5687f1090241623972da7278057d[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 18:21:08 2016 -0500
+
+    Change file thing
+
+[33mcommit 3a930b68936b92c24f8b223190034d4bb78a7ee8[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 18:18:48 2016 -0500
+
+    form page fix
+
+[33mcommit 99dc6da0b2245e446b965f226fb6399b3666beeb[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 18:16:54 2016 -0500
+
+    form page fix
+
+[33mcommit c93c3d7f0dff517394fbecea0156a54c55f2874e[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 18:11:01 2016 -0500
+
+    form page fix
+
+[33mcommit 4ea4cf43cca64a7af35a2a08f660d1d8d62cb9a7[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 17:57:23 2016 -0500
+
+    form page fix
+
+[33mcommit 7e7434f24c73629ddbb94c7779beffdc373af70f[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 17:47:31 2016 -0500
+
+    form page fix
+
+[33mcommit 64bdeecea9347c5be4830ff8e34783775bba80dc[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 17:38:16 2016 -0500
+
+    form page fix
+
+[33mcommit a224a39e1a788017fb143473374b526e5b62bf9f[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 16:43:21 2016 -0500
+
+    join-us button header update
+
+[33mcommit 383d5c968e0d9f709752bb48871e3ad6bed0c629[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 16:27:42 2016 -0500
+
+    join-us button header update
+
+[33mcommit 63444036fd1a082dc65fd7ab82d7356be9c95a62[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 16:22:53 2016 -0500
+
+    join-us button header update
+
+[33mcommit 15f8c24eb35c9e337ff53d6f951ea4749951934c[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 16:22:30 2016 -0500
+
+    join-us button header update
+
+[33mcommit 1db3f5eece234e576cd90ba3858688e50da32634[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 16:15:19 2016 -0500
+
+    join-us button footer update
+
+[33mcommit 56bb6a84a01459aa50b56d59760fa9453063dfc9[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 16:11:54 2016 -0500
+
+    join-us button footer update
+
+[33mcommit 5f1c5f2c439a8df7bd932990bb0ee9c90a0a4814[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 16:07:46 2016 -0500
+
+    join-us button footer update
+
+[33mcommit 6dc84a3f3c393d192ccc7e57e7e75265abd0427d[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 16:03:00 2016 -0500
+
+    footer update
+
+[33mcommit d67b6504dc134b3ce5ecd5ee1ee348040482b29c[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 16:01:07 2016 -0500
+
+    footer update
+
+[33mcommit 6754624e7c0870356b2a4a3e2ad91c2f6679dccb[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 15:59:32 2016 -0500
+
+    footer update
+
+[33mcommit 9bfe0c6bf12dbb30da537cd1a64a29d009c3386d[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 15:56:46 2016 -0500
+
+    footer update
+
+[33mcommit b5d8d3b7e86e313bf0b5ea76019d70d707877b17[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 15:45:35 2016 -0500
+
+    application form page update
+
+[33mcommit 8ded5b7caae30ae8dae742f36c4ba1ad7fa5b4b7[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 15:43:52 2016 -0500
+
+    application form page update
+
+[33mcommit 6df93a1afe04d6aa8c46a08cdbafcf6b1d6b2844[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 15:37:35 2016 -0500
+
+    application form page update
+
+[33mcommit ec70a667ae07ece33bcac70e05fecf44ac153b41[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 15:32:42 2016 -0500
+
+    php versions of all join-us php created pages
+
+[33mcommit b1dbd0f2c27b9337cbd85c7ccf6d710ea6691719[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 15:25:30 2016 -0500
+
+    removal of join us button
+
+[33mcommit 49c640ab040509e358d321600951583df86789e1[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 15:22:01 2016 -0500
+
+    updating all pages
+
+[33mcommit 2895ec9d50ca074b7b20cd7b51a71739588dd375[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 14:32:02 2016 -0500
+
+    updating all modals so that they scale to mobile devices
+
+[33mcommit a7a51bfe03dd511b017eda4de9c3b34fc250ac6f[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 14:29:51 2016 -0500
+
+    updating all modals so that they scale to mobile devices
+
+[33mcommit 7aed0d2aa5ffe94c721a892d6cb5caade646edca[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 14:26:06 2016 -0500
+
+    updating all modals so that scroll works
+
+[33mcommit c62b03f8138db6644c4e405abe1402eac8b8df01[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 14:20:44 2016 -0500
+
+    updating pages
+
+[33mcommit c4ffccd7316d023eb7a31f77b87f625a7023cd10[m
+Merge: 93546f8 887adcc
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 02:43:02 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 93546f8c8a32453ba5ebcd9b72fca53e942d2260[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 23 02:42:37 2016 -0500
+
+    adding pages
+
+[33mcommit 887adccb6a1a630fb2d489354bf8220b2fae9cea[m
+Merge: 284caaa 0527f75
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 00:05:31 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 284caaaf6f6bae287408cfb5537c79ea77aaae7e[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Sat Jan 23 00:05:22 2016 -0500
+
+    Add in minified version of template
+
+[33mcommit 0527f75f2e649786390713052352b150571812c8[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 21:29:39 2016 -0500
+
+    join us page update
+
+[33mcommit 84c0be5be1d3692fbacea1821bdb1624064f8287[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 18:19:08 2016 -0500
+
+    join us page update
+
+[33mcommit fa55303a5658fe70bf4965cc1141c02925a10e9c[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 18:12:21 2016 -0500
+
+    join us page update
+
+[33mcommit 0782ca5f94f3492ece5270dc3a0c25f1b071ab91[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 17:46:56 2016 -0500
+
+    join us page update
+
+[33mcommit 2e2ec8a0fcc7567ac581b4e54ded6ed6d64a8b99[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 16:53:22 2016 -0500
+
+    about us page update
+
+[33mcommit 2c51c33e5fd7e335fe4fab56fd7d755ece4ca7e8[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 16:37:10 2016 -0500
+
+    about us page update
+
+[33mcommit 9ef6209134f6208fa77cabb5f1448e5ac0ff9363[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 16:35:18 2016 -0500
+
+    about us page update
+
+[33mcommit 06ab7530b31f41cbecfb456199244caf59fc6646[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 16:29:25 2016 -0500
+
+    about us page update
+
+[33mcommit 74fcf9ba87a21311662f7861ffeec61289c31761[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 13:03:31 2016 -0500
+
+    About us page format update
+
+[33mcommit 5de731330c7d4f5c8619570c1d7db7221fa80b7b[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 13:01:56 2016 -0500
+
+    About us page format update
+
+[33mcommit d3514ccbbbb1008c4973503a8b37f964835521d3[m
+Merge: 629ea67 abfd351
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 11:32:04 2016 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 629ea67954dd738f27b9f2bacc891fb0a9e5347f[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Jan 22 11:31:41 2016 -0500
+
+    contact page form fix & VP EDU removal
+
+[33mcommit abfd3515579b8328dc7ab6ed48763d3f3bd4b1e5[m
+Author: Harrison Chow <hchow52@uwo.ca>
+Date:   Fri Jan 22 11:04:10 2016 -0500
+
+    Add in minified version of template
+
+[33mcommit 8eb412263ff7da7bb5a5f3d4c621ad6ec11afbfb[m
+Author: “Harrison <hchow52@uwo.ca>
+Date:   Fri Jan 22 11:03:12 2016 -0500
+
+    Add in minified version of template
+
+[33mcommit 9fa94e055a5946322f57c3b75f1c9b9353b0e81b[m
+Author: “Harrison <hchow52@uwo.ca>
+Date:   Fri Jan 22 11:01:57 2016 -0500
+
+    Add in minified version of template
+
+[33mcommit 0b0763b2a221cda96f5bf4c38cbe46d532869b22[m
+Merge: 1331a83 6c9085d
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Jan 22 10:50:37 2016 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 1331a83f6e4a8b923e8123c952209d8453497358[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Jan 22 10:50:27 2016 -0500
+
+    Add in minified version of template
+
+[33mcommit 6c9085d1d660857fc41ed9d2f47a3c30a99e3010[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Jan 20 21:37:20 2016 -0500
+
+    Adding available positions page
+
+[33mcommit 7feb87fced33ad4aa8bebda933c1286dce1863e5[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Jan 20 14:46:19 2016 -0500
+
+    form update
+
+[33mcommit 200a5891e1c08f725d6fb3e0871fb4caaa124c6a[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Jan 20 14:35:20 2016 -0500
+
+    Position change to form
+
+[33mcommit 9648979109b6dcf5c1643c23902807176f45355f[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Jan 14 10:15:26 2016 -0500
+
+    test application form fix
+
+[33mcommit bbff535679ade7233d69b3bae1e3ac485a11a5dd[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Jan 12 13:46:27 2016 -0500
+
+    updated the application form
+
+[33mcommit 2706b73a02fca69e21daa6d8b6e7bd3a2556a857[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 11 19:04:10 2016 -0500
+
+    VP tech application form
+
+[33mcommit 5a4693e7a72154280b2a9d17dc5239c2008e3322[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 11 15:23:06 2016 -0500
+
+    join our team test
+
+[33mcommit f34b8d6cf813b34517ca0161066fc6ae64f1809c[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Jan 10 11:16:01 2016 -0500
+
+    contact us oage iamge resize
+
+[33mcommit 882d484ef569c39b464d8c6ecfc2e83cb42e9c43[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Jan 10 10:54:34 2016 -0500
+
+    contact us page fix
+
+[33mcommit 6ccd62e50484547879f743c99e09227bde98f0d9[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Jan 10 10:30:04 2016 -0500
+
+    contact us page fix
+
+[33mcommit b1388a8e04e8713eb68c1c77c44596a395dfb3c8[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Jan 10 10:07:48 2016 -0500
+
+    contact us page fix
+
+[33mcommit cefcde32a3b0f78288f236ce9057b20ca01db9bf[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Jan 10 10:05:36 2016 -0500
+
+    Image an font changes to contact us page
+
+[33mcommit fd7c06c4082172e071b33488f5216b0f25a4dbd0[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Jan 9 18:41:52 2016 -0500
+
+    changes to font
+
+[33mcommit 47c2600ec33e02b6dba4d17f88189f18a24ccfe2[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Jan 8 16:13:24 2016 -0500
+
+    Fix template
+
+[33mcommit d80537bcd90f389bba57f23847767b0f4a03f5b4[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Jan 8 16:12:14 2016 -0500
+
+    Fix template
+
+[33mcommit c9b731dc38680a6d9b3cbe4612df1fa1f5d243e5[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 22:17:34 2016 -0500
+
+    font test
+
+[33mcommit e0f4465e6328ae6445507a49d003220634d3d472[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 22:12:32 2016 -0500
+
+    font test
+
+[33mcommit 7a17d6c27cbd8393d21398d0c1b83eebca18582a[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 21:21:26 2016 -0500
+
+    font test 6
+
+[33mcommit 901653785255c713641bd2f8b1730ae8873a6121[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 21:13:44 2016 -0500
+
+    font test 6
+
+[33mcommit 93f22528406e5b52b607f1487831ff421a9c84dc[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 21:06:43 2016 -0500
+
+    font test 5
+
+[33mcommit 99dbf3b49ea99c71a2b703be367d4f4202956c7a[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 21:04:23 2016 -0500
+
+    font test 5
+
+[33mcommit 4dec855c001d2cb7aed2b0ae2cc10c3da38ca7c6[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 20:57:08 2016 -0500
+
+    font test 4
+
+[33mcommit 394ceeb728983e4f455bd53186c8e29c1c951676[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 20:47:39 2016 -0500
+
+    font test 3
+
+[33mcommit b57988d4affec5091a31ee1e07e7dd9dd6abc71b[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 20:37:39 2016 -0500
+
+    checking fonts 2
+
+[33mcommit 4113ffdc54fadf0399095c75ecc666df51ecd148[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 20:31:31 2016 -0500
+
+    checking fonts 2
+
+[33mcommit 8cf74dfe68b026c5f7f6338cab6d5444ae522c63[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Jan 4 20:28:26 2016 -0500
+
+    checking fonts
+
+[33mcommit eeacf00a4ca21759ca84be018f85ff7bea863ccf[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Jan 1 01:40:19 2016 -0700
+
+    Test google apps
+
+[33mcommit 6d2bf6c7e847b005e9c34050507ac82982f32463[m
+Merge: 2868abd 15aeb62
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Jan 1 01:24:44 2016 -0700
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 2868abd8e38a5481251067c9dba5b234bb2d05ea[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Jan 1 01:24:13 2016 -0700
+
+    Test google apps
+
+[33mcommit 15aeb62335e68384d051699662b59d7b8e765910[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Dec 28 16:28:34 2015 -0500
+
+    testing links
+
+[33mcommit 67aee427f46297a1f2e74a67bb978296894d4e2a[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Dec 28 13:27:34 2015 -0500
+
+    Fixing links on cover photo and footer
+
+[33mcommit 30fe75323501f2ff472c6e46e0dbb2b8bf6cd1d8[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Mon Dec 28 08:29:40 2015 -0700
+
+    Optimize CDN
+
+[33mcommit 3bc0d43c2ed12ba2298514c478f58e87fc0eedbb[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Mon Dec 28 08:25:48 2015 -0700
+
+    Optimize CDN
+
+[33mcommit cd9e34a1b20777c49380a4d8d63c55e1eb203707[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Mon Dec 28 08:24:11 2015 -0700
+
+    Optimize CDN
+
+[33mcommit aeac3d2335db5b8b908537a339b307235176e4a5[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Mon Dec 28 08:11:34 2015 -0700
+
+    Optimize CDN
+
+[33mcommit e7568b98856dffde233f4c570dcc263875995ed2[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Mon Dec 28 00:03:00 2015 -0700
+
+    Optimize CDN
+
+[33mcommit 0bf7fd5742e04e7e4f18138adafe9d87e3e17bed[m
+Merge: 1745d53 5f81904
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 23:47:57 2015 -0700
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 1745d533bea2ce39e6b71e41ec86a5ad9b6e8840[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 23:47:45 2015 -0700
+
+    Optimize CDN
+
+[33mcommit 5f8190464c90036983280593b09f83264af9cb40[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Dec 27 19:28:25 2015 -0500
+
+    About us page image optimization
+
+[33mcommit cbfd142b84b8a120d6a4dac85256106745822e98[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Dec 27 16:18:58 2015 -0500
+
+    Added Nicks github to about us page
+
+[33mcommit 96d7ba46dc907f6a547b358f616380dcdb4ef58b[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Dec 27 16:14:31 2015 -0500
+
+    changed navbar logo href to home.php
+
+[33mcommit d36461bec16fc64b5efd6b8c9f6271debc224a42[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Dec 27 16:08:12 2015 -0500
+
+    changing html to new images
+
+[33mcommit 47aec9dc4ff87c2203d9deffa9f2774e9f4048fb[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Dec 27 15:39:00 2015 -0500
+
+    testing images
+
+[33mcommit 7eb1488a5f1bbfbcbc482846dd5eade1ad638ff1[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Dec 27 15:08:56 2015 -0500
+
+    medium link logo changed to 30x30px
+
+[33mcommit 30ca16ac72b4e3da8c5d175b503c24744a0be174[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Dec 27 14:57:18 2015 -0500
+
+    Optimised pictures set 1
+
+[33mcommit 22511d67e4b1b016f929989aad83e21bebcf6883[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:57:22 2015 -0700
+
+    Optimize code
+
+[33mcommit e59d781cdc0220d5b309275983cc2ac5b5f0edc0[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:55:50 2015 -0700
+
+    Optimize code
+
+[33mcommit 08ebf10c084712ef12df392997eb634e26fe81ff[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:39:04 2015 -0700
+
+    Optimize code
+
+[33mcommit 3b77df6d051ec59de9552f8e7640898adfee4bb1[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:38:30 2015 -0700
+
+    Optimize code
+
+[33mcommit 7f765b693bd2b0ea33af7897df5ee2d255ac9724[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:37:01 2015 -0700
+
+    Optimize code
+
+[33mcommit dd21a96c4b33119ceb4d6d06d1b1f8f4f01bf816[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:36:24 2015 -0700
+
+    Optimize code
+
+[33mcommit c1cda5e9205a58efd2ef09cfbb314e31c32e39bc[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:32:00 2015 -0700
+
+    Optimize code
+
+[33mcommit c7ea6e8d427261d7c58c9a2c09b6d500a673b1cd[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:27:49 2015 -0700
+
+    Fix scroll on faq
+
+[33mcommit 9bbbe5f1d6ede3a09dc9955fe570fc8bbbd5242b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:24:57 2015 -0700
+
+    Fix scroll on faq
+
+[33mcommit 1456ad28bee836166b491f7c0c46d0ac3c1b4472[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:21:01 2015 -0700
+
+    Fix scroll on faq
+
+[33mcommit 1f4a46253ffd201587a9405d6b2b7f5ea50f252d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Dec 27 00:18:25 2015 -0700
+
+    Fix scroll on faq
+
+[33mcommit eb4d225ea8a72c8b9c129de669f156cdc1bbb354[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Dec 26 23:49:29 2015 -0700
+
+    Fix scroll on faq
+
+[33mcommit 333e2fe925dda42b92f427d8bfc604355fdea4dc[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Dec 26 23:46:20 2015 -0700
+
+    Fix scroll on faq
+
+[33mcommit 78bd1f2b3134f00d67743fa85c2977ab2f8216c3[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Dec 26 23:41:33 2015 -0700
+
+    Fix scroll on faq
+
+[33mcommit 18e973463ec20540645f43d61752a47ca1c1947f[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Dec 26 23:38:25 2015 -0700
+
+    Fix scroll on faq
+
+[33mcommit cc2a72dc94026bbf10f43eb026b293745d970e4d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Dec 26 23:29:12 2015 -0700
+
+    Fix scroll on faq
+
+[33mcommit 934e3f839263bbd12261661c7aa754bbc47eef72[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Dec 26 23:18:31 2015 -0700
+
+    Fix scroll on faq
+
+[33mcommit 3ed6c5cd49f27c0da7cdbfdb0e692f6e1278fd35[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 01:51:23 2015 -0500
+
+    Fix scroll on faq
+
+[33mcommit 43c83fd7f5056138cdc044d04607d786a702fd77[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 01:46:21 2015 -0500
+
+    Fix scroll on faq
+
+[33mcommit e95daca4a1b01e74e25d3b654b9402d92063c11f[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 01:37:17 2015 -0500
+
+    Fix scroll on faq
+
+[33mcommit 44dfa5bdcc8decfd4d5270ed99bc9243eaa87cde[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 01:35:22 2015 -0500
+
+    Fix scroll on faq
+
+[33mcommit 91a6ac85a4a692ce3b6078fe53bdfe50023c3978[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 01:22:16 2015 -0500
+
+    Fix scroll on faq
+
+[33mcommit 0861c16c92d23b32e57df683b091ab41d09281e1[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 01:20:34 2015 -0500
+
+    Fix scroll on faq
+
+[33mcommit c5cbbacc684140f2193f6881410cfec71ac35921[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 01:19:56 2015 -0500
+
+    Fix scroll on faq
+
+[33mcommit 35f7e62e62973caef94430f2a7f2fed96d62f4ae[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 01:18:58 2015 -0500
+
+    Fix scroll on faq
+
+[33mcommit c0caa50c5cac84dd0a479cc019c960db2f224b67[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 01:09:30 2015 -0500
+
+    Fix scroll on faq
+
+[33mcommit 430b711a3749b8e8ff88b756fde5440ab1943adc[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 01:06:48 2015 -0500
+
+    Fix scroll on faq
+
+[33mcommit ca78147c5c10cdb2ec05dbfb9e1621991fc15937[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 00:32:16 2015 -0500
+
+    Force new tab on medium links
+
+[33mcommit bb23fd8555f0e5badc100dec072071cbbcf174b0[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 00:29:03 2015 -0500
+
+    Switch site to dynamic
+
+[33mcommit f1b141c403355bdc923307e2e475dbf17059647a[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 00:26:09 2015 -0500
+
+    Switch site to dynamic
+
+[33mcommit ca8707cd9450c643bebec21a48993dec7fa6e12f[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 24 00:23:03 2015 -0500
+
+    Switch site to dynamic
+
+[33mcommit 30bbd10cfd153aa223aa8a43c45e2609a827d815[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 01:29:51 2015 -0500
+
+    Caching
+
+[33mcommit 0dc930b25fe441d7dd360cdc905987efa0385624[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 01:21:28 2015 -0500
+
+    Caching
+
+[33mcommit bc4d0c59d37ccb95aa6698dd715cceb66720d977[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 01:07:20 2015 -0500
+
+    Analytics
+
+[33mcommit 0df776061f7bb5d39fb107a3710b245d1475a8ff[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:57:59 2015 -0500
+
+    Medium widget done
+
+[33mcommit c35f75cd65ffcc5af2f5e36ffe26d5e8c8ccca01[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:53:58 2015 -0500
+
+    Medium widget test
+
+[33mcommit abb42d58ec31657c99235dba3a2e52aa995c7cf3[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:49:21 2015 -0500
+
+    Medium widget test
+
+[33mcommit 494e08ca532c87d7ee7a180a5dee03a7667df232[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:46:10 2015 -0500
+
+    Medium widget test
+
+[33mcommit 5f6e5e66a90fe4ca04417aef7b92c9272c8a895f[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:41:40 2015 -0500
+
+    Medium widget test
+
+[33mcommit dcbdada3e5b6af5570eae02b72c6b147c1670f47[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:23:29 2015 -0500
+
+    Medium widget test
+
+[33mcommit d44b98fd0e91aef329dc955f43b12dd1375bdf7f[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:21:35 2015 -0500
+
+    Medium widget test
+
+[33mcommit eb67ad76306523c60e2f9e41047d7493a51c0b0d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:19:16 2015 -0500
+
+    Medium widget test
+
+[33mcommit 60337da9350a4d030a21134e3f704d96ea5453f3[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:15:14 2015 -0500
+
+    Medium widget test
+
+[33mcommit 9ad91da9863b0abcd55fee62a6cdeff5814eb1c6[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:14:03 2015 -0500
+
+    Medium widget test
+
+[33mcommit 1b3a48164a6ed1632da299d5e68082f8caa80a94[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:11:53 2015 -0500
+
+    Medium widget test
+
+[33mcommit 90f6986e1a97f53374aa49fb38f800339a4aa261[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:06:25 2015 -0500
+
+    Medium widget
+
+[33mcommit 656e1df0437541d6a5c6ca5d5af1c7f38e2930e9[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:05:34 2015 -0500
+
+    Start medium widget
+
+[33mcommit 1891cb09dd8834cbf087e4b65563d5dcbd8dc366[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Dec 23 00:03:08 2015 -0500
+
+    Start medium widget
+
+[33mcommit f291780930afdad5b0ef53c7b4e554e212c5295f[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 23:38:13 2015 -0500
+
+    Fix links
+
+[33mcommit 6561e1afd9403f42f47607cdd5d0d5e650b4818a[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 23:34:06 2015 -0500
+
+    Fix links
+
+[33mcommit d6c23ddefacd64595cbfb9fed198cb9c151bd538[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 23:26:59 2015 -0500
+
+    Mailer - Should be done now, testing left to do
+
+[33mcommit ba3494dea230133368707eac3680d7c06999a4d1[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 23:23:25 2015 -0500
+
+    Mailer - Should be done now, testing left to do
+
+[33mcommit c013b34b92eaf91bbd2f2986373afc84d61aff3d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 23:21:54 2015 -0500
+
+    Mailer - Should be done now, testing left to do
+
+[33mcommit 41ab9765725fc756dda2e1513ef20547fa5b0cb0[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 23:20:13 2015 -0500
+
+    Mailer - Should be done now, testing left to do
+
+[33mcommit 6cc082d975786d4260007c28c87d030e7e21ab07[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 22:58:59 2015 -0500
+
+    Mailer
+
+[33mcommit 7c59ae1ac314b5c14a4ffbe6ecb9966db5ce8b65[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 22:51:45 2015 -0500
+
+    Mailer
+
+[33mcommit 08918ef503637f6d67f2b001689cbddea7ce244e[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 22:50:56 2015 -0500
+
+    Mailer
+
+[33mcommit 9edbfb13eb0b8b3e07869197d8a1b2dd1143885a[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 22:38:22 2015 -0500
+
+    Fix FAQ links
+
+[33mcommit 9aed8198ba91f9f6b3b953fff22a655778a58aae[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 22:36:19 2015 -0500
+
+    Fix FAQ links
+
+[33mcommit 4080bb231145cd5258ee2e57249105853a7bf53b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 22:31:08 2015 -0500
+
+    Fix mailer
+
+[33mcommit 7c2202eb7592808f75bb5e1021aeb0fc6779869b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 22:29:23 2015 -0500
+
+    Going live
+
+[33mcommit da6458f8a10410c56a75edc0f0e86a3042553b59[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 22:27:16 2015 -0500
+
+    Mailer
+
+[33mcommit ad89458600952bdce9b5d8c5ab8bb431118f6852[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Dec 22 22:21:41 2015 -0500
+
+    Mailer
+
+[33mcommit 51c99002cd778c8aa16fc2fcc0973385e098d914[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Dec 20 15:28:21 2015 -0500
+
+    Terms fixed
+
+[33mcommit 7f609e0d50dfa658664ea399667a8fbaa3fe3aed[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Dec 19 02:54:53 2015 -0500
+
+    reversal
+
+[33mcommit 66a11e3211321662a41ce3c227b9da549de8c197[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Dec 19 02:49:29 2015 -0500
+
+    live test push
+
+[33mcommit d3eb081e3bbc02a8317d3081eb716defb9524f3e[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 10 16:54:35 2015 -0500
+
+    FAQ edited
+
+[33mcommit 024855e6ee960d703bfb410f867d9adeb1932c1c[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Dec 7 22:20:48 2015 -0500
+
+    test pull
+
+[33mcommit 3f9a03414ebf264acc5c3b76df79a638ba39ef41[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Dec 4 20:05:18 2015 -0500
+
+    FAQ updates
+
+[33mcommit bf0339e28a99aa750ffd8ce879a81f875d2e0583[m
+Merge: a39ff8c f2c0e22
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Dec 4 19:55:22 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit a39ff8c56e4bc71a226da2bfacac42c5d63d3a39[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Dec 4 19:55:11 2015 -0500
+
+    about us page picyure update
+
+[33mcommit f2c0e22cd07d2fc3b3b474b0754e3e6460ff952f[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Dec 4 14:47:04 2015 -0500
+
+    Mailer
+
+[33mcommit 873e37049090f2f8c47058d6a55003e3a5c20769[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Dec 4 14:44:45 2015 -0500
+
+    Split header and footer
+
+[33mcommit 00f997ae1fa697936b741251001a6f125a167c95[m
+Merge: c2ea12d 06d24a7
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Dec 4 12:38:23 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit c2ea12d63df541c32719244a9efd87c144fae313[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Dec 4 12:38:15 2015 -0500
+
+    Target _blank
+
+[33mcommit 06d24a70c894f52de97a049e04371b0f36e4aa83[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 20:22:51 2015 -0500
+
+    team pic update
+
+[33mcommit a976473ca56aa0b796dc26cff70f41cdd20a3eef[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 20:15:53 2015 -0500
+
+    nav bar link update
+
+[33mcommit 9d31077384f4aa7433fd061069872ef5d93cda60[m
+Merge: 21a3b7d e918255
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 20:12:45 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 21a3b7d6079f41a4fd2df591766f8c77ae07d7bd[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 20:12:29 2015 -0500
+
+    link updates
+
+[33mcommit e91825591085f1d5f4da4b2debc6eed436ec6ec7[m
+Merge: 1897aaf 7bb4f6a
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 3 20:11:34 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 1897aaff45bb67f359f74d5c3548144ba344d4f5[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 3 20:11:26 2015 -0500
+
+    Target _blank
+
+[33mcommit 7bb4f6a3bd5b41133b96fdbb1e95440398f625c1[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 20:10:02 2015 -0500
+
+    page name
+
+[33mcommit dcae7f68fd1c0ebfe945c51d713865a2687c8301[m
+Merge: 2e05bb1 c33a1c9
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 20:03:33 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 2e05bb130af567247c69a4834f1a0d903d27324a[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 20:03:13 2015 -0500
+
+    footer link update
+
+[33mcommit c33a1c9c3dccf937dd71b89b009fafbc846a2005[m
+Merge: 246a873 9f14579
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 3 19:59:13 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 246a873361fed855b67bdbe83e67990a4d518ae7[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 3 19:59:05 2015 -0500
+
+    Target _blank
+
+[33mcommit 9f14579ac59a5d90fdc3dbd842f1a0091cc908f0[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 19:57:25 2015 -0500
+
+    navbar update
+
+[33mcommit 249415c7bfbbb46ae6116460c0143fa58f97c957[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 19:52:58 2015 -0500
+
+    about us updates
+
+[33mcommit f8bf1afda68b3e68324ab41d3131db081fe32e96[m
+Merge: 6d4eca6 68dc184
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 19:48:22 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 6d4eca6dfffae30f3d970efd8468175cfe4052dc[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 19:48:12 2015 -0500
+
+    about us updates
+
+[33mcommit 68dc184a544cfd8acd64fa3f0438b1105faef4bb[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 3 19:22:52 2015 -0500
+
+    Target _blank
+
+[33mcommit ebffc3b06dedafe0ab1f4303481123ce0e6f3878[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 19:09:55 2015 -0500
+
+    Pics added to about-us and links active
+
+[33mcommit 4bc060b213669cf6c3b3fd82c0ae04c4417818b4[m
+Merge: a2ce94f f19e0f3
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 17:08:43 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit a2ce94fb21143fabc9e9dc377197b9bc0d1ca0ec[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Dec 3 17:08:27 2015 -0500
+
+    Pics added to about-us
+
+[33mcommit f19e0f3681b0351223c21a6f54971eedd05b4835[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Dec 3 16:26:12 2015 -0500
+
+    Target _blank
+
+[33mcommit bd2183b50ab983658b8a044a6389945afda07ee7[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Nov 30 14:36:05 2015 -0500
+
+    Added icons to email forms on about us page
+
+[33mcommit 0952a7c6164c7f65303ded353dc15f6d3e9e7d08[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Nov 29 22:35:13 2015 -0500
+
+    email modal update
+
+[33mcommit 6d32850e5c27a329f35faf1967225d8fee414312[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Nov 29 19:06:38 2015 -0500
+
+    Contact us page updates
+
+[33mcommit b54b9ca9209d42f1a19821d324031687f241f5c0[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Nov 29 16:33:27 2015 -0500
+
+    removed unused pics
+
+[33mcommit c1e5191ef89a7b4fde52f152964b90591304c1f9[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Nov 29 16:27:49 2015 -0500
+
+    email modals update
+
+[33mcommit 39e6202f09767c3d1ba50c3ed3af6518d4faa17a[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Nov 29 15:48:47 2015 -0500
+
+    added email modal
+
+[33mcommit 603dce78671bc21e9def33f0c4f3e5636803f92d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Nov 28 15:44:08 2015 -0500
+
+    Mailer addon
+
+[33mcommit 75ffded72b87b7fbb02bc1fd15a5272c2391e016[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Nov 28 15:29:46 2015 -0500
+
+    Mailer addon
+
+[33mcommit 07859e5a47a09b2cdb7a68b3b024d2eadadddd2d[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 28 14:53:03 2015 -0500
+
+    final changes
+
+[33mcommit 1836590d400a86105b4011029231e6b15b88f4e2[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 28 11:59:17 2015 -0500
+
+    opening page logo color changed
+
+[33mcommit 756ce7b28da951a84999cc9af9e1a5b06936f386[m
+Merge: c54ef40 2a3f172
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 28 02:34:45 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit c54ef408d43572d2deb9fb1ab93b908c855ed850[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 28 02:34:10 2015 -0500
+
+    fixing errors
+
+[33mcommit 2a3f1722309c609c7bab7466bf5f0f644e610070[m
+Merge: d526758 9dd5dd4
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 27 20:36:47 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit d526758d3ae4d2b03728c304a459240dc3be332f[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 19:52:56 2015 -0500
+
+    Analytics
+
+[33mcommit 9dd5dd4dc6a4696b3e89d9bacc36198c8cc5c19f[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Nov 26 19:05:10 2015 -0500
+
+    removing crazy git push data
+
+[33mcommit 2f86bd608c6b0f172bc684704769d873124d7665[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 17:40:59 2015 -0500
+
+    Rollback
+
+[33mcommit a5d23f0d10d82afb22f58889de4e8ca60ce37733[m
+Merge: 78dc3e3 7501c4a
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 17:40:10 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 78dc3e3ab4b9d58cee161e7944018e2c1c79b012[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 17:40:00 2015 -0500
+
+    Rollback
+
+[33mcommit 7501c4a238a149f62aecc353ce5e94fc6ecb8854[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Nov 26 17:27:51 2015 -0500
+
+    Just need to pull
+
+[33mcommit b84a8a26a2b4c4c630198ee5180074ee40b1c10e[m
+Merge: f57c34e 1be0d63
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Nov 26 17:21:36 2015 -0500
+
+    Just need to pull
+
+[33mcommit f57c34efc23ec18e5dd285b42e7cdc08228086c5[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Nov 26 17:20:02 2015 -0500
+
+    nothing that actually works just need to pull
+
+[33mcommit 1be0d638d41ff683dc0a9dfe9900eff508f401ae[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 12:45:35 2015 -0500
+
+    Reformat
+
+[33mcommit 0ca954202414078f9bbd18956af445b8657667d3[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 12:44:46 2015 -0500
+
+    Change title
+
+[33mcommit 4786453b551fddbc4a64268a8879a1230fe903ca[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 12:41:49 2015 -0500
+
+    Reformat
+
+[33mcommit a28214d4106c680e2fe0fb81ddc4388f97c3b55c[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 12:37:10 2015 -0500
+
+    htaccess
+
+[33mcommit e2dcefa1518afeff64928a07dd7dba499e17a763[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 12:29:05 2015 -0500
+
+    Template
+
+[33mcommit 1c691165f2b715f49a8034fc724e6ec4d1bc65a4[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 12:28:02 2015 -0500
+
+    Template
+
+[33mcommit ba4f2dd9b6d49d9d5b80c8f03d1579834134847e[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 12:20:23 2015 -0500
+
+    Template
+
+[33mcommit e1e78e08c6bdd90c242b5060fbbad229cb3654c5[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 26 12:04:20 2015 -0500
+
+    Purple medium logo
+
+[33mcommit 3e4715783528f76a4aa093417aeb199c3fcc2309[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Nov 25 13:25:50 2015 -0500
+
+    final changes set 2
+
+[33mcommit f66782b7fa62864685774d5e50d8f91a2799dc8d[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Nov 25 11:19:03 2015 -0500
+
+    final changes set 1
+
+[33mcommit 34683a7f4c4d510294467f66cb5c75d5a777c619[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 25 01:44:12 2015 -0500
+
+    Change .html to /home
+
+[33mcommit 0cdc78137266c52fa2d835eeaad722c4338f7435[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 25 01:42:51 2015 -0500
+
+    Change .html to /home/
+
+[33mcommit 5b0015d5fd5c4e28fca7827d2d7727f0b81e9acb[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 25 01:36:43 2015 -0500
+
+    Template
+
+[33mcommit 3f2c6499b364747e572738c01ab9de2b0de60b83[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 25 01:31:36 2015 -0500
+
+    Template
+
+[33mcommit d42d85cee1839414965cb2638a1c6959b004958f[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 25 01:26:37 2015 -0500
+
+    Template
+
+[33mcommit b886f5655f1a9c550ad96263bb75ce4abbdd03ae[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 25 01:24:21 2015 -0500
+
+    Template
+
+[33mcommit 9463191b8498fd4a52d684e9542b8abf4ca246cd[m
+Merge: b31a6d1 9af7713
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 25 01:13:40 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit b31a6d1011d113b48cae4c1a499ec14daa9adf31[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 25 01:13:28 2015 -0500
+
+    Template
+
+[33mcommit 9af77139508177baf961075773c1aff4ef749d44[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 24 21:34:59 2015 -0500
+
+    Playing around with Cntact us page layout
+
+[33mcommit 51dde92ae1f63cd693f41263f3588873b246be42[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 24 21:24:37 2015 -0500
+
+    Home page footer update
+
+[33mcommit 968ec93a2989f8fb25d4a034128614181fd92ff2[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 24 20:26:06 2015 -0500
+
+    Mailer stuff
+
+[33mcommit 80ed0f5f6b1bfaf613808b31fb8e84c219460aa7[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 24 20:25:30 2015 -0500
+
+    Mailer stuff
+
+[33mcommit e952488983e78b6a0d54e242b98e1b277845f610[m
+Merge: 65e757f c8dcc79
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 24 20:21:04 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 65e757f28790e7716dc12e16c7a82ed88d14958a[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 24 20:20:55 2015 -0500
+
+    Mailer stuff
+
+[33mcommit c8dcc79cc285b1e2dd7825f85ede97d254b15036[m
+Merge: ad848a9 971b72c
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 24 14:24:45 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit ad848a985526750454b7647e8565b0452650a48b[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 24 14:24:25 2015 -0500
+
+    Changes back to coming soon page
+
+[33mcommit 971b72cb0c0a304a61411d7444644ef7ccab3795[m
+Merge: b2d8a29 8c70bc4
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 24 12:05:07 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit b2d8a29aee875b6461a2a00f3cd52a8cd0e49888[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 24 12:04:56 2015 -0500
+
+    Unsubscribe
+
+[33mcommit 8c70bc4f6d49ebe9a38fe60a9b2b327534974cbb[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 21 17:02:32 2015 -0500
+
+    home page banner change
+
+[33mcommit 17192c7fce99c1d6a455af62ac7a0769451e4c9f[m
+Merge: 1c9ae88 76aa921
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 21 13:54:41 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 1c9ae8840053e40fc46cd9b8af9b6f1157af267c[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 21 13:54:24 2015 -0500
+
+    contact us page added as well as changes to the navbar and footer
+
+[33mcommit 76aa9214f8a51ae757f6bc9f27d4a3a517706501[m
+Merge: 35251ad 6d67357
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Nov 21 07:42:38 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 35251ad21aa8b03a604167c2fab7136a222e9493[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Nov 21 07:42:27 2015 -0500
+
+    Push site
+
+[33mcommit 6d67357a4d7c4849cbfd04a273664d58f40179c5[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Nov 18 18:49:46 2015 -0500
+
+    Footer about us update
+
+[33mcommit b0ae4070b5c03c97f878e33f2cb393d3ad87c360[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 18:47:46 2015 -0500
+
+    Update footer
+
+[33mcommit 5b02f62086e7bb24eb52e1dbba927fa2b89a8087[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 18:41:15 2015 -0500
+
+    Update footer
+
+[33mcommit 483e309481cf83012406b7f429399c40843d7165[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 18:40:36 2015 -0500
+
+    Update footer
+
+[33mcommit 3593117e7bfb0ee6e0aeeb7432d19ff81ce64f07[m
+Merge: 9b672e4 d10eb33
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Nov 18 18:37:16 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit d10eb33f6c3458a0011ef7160ddc7a42f40a499b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 18:36:25 2015 -0500
+
+    Update footer
+
+[33mcommit 9b672e49584faa5e557f235ad742944491fde30d[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Nov 18 18:36:19 2015 -0500
+
+    Changes to the about us page
+
+[33mcommit 4ae287f80d421944908691323775083fb8a238ce[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 17:14:16 2015 -0500
+
+    Add tracking
+
+[33mcommit 6007af53b660586914ef408e3bb4c82ffbeb4eaf[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 17:11:44 2015 -0500
+
+    Add tracking
+
+[33mcommit 3818a5561c4cfcfcf5d6bd941af12cf5b1ed2287[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 17:10:12 2015 -0500
+
+    Update coming soon page
+
+[33mcommit 2d9ac3a4a34a75749ba7d3b8012d76e001e0a8e7[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 16:56:39 2015 -0500
+
+    Update heroku template
+
+[33mcommit 1a9f14cb8d05a3524da87267b18358819393e31a[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 16:05:40 2015 -0500
+
+    Update PHP
+
+[33mcommit d2d48cf447a5dc4bbfea4642c43dacf903d01e38[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 15:59:50 2015 -0500
+
+    Fix HTML
+
+[33mcommit 260a4422d815ceb551a2f9b081faac654033bcde[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 15:57:42 2015 -0500
+
+    Fix HTML
+
+[33mcommit c4e6108a95f8bfc675e41d724af11e171ac0cff5[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 02:04:34 2015 -0500
+
+    Fix HTML
+
+[33mcommit 5ead1b34aa28229f167ca6b4014545762181af1d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 01:52:25 2015 -0500
+
+    Fix HTML
+
+[33mcommit 033e2fec767f7a7bafa99d11ddfc4c322c86b1ba[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 01:45:17 2015 -0500
+
+    Fix HTML
+
+[33mcommit 102716e1e137ff196d60dc99ea5eae48004ddebf[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 01:43:20 2015 -0500
+
+    Fix HTML
+
+[33mcommit 70e6ac3ca0d95ef4f39dbf06d955d18550ac318e[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 01:40:22 2015 -0500
+
+    Fix
+
+[33mcommit 2862deec1bba426f68fa3b68b62d1e596439c50b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 01:35:46 2015 -0500
+
+    Fix
+
+[33mcommit 66aa04d3189027fc9a80d2cbb45b28aa53cac02d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 01:33:43 2015 -0500
+
+    Fix
+
+[33mcommit 889c83733f19e4bd69c6befce870d0448efa83cb[m
+Merge: b425e8d 0897a28
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 01:24:02 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+    
+    # Conflicts:
+    #	public_html/css/theme.css
+    #	public_html/home.html
+
+[33mcommit b425e8d6899c23ac0d5536bdd71ed5ddc5977547[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 18 01:20:55 2015 -0500
+
+    Update css
+
+[33mcommit 0897a280db055b10e48ad6119aefb1b6a81a60a5[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 17 14:41:30 2015 -0500
+
+    Changed footer logo
+
+[33mcommit 8957247e04df0da2228024a286c70a5b556d5f71[m
+Merge: f51d2c9 813c8a4
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 17 14:32:22 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit f51d2c98133cb56077bb52616404b50e8e95f82b[m
+Merge: 3653925 0f5d22e
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 17 14:31:49 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 813c8a4a9f8bdcc0318e3f183cdd1d6108e53e13[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 17 14:31:24 2015 -0500
+
+    Newer email
+
+[33mcommit 36539259bcbf26d42ed4c9ed83f8e24c6895e7d4[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 17 14:31:18 2015 -0500
+
+    Content and footer changes
+
+[33mcommit 0f5d22ec62c6336142ab58fadb9a170350926f36[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 17 14:30:08 2015 -0500
+
+    Email Template
+
+[33mcommit cea9f3c0005dd31512be8eea7d9cb898b580cfc6[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 17 14:21:10 2015 -0500
+
+    Split out the welcome message of mailer
+
+[33mcommit bbc016f75d886d4678f8075875f955b8d6fed7f2[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 17 14:11:21 2015 -0500
+
+    Mailer prevent double emailing
+
+[33mcommit d9475dec5c41eaa5e4e012acc29a6e0464f7245a[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 17 14:06:07 2015 -0500
+
+    Mailer add in custom message/subject
+
+[33mcommit e726aec06c6e78e2de40e35d9de1ea371114e77e[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 17 14:00:34 2015 -0500
+
+    Mail unsubscriber
+
+[33mcommit 19eab883929af29ab6f72dd6c2a1e4dc33981920[m
+Merge: 4f870e5 c734f87
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 17 12:34:24 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 4f870e54bb54950fc9cda02f7232bee2db6805ba[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 17 12:34:12 2015 -0500
+
+    small changes to the footer
+
+[33mcommit c734f87bacc5ff35b6811423e1e72ce13b1178d4[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Mon Nov 16 18:30:02 2015 -0500
+
+    Mail unsubscriber
+
+[33mcommit b35b6d38f2b797e13dcd4bfadd3c611636b1ff3b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Mon Nov 16 18:22:10 2015 -0500
+
+    Incoming webmail server
+
+[33mcommit bd6b60c1c3c236171399a35d80384192e94435b2[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Nov 15 23:59:30 2015 -0500
+
+    Incoming webmail server
+
+[33mcommit c816bc6fa43d998c18eda3892a467c3c0cbccfdd[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Nov 15 23:55:22 2015 -0500
+
+    Incoming webmail server
+
+[33mcommit 40a204b090465572b5f41e219c8d176ede2e3a57[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Nov 15 23:51:45 2015 -0500
+
+    Incoming webmail server
+
+[33mcommit 7605eb4a01411c146e6bb713d71e66bb66cdac85[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Nov 15 23:47:42 2015 -0500
+
+    Incoming webmail server
+
+[33mcommit 71d475ece42ba0736b0562436e5bc46caa9ba9a0[m
+Merge: 6a25645 03086b6
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Nov 15 23:42:48 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 6a256458ee1f16eae59296e7eb94b66691ae03bf[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Nov 15 23:41:51 2015 -0500
+
+    Incoming webmail server
+
+[33mcommit 4cda6004dddfb328b83fb90ad5cceaad0bcf7a07[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sun Nov 15 23:41:36 2015 -0500
+
+    Add emblem logo
+
+[33mcommit 03086b628382f9fc7abc0de3b59efcb672f3d830[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 14 18:49:10 2015 -0500
+
+    Dropdown fro smaller screens
+
+[33mcommit df28e0cb8b42fb6c136cf1ab7454aee4328cc895[m
+Merge: 568a3dc 5dbb651
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 14 15:45:57 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit 568a3dc2747dc993807947e2370ce4341a0ed114[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 14 15:45:33 2015 -0500
+
+    Changes to footer
+
+[33mcommit 5dbb651be12a24fea64b66814718f9c68e78c006[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Nov 14 14:21:00 2015 -0500
+
+    Add emblem logo
+
+[33mcommit ea97ef740f12f2895261f9af2f8341a0b464cb0c[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Nov 14 14:20:00 2015 -0500
+
+    Add emblem logo
+
+[33mcommit ec28e86d1268e39dee88b534e9d45040cf493640[m
+Merge: eaec8a0 b58ca16
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 14 14:10:25 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit eaec8a07767061df00859bd3b798fbab8cd8161a[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Nov 14 14:10:14 2015 -0500
+
+    Changes to Navbar
+
+[33mcommit b58ca16f8517ca92e7c589049f0d6ebd1f647287[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Nov 14 13:27:54 2015 -0500
+
+    Add emblem logo
+
+[33mcommit 174ab554342fed611f00e175b41a856541df964e[m
+Merge: 70cf0b7 c9cfd15
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Nov 14 13:24:13 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit 70cf0b7c876ec7b59d68bd326a7fca9bc5545f9b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Sat Nov 14 13:24:06 2015 -0500
+
+    Add emblem logo
+
+[33mcommit c9cfd1523373e9a6dc4209879dc04d4cebc68594[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Nov 13 22:04:01 2015 -0500
+
+    Changes to footer, about us and home pages
+
+[33mcommit 99ea11449fa0992ed8e09740a9944a78d928c29a[m
+Merge: bf8a31b 754a473
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Nov 13 19:59:08 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit bf8a31b9ab5a54fbcd367e9cce3d3158483c65eb[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Nov 13 19:58:47 2015 -0500
+
+    Changes to footer and about-us
+
+[33mcommit 754a4739f86ab4ce19985d92b9747a89e9bf5f9a[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 16:25:37 2015 -0500
+
+    Merge .php and .html
+
+[33mcommit b167f65d1a3c2155571471969ace20ae4536b675[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 16:24:17 2015 -0500
+
+    Merge .php and .html
+
+[33mcommit 236a5d1c028094dfafcba12ced3a626eeb22fd36[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 16:21:04 2015 -0500
+
+    Try create mailer form
+
+[33mcommit ae764bf1481f0c886012f47249f4f4e7f32e0ca2[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 16:19:01 2015 -0500
+
+    Try create mailer form
+
+[33mcommit dc634a13bfd8d52ce2cdee5dbe7904af7c9d50d1[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 16:18:30 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 2fca18bd09a0127ce1d00f639fb29e1eb77f8990[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 16:15:47 2015 -0500
+
+    Try create mailer form
+
+[33mcommit e6bcac8d521acd4f9715ed342a662d0cc86fda2b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 16:13:33 2015 -0500
+
+    Try create mailer form
+
+[33mcommit ac62d451231d1afef5061eba1585d2d3884f09ed[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 16:11:49 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 43afa23b69f3cafe3a7555be2cb238ab12e59423[m
+Merge: d78a4ff cc9dda7
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 16:07:06 2015 -0500
+
+    Merge remote-tracking branch 'heroku/master'
+
+[33mcommit d78a4ff51f888afdc9bd5a352ed74a79582a4375[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 16:06:55 2015 -0500
+
+    Try create mailer form
+
+[33mcommit cc9dda73b71c1b9483c5f52e006fddd94bc3924b[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Fri Nov 13 15:45:26 2015 -0500
+
+    Addition of the about page
+
+[33mcommit 447b685283c4f67be8842406813ad0c38c1c1ccc[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 04:05:38 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 0f74751af8a756dc83503d6a33f62bf71c2c7361[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 04:03:50 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 4945095f68c4414119fef728d9fe06f5c3808d6e[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 04:01:35 2015 -0500
+
+    Try create mailer form
+
+[33mcommit a3a782bfcd6f55e31ae77eaa52a8483ecb204710[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 03:59:36 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 2a91a0cfdb1309b642b1819d04dfab32a7087255[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 03:55:44 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 9c82bf8aa43c656728efc511c65d6823e687ac3b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Fri Nov 13 03:39:10 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 652ea7bf15c5769ff566c98d7544080e041717b6[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 12 20:44:16 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 0e6ac222e4cb16894613cca18669b2cc138c19b0[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 12 20:41:15 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 2bfdcf0f949d56b4f2bbd68cfc43487e05061073[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 12 18:53:43 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 0cc4fba28c137963b3ccf4aed2269a39729224c1[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 12 18:45:00 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 8e3443058c04f9fed2a754375754d032cd0edc3e[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 12 18:44:17 2015 -0500
+
+    Try create mailer form
+
+[33mcommit eeb8f287b56791ae784798eea409ce87d3950f6d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 12 18:42:01 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 8595a73222fb631504d75677c34d27e0c238ad3e[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Thu Nov 12 17:54:46 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 974e15a2d74ec49852284745e090f71147e64135[m
+Merge: d98f05f f0d70fe
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Nov 11 23:42:11 2015 -0500
+
+    Merge branch 'master' of https://git.heroku.com/westernctf
+
+[33mcommit f0d70fe14454f49da94b5b1852ce0e973e141fad[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 23:02:22 2015 -0500
+
+    Try create mailer form
+
+[33mcommit d98f05f043e159b186e9fdf055da5b80a00ec104[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Nov 11 23:00:52 2015 -0500
+
+    Changes to the footer and notification panel
+
+[33mcommit 6fa78f965804793b0b61c6f4424bea685c28c80e[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 22:58:25 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 68eba524e1262ef68f226445715977e39d61c5ec[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 22:56:58 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 39342f83d0cb2e9af549933f35af7c85a1bfc9d3[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 22:55:06 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 6ee636cb15a14d73f80bbf12df6319c2d6cd0eb6[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 22:48:01 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 41142387a2068d9c3e3384a097e68eb2630df33a[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 22:28:07 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 5e92982db8c40f55a52bdfc4af27cfc6975c1ab2[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 22:02:06 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 36b40443fc59d320e7287a47e38930c014c97a2b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 22:00:22 2015 -0500
+
+    Try create mailer form
+
+[33mcommit d329f462dc988fe8ddc8da40ef3d5d64f19baa1c[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 21:57:14 2015 -0500
+
+    Try create mailer form
+
+[33mcommit b3fbfa28e750bd830dbdc03d5b81eb564a08c2c8[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 21:50:56 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 635b2d6de1872e9b8efd524d07080aaa187031ac[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 21:43:42 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 1b1e0dc3e4194207f5af47dec1b7bd5175cbbcdc[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 21:39:50 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 721ccc4e66b0aa29e163983c10b42ff8c7783ae1[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 21:36:37 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 69ff7ce457702cdad33bf010982818c154973284[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 21:27:55 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 9936811db90611c69544e920eb8d2fb754058590[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 21:24:57 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 1f75a7d9027e5012f3e2dcf45f53467e7a6abf63[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 21:13:25 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 85ce95645907e15425ec626d8a3f1067ad127e88[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 21:09:36 2015 -0500
+
+    Try create mailer form
+
+[33mcommit e0b84fecd9078a520668d3ea68128e29e44c6c6a[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 20:59:43 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 71040be4850581e0ee6472ba37402fbf84edc159[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 20:45:49 2015 -0500
+
+    Try create mailer form
+
+[33mcommit d6cc4881ff6f52d7f324b23153978b27917c7c86[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 20:34:55 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 2c4746119e9197402dfc1df3b465fc74ddf2c2ff[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 20:30:41 2015 -0500
+
+    Try create mailer form
+
+[33mcommit ae683399110c280e19fff091e605c87cdc8e2463[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 20:29:09 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 37e8af8f16412e2bdaaf6f02e41530bd34ce2c51[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 20:20:36 2015 -0500
+
+    Try create mailer form
+
+[33mcommit fbf086a87035b3e7e0eab86af76209385b861ae7[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 20:11:35 2015 -0500
+
+    Try create mailer form
+
+[33mcommit 9fab4bf533423ce73cc36d4e8eb4509f434d5d98[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 19:44:57 2015 -0500
+
+    Try create form
+
+[33mcommit 74b6155fe8325b8865594925292e8c304365a047[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 19:35:33 2015 -0500
+
+    Rebuild home.php
+
+[33mcommit 27e48653e07434b5ac4b84965d51e9060dcf29d0[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 19:34:33 2015 -0500
+
+    Rebuild home.php
+
+[33mcommit 626ac4f8ccefa103399de9d7952075c0adc3adbb[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 19:32:36 2015 -0500
+
+    Fix links
+
+[33mcommit 056f5f2185eb70d839f3ce310d865bc0d0e99614[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 19:29:12 2015 -0500
+
+    Moving to public_html
+
+[33mcommit d778a3c979868a40f5fc8364dd8ba11f0ca2e309[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 02:16:33 2015 -0500
+
+    Fix typo
+
+[33mcommit eac9db02871c2f02520fa0fe383e4f3397420a31[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:55:57 2015 -0500
+
+    Creating process file
+
+[33mcommit f2e08f74a8d056b36321863c1f4bb8f33ac16999[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:52:03 2015 -0500
+
+    test mailer
+
+[33mcommit 43162686562e2ba955718abbdadc20dfeb19963c[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:44:17 2015 -0500
+
+    test mailer
+
+[33mcommit f5bce35edf9200743438402e8be4be80d26bd628[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:42:12 2015 -0500
+
+    test mailer
+
+[33mcommit 39f91bace5f013a611a1d0ad9ff6467aa9232d3d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:39:18 2015 -0500
+
+    test mailer
+
+[33mcommit a7b73cd68b37019342b12a23129259ca0951d24e[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:37:21 2015 -0500
+
+    test mailer
+
+[33mcommit 0e749a596e9c992a429fb9ee907b3345ea7c26c0[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:27:16 2015 -0500
+
+    test mailer
+
+[33mcommit f00d7f1af519dfd79a47832e9a1e5dd3faf46400[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:25:00 2015 -0500
+
+    test mailer
+
+[33mcommit 601e81494cdac842244437dc64a9a4a81e5815f5[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:22:38 2015 -0500
+
+    test mailer
+
+[33mcommit b6e877f87588e0771725be67f2b763a39028e768[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:19:29 2015 -0500
+
+    test mailer
+
+[33mcommit 831b1551843ce44c0f71c80d44815e2524a064dc[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:13:18 2015 -0500
+
+    test mailer
+
+[33mcommit b5c90e2c537bbcd31dc2044e8ce0e94b96473d13[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 01:04:28 2015 -0500
+
+    test mailer
+
+[33mcommit 99ebe3e0fbada678f688ad5bdb3abb3b79a9b947[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:59:58 2015 -0500
+
+    test mailer
+
+[33mcommit 2079fc8962969302c77e070809588430158f686d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:57:12 2015 -0500
+
+    test mailer
+
+[33mcommit d17902216127da207acdf4560ccef7bfe97642bf[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:52:50 2015 -0500
+
+    test mailer
+
+[33mcommit 865472f42f6709d51fed7355b3d2bbe7d9c09edd[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:51:32 2015 -0500
+
+    test mailer
+
+[33mcommit 099fc874a9c992b5e78d3442abc6c17b9515e70c[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:48:43 2015 -0500
+
+    test mailer
+
+[33mcommit 1602a3636c06c27da650d7f5325549041654349d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:45:44 2015 -0500
+
+    test mailer
+
+[33mcommit f5c74512aac4b63af07dd2b6d385ba9229de9c4b[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:40:41 2015 -0500
+
+    test mailer
+
+[33mcommit dc2ee93bc8f1da51ebedb3d7f10b579c4bd7aece[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:34:44 2015 -0500
+
+    test mailer
+
+[33mcommit 415ac472916026c7d7dfa90f2bed1a69b0cf3f0a[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:30:47 2015 -0500
+
+    test mailer
+
+[33mcommit bf61e7859423025739f7b001e61600fb224ced41[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:29:50 2015 -0500
+
+    test mailer
+
+[33mcommit b84388759bd0aef13165ac0d9225deff78640e2d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:23:58 2015 -0500
+
+    test mailer
+
+[33mcommit ac36d461555401928a756d6330a3ef169b45ae72[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:21:04 2015 -0500
+
+    test mailer
+
+[33mcommit 9af9a071cf6cbfcceca0cf3b44d8e32248f6c627[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Wed Nov 11 00:07:35 2015 -0500
+
+    Favicon, more detailed background
+
+[33mcommit fd86a89a04a5b0bb173f1631b68abd82492aeefb[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 10 17:39:22 2015 -0500
+
+    Favicon
+
+[33mcommit dea0d999373dc5987cf23ebb21e653a9f25d9b96[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 10 17:28:07 2015 -0500
+
+    Test
+
+[33mcommit eddc32db44dda99650d546012214512cec6075a7[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 10 17:26:29 2015 -0500
+
+    Removed form
+
+[33mcommit 3590d40ade93d6bd91a297b0a88295bb748a2484[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 10 17:25:17 2015 -0500
+
+    Composer done?
+
+[33mcommit e9ed5cc6f1a2653c586379ede5b0b38f71d8f286[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 10 17:23:46 2015 -0500
+
+    Composer done?
+
+[33mcommit 9ba4e10cfa0880a5bbc87d23aba97dd5b07567cd[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 10 16:58:31 2015 -0500
+
+    Composer done?
+
+[33mcommit e3c3d51cbcdcbaa3d6b21cd17755baad8467ed19[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 10 16:51:06 2015 -0500
+
+    Create composer try 3
+
+[33mcommit 8f7298592ecf328e11dc7f075f048e0541d30da0[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 10 16:50:03 2015 -0500
+
+    Create composer try 2
+
+[33mcommit 12c87c65373fdef6a3738bb2316504a400bbff2d[m
+Author: Harrison Chow <iamnobodyrandom@yahoo.com>
+Date:   Tue Nov 10 16:45:30 2015 -0500
+
+    Create composer
+
+[33mcommit 9254968231e164e7fa29f7645c1161ef784b3c4f[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 10 16:27:09 2015 -0500
+
+    mailer.php update 5 composer.json
+
+[33mcommit 6192c64cebdbfaa26905b28307b040bfc0537633[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 10 16:20:32 2015 -0500
+
+    mailer.php update 4 composer.json
+
+[33mcommit 1e2f61712b6089575275c77228ea00aa2608dae9[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 10 16:13:00 2015 -0500
+
+    mailer.php update 3 composer.json
+
+[33mcommit 7a00425b12072538db5ec772ae2cc66ab3f124d6[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 10 16:06:23 2015 -0500
+
+    mailer.php update 2
+
+[33mcommit 0d6722300563a77ab74e50683641ce91e1ec0118[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 10 15:53:36 2015 -0500
+
+    mailer.php update
+
+[33mcommit 1435dee520a70b7e85a22484dfeb8ca572e2bdc2[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 10 00:59:31 2015 -0500
+
+    Added notification panel
+
+[33mcommit 534106f57b1664f4d96cda434b2d52c3460c2227[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Nov 9 21:20:48 2015 -0500
+
+    Page title changes to Western Cyber Security
+
+[33mcommit d4c51d79362fbe88640ac7648a572e929014619f[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Nov 9 21:16:13 2015 -0500
+
+    Addition of new logo, homepage Icon tabs and notification framework
+
+[33mcommit 2bca6d0cf6188992e847cdf861bca0b49c5a0607[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Nov 9 14:55:19 2015 -0500
+
+    Logos added to the navbar
+
+[33mcommit ac48bb64dfe4769d9f46e79d64c48500fc9eafd7[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Nov 9 12:44:28 2015 -0500
+
+    New layout for home page
+
+[33mcommit 91b0fce10934dde1b2d123c3715892162124e724[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Thu Nov 5 22:00:13 2015 -0500
+
+    Navbar finalised
+
+[33mcommit 66bd75b665e01f781b13d9eda83bcd82e6446048[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Nov 4 20:19:07 2015 -0500
+
+    Reverted coming soon page changes
+
+[33mcommit 265a989f3f0482e27dc28693b2f9232b4affb646[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Wed Nov 4 19:52:09 2015 -0500
+
+    Testing out home page
+
+[33mcommit 604e864fe47954845dea88a62e5963f34910f5b8[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 3 11:39:33 2015 -0500
+
+    Removed the mailing form (Edit)
+
+[33mcommit 36387d8d83f708374d251323bf1e5582463c04c7[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Tue Nov 3 11:36:17 2015 -0500
+
+    Removed the mailing form
+
+[33mcommit 123179f9c0e8beca5ef10e5f91088923fa76b161[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Mon Nov 2 13:19:45 2015 -0500
+
+    Change in Email address
+
+[33mcommit 6f82f0f7795f619438666ab090a6fb0dff109762[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Nov 1 19:55:26 2015 -0500
+
+    Changed logo index
+
+[33mcommit 6b436f41f4f7f183b255e9e79c16095ea1ddbbee[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Nov 1 19:53:48 2015 -0500
+
+    Changed the page name
+
+[33mcommit a0a091aea35b81f194224f283992a6b396c87dd2[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sun Nov 1 19:33:09 2015 -0500
+
+    Changed from ruby on rails to pure html
+
+[33mcommit 273741fd1c9eca36613fd5a7b4cf9dc4701e7d88[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Sep 26 16:28:03 2015 -0400
+
+    Just changed the readme.md file
+
+[33mcommit 2b205a24d425714525e713aebd51b10948872bf3[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Sep 26 16:04:31 2015 -0400
+
+    added .DS_Store
+
+[33mcommit 474dc2b6174464de8117085672fad8137ca3028c[m
+Author: Anwar Jeffrey <jeffrey.anwar@yahoo.ca>
+Date:   Sat Sep 26 15:52:22 2015 -0400
+
+    First commit initial
