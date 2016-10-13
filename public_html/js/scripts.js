@@ -697,6 +697,18 @@ $(document).ready(function () {
                                 "emailSubject": "Message to President of Western Cyber Security"
                             });
                             break;
+                        case "nobEvp":
+                            data = JSON.stringify({
+                                "type": "from",
+                                "firstName": userFirstName,
+                                "lastName": userLastName,
+                                "fullName": userFullName,
+                                "email": "evp@westerncyber.club",
+                                "from": userEmail,
+                                "message": message,
+                                "emailSubject": "Message to Executive Vice President of Western Cyber Security"
+                            });
+                            break;
                         case "nobComs":
                             data = JSON.stringify({
                                 "type": "from",
@@ -769,7 +781,7 @@ $(document).ready(function () {
                                 "emailSubject": "Message to VP Sponsorships of Western Cyber Security"
                             });
                             break;
-                            case "nobMArk":
+                            case "nobMark":
                             data = JSON.stringify({
                                 "type": "from",
                                 "firstName": userFirstName,

@@ -30,6 +30,7 @@
     <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/table.css" rel="stylesheet" type="text/css" media="all"/>
     <!--<link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>-->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600'
           rel='stylesheet' type='text/css'>
@@ -59,13 +60,6 @@
         ga('create', 'UA-70756805-1', 'auto');
         ga('send', 'pageview');
     </script>
-    <script type="text/javascript">
-       window._chatlio = window._chatlio||[];
-       !function(){ var t=document.getElementById("chatlio-widget-embed");if(t&&window.React&&_chatlio.init)return void _chatlio.init(t,React);for(var e=function(t){return function(){_chatlio.push([t].concat(arguments)) }},i=["configure","identify","track","show","hide","isShown","isOnline"],a=0;a<i.length;a++)_chatlio[i[a]]||(_chatlio[i[a]]=e(i[a]));var n=document.createElement("script"),c=document.getElementsByTagName("script")[0];n.id="chatlio-widget-embed",n.src="https://w.chatlio.com/w.chatlio-widget.js",n.async=!0,n.setAttribute("data-embed-version","2.0");
-          n.setAttribute('data-widget-id','e4f43ef6-29d5-4962-5892-7f8cf3f6f433');
-          c.parentNode.insertBefore(n,c);
-       }();
-    </script>
 </head>
 <body>
 <!-- Navbar -->
@@ -75,9 +69,8 @@
         <div class="nav-bar">
             <div class="module left">
                 <a href="home">
-                    <img class="logo logo-dark" alt="WSCS" src="img/purplewidestlogo1.png"/><img class="logo logo-dark"
-                                                                                                alt="WSCS"
-                                                                                                src="img/purplewidesttext1.png"/>
+                    <img class="logo logo-dark" alt="WSCS" src="img/purplewidestlogo1.png"/><img class="logo logo-dark" alt="WSCS"
+                    src="img/purplewidesttext1.png"/>
                 </a>
             </div>
             <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
@@ -92,6 +85,10 @@
 
                         <li>
                             <a href="events">Events</a>
+                        </li>
+
+                        <li>
+                            <a href="scoreboard">Scoreboard</a>
                         </li>
 
                         <li>
@@ -113,7 +110,7 @@
                         </li>
                         
                         <li>
-                            <a class="btn btn-sm btn-rounded" href="join-us">Join us</a>
+                            <a class="btn btn-sm btn-rounded" href="join">Join us</a>
                         </li><!--style="border: 2px solid #4F2683;"-->
                     
                     </ul>
